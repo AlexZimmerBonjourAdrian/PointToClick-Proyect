@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CObject : MonoBehaviour, Iinteract
 {
+    [SerializeField]
+    private string Texto= " ";
    public void Oninteract()
     {
-        Debug.Log("Interactua");
+        Debug.Log(Texto);
     }
 }
