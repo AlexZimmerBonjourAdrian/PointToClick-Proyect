@@ -16,13 +16,13 @@ public class CPointToClick : MonoBehaviour
     private int _actionState;
     private Component _actionObj;
 
-  
+
     private void Start()
     {
-        
+
     }
 
-    
+
 
 
 
@@ -36,97 +36,97 @@ public class CPointToClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(_actionState == ACTIONSTATE_NONE)
-        //{
-        //    GameObject obj = RayCollision();
-        //    if(obj ==null)
-        //    {
-        //        return;
-        //    }
-        //    Component actionObj = obj.GetComponent(typeof(Iinteract));
-        //    if(actionObj != null)
-        //    {
-        //        _actionObj = actionObj;
-        //        _actionState = ACTIONSTATE_NONE;
-
-        //    }
-        //}
-        //else if(_actionState == ACTIONSTATE_HOVE)
-        //{
-        //    GameObject obj = RayCollision();
-        //    if(obj==null)
-        //    {
-        //        _actionObj = null;
-        //         _actionState = ACTIONSTATE_NONE;
-        //        return;
-        //    }
-        //    Component actionObj = obj.GetComponent(typeof(Iinteract));
-
-        //    if(actionObj == null)
-        //    {
-        //        _actionObj = null;
-        //        _actionState = ACTIONSTATE_NONE;
-        //    }
-        //    else if(actionObj != _actionObj)
-        //    {
-        //        _actionObj = actionObj;
-        //    }
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-             {
-            RayCollision();
-            //    _actionState = ACTIONSTATE_INTERACT;
-            //    Debug.Log("Entra en el Entract");
-            //    Debug.Log(_actionObj.name);
-            }
-
-            //else if(_actionState == ACTIONSTATE_INTERACT)
-            //{
-            //    (_actionObj as Iinteract).Oninteract();
-            //    _actionState = ACTIONSTATE_NONE;
-            //    _actionObj = null;
-            //}
-        }
-
-
-
-        /*
-        if(Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        }
-        */
-        //Metodo 1º
-        //if(Input.GetKeyDown(KeyCode.Mouse0))
-        //  {
-        /*
-        Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hitInfo;
-
-        if(Physics.Raycast(myRay, out hitInfo, 100))
-        {
-           Debug.Log("Hola"); 
-        }
-    //    */
-        //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        //    if(Physics.Raycast(ray))
-        //    {
-        //        Debug.Log("Detecta el objeto");
-        //    }
-
-        //}
-        //Metodo 2º
-        /*
         if (_actionState == ACTIONSTATE_NONE)
+        {
+            GameObject obj = RayCollision();
+            if (obj == null)
+                return;
+
+            Component actionObj = obj.GetComponent(typeof(Iinteract));
+            if (actionObj != null)
             {
-                //GameObject obj = coll
+                _actionObj = actionObj;
+                _actionState = ACTIONSTATE_HOVE;
             }
-        */
-        // }
-        //  transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * 5); 
+        }
+        else if (_actionState == ACTIONSTATE_HOVE)
+        {
+            GameObject obj = RayCollision();
+            if (obj == null)
+            {
+                _actionObj = null;
+                _actionState = ACTIONSTATE_NONE;
+                return;
+            }
+
+            Component actionObj = obj.GetComponent(typeof(Iinteract));
+            if (actionObj == null)
+            {
+                _actionObj = null;
+                _actionState = ACTIONSTATE_NONE;
+            }
+            else if (actionObj != _actionObj)
+            {
+                _actionObj = actionObj;
+            }
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                _actionState = ACTIONSTATE_INTERACT;
+                Debug.Log("Entra en el entract");
+                Debug.Log(_actionObj.name);
+            }
+        }
+        else if (_actionState == ACTIONSTATE_INTERACT)
+        {
+            (_actionObj as Iinteract).Oninteract();
+            _actionState = ACTIONSTATE_NONE;
+            _actionObj = null;
+        }
+
+
+
+
+
+
+    }
+    /*
+           if(Input.GetKeyDown(KeyCode.Mouse0))
+           {
+               targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+           }
+           */
+    //Metodo 1º
+    //if(Input.GetKeyDown(KeyCode.Mouse0))
+    //  {
+    /*
+    Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+    RaycastHit hitInfo;
+
+    if(Physics.Raycast(myRay, out hitInfo, 100))
+    {
+       Debug.Log("Hola"); 
+    }
+//    */
+    //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+    //    if(Physics.Raycast(ray))
+    //    {
+    //        Debug.Log("Detecta el objeto");
+    //    }
 
     //}
-    public void RayCollision()
+    //Metodo 2º
+    /*
+    if (_actionState == ACTIONSTATE_NONE)
+        {
+            //GameObject obj = coll
+        }
+    */
+    // }
+    //  transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * 5); 
+
+
+    private GameObject RayCollision()
     {
 
 
@@ -138,31 +138,30 @@ public class CPointToClick : MonoBehaviour
 
         //Ray2D ray = new Ray2D(new Vector2(Input.mousePosition.x,Input.mousePosition.y), transform.forward);
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hitinfo = Physics2D.Raycast(worldPoint,Vector2.zero);
-      //  Component actionObj = obj.GetComponent(typeof(Iinteract));
+        RaycastHit2D hitinfo = Physics2D.Raycast(worldPoint, Vector2.zero);
+        //  Component actionObj = obj.GetComponent(typeof(Iinteract));
         //if (Physics.Raycast(Ray)
-         //   {
+        //   {
 
-            if (hitinfo.collider != null)
-            {
-            Debug.Log("Entra");
-                // anyObject = Collider2D.;
-                // (_actionObj as Iinteract).Oninteract();
-                //Debug.Log(hitinfo.collider.gameObject.name);
-           // return hitinfo.collider.gameObject;
-            }
+        if (hitinfo.collider != null)
+        {
+            //  Debug.Log("Entra");
+            // anyObject = Collider2D.;
+            // (_actionObj as Iinteract).Oninteract();
+            //Debug.Log(hitinfo.collider.gameObject.name);
+            anyObject = hitinfo.collider.gameObject;
+            return anyObject;
+        }
 
-        //return hitinfo.collider.gameObject;
+        return null;
     }
 
-    private void OnDrawGizmos()
+    void OnDrawGizmos()
     {
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(worldPoint, .3f);
 
     }
-
-
 
 }
