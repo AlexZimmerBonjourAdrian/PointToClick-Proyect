@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CPointToClick.cs" />
+    <Compile Include="Assets\Scripts\Objects\CAsteroid.cs" />
     <Compile Include="Assets\Scripts\Objects\CObject.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
