@@ -16,13 +16,34 @@ public class CPointToClick : MonoBehaviour
     private int _actionState;
     private Component _actionObj;
 
-
-    private void Start()
+    public static CPointToClick Inst
     {
+        get
+        {
+            if (_inst == null)
+            {
+                GameObject obj = new GameObject("PointMechanic");
 
+                return obj.AddComponent<CPointToClick>();
+            }
+            return _inst;
+        }
     }
+    private static CPointToClick _inst;
 
 
+
+    public void Awake()
+    {
+       
+        if (_inst != null && _inst != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(this.gameObject);
+        _inst = this;
+    }
 
 
 
@@ -164,4 +185,9 @@ public class CPointToClick : MonoBehaviour
 
     }
 
+    public void CreatePoint()
+    {
+        
+
+    }
 }

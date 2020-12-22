@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PointtoClickTest.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/AsteroidTest.unity
+    guid: 3b90adf45f7b7a94e96d5ad6171260ef
+  - enabled: 1
+    path: Assets/Scenes/TestLevels/Level1.unity
+    guid: 731a73f7c63abba46b678ea5baaf9c5b
+  - enabled: 1
+    path: Assets/Scenes/TestLevels/Level2.unity
+    guid: 7abafc832245f50438ac7d2abfefd2fa
+  - enabled: 1
+    path: Assets/Scenes/TestLevels/Level3.unity
+    guid: c9a688d39a99f0d4587fc51f83d0f772
   m_configObjects: {}

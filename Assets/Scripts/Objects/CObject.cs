@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CObject : MonoBehaviour, Iinteract
+public class CObject : CGenericObject, Iinteract
 {
     [SerializeField]
     private string Texto= " ";

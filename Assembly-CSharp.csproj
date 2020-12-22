@@ -63,10 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Camera\CCameraManager.cs" />
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CPointToClick.cs" />
     <Compile Include="Assets\Scripts\Objects\CAsteroid.cs" />
+    <Compile Include="Assets\Scripts\Objects\CCharacter.cs" />
+    <Compile Include="Assets\Scripts\Objects\CDoor.cs" />
+    <Compile Include="Assets\Scripts\Objects\CGenericObject.cs" />
+    <Compile Include="Assets\Scripts\Objects\CManagerObject.cs" />
     <Compile Include="Assets\Scripts\Objects\CObject.cs" />
+    <Compile Include="Assets\Scripts\Objects\Level\CLevelController.cs" />
+    <Compile Include="Assets\Scripts\Objects\Level\CLevelManager.cs" />
+    <Compile Include="Assets\Scripts\Objects\Level\CSwitch.cs" />
+    <Compile Include="Assets\Scripts\scriptableObject\CItemData.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
