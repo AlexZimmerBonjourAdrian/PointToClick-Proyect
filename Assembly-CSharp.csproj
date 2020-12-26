@@ -105,8 +105,12 @@
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\Scripts\Camera\CCameraManager.cs" />
+    <Compile Include="Assets\Scripts\Event\CEventChangeColor.cs" />
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\CGameEvent.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\CLevelManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CPointToClick.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\CSwitch.cs" />
     <Compile Include="Assets\Scripts\Objects\CAsteroid.cs" />
     <Compile Include="Assets\Scripts\Objects\CCharacter.cs" />
     <Compile Include="Assets\Scripts\Objects\CDoor.cs" />
@@ -115,9 +119,8 @@
     <Compile Include="Assets\Scripts\Objects\CManagerObject.cs" />
     <Compile Include="Assets\Scripts\Objects\CObject.cs" />
     <Compile Include="Assets\Scripts\Objects\Level\CLevelController.cs" />
-    <Compile Include="Assets\Scripts\Objects\Level\CLevelManager.cs" />
-    <Compile Include="Assets\Scripts\Objects\Level\CSwitch.cs" />
     <Compile Include="Assets\Scripts\Ui\CUiAnimation.cs" />
+    <Compile Include="Assets\Scripts\scriptableObject\CAnimData.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\CItemData.cs" />
     <None Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />

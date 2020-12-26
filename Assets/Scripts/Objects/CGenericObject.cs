@@ -21,7 +21,7 @@ public class CGenericObject : MonoBehaviour
 
     protected virtual void Start()
     {
-        name = item.name;
+        //name = item.name;
         descripcion = item.description;
         imageItem = item.imageItem;
         optional = item.Optional;

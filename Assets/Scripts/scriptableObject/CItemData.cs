@@ -12,7 +12,7 @@ public class CItemData : ScriptableObject
 
     [TextArea(2, 2)]
     public string description;
-    public new int Id;
+    public int Id;
     public Texture2D imageItem;
     public bool Optional;
     public bool isActive;
