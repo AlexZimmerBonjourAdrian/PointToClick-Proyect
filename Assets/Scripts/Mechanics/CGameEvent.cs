@@ -14,13 +14,13 @@ public class CGameEvent : MonoBehaviour
         current = this;
     }
 
-    public event Action OnChangeColor;
+    public event Action<int> OnChangeColor;
 
-    public void OnChangeTrigger()
+    public void OnChangeTrigger(int id)
     {
         if(OnChangeColor != null)
         {
-            OnChangeColor();
+            OnChangeColor(id);
         }
     }
   

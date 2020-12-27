@@ -105,6 +105,11 @@
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\Scripts\Camera\CCameraManager.cs" />
+    <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\CGameEventListener.cs" />
+    <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Examples\cGameEventListenerCsharp.cs" />
+    <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserver.cs" />
+    <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserverCsharpAction.cs" />
+    <Compile Include="Assets\Scripts\Design-Patterns\Behavioral Patterns\Observer Pattern\CObserverCsharpDelegates.cs" />
     <Compile Include="Assets\Scripts\Event\CEventChangeColor.cs" />
     <Compile Include="Assets\Scripts\Iterface\Iinteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\CGameEvent.cs" />
@@ -118,6 +123,7 @@
     <Compile Include="Assets\Scripts\Objects\CLoadImage.cs" />
     <Compile Include="Assets\Scripts\Objects\CManagerObject.cs" />
     <Compile Include="Assets\Scripts\Objects\CObject.cs" />
+    <Compile Include="Assets\Scripts\Objects\CObjectColor.cs" />
     <Compile Include="Assets\Scripts\Objects\CPlayer.cs" />
     <Compile Include="Assets\Scripts\Objects\Level\CLevelController.cs" />
     <Compile Include="Assets\Scripts\Objects\Level\CSaveSystem.cs" />

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CEventChangeColor : MonoBehaviour, Iinteract
+public class CEventChangeColor : MonoBehaviour 
 {
+    public int id; 
 
     public void Awake()
     {
@@ -17,19 +18,19 @@ public class CEventChangeColor : MonoBehaviour, Iinteract
       
     }
 
-    private void OnChangeColorNow()
+    private void OnChangeColorNow(int id)
     {
+        if(id == this.id)
+        { 
         Color col = new Color(Random.value, Random.value, Random.value);
         SpriteRenderer sprite = GetComponent<SpriteRenderer>();
         sprite.color = col;
-
+        }
     }
     // Update is called once per frame
 
-    public void Oninteract()
-    {
-        CGameEvent.current.OnChangeTrigger();
+    
     }
 
 
-}
+
