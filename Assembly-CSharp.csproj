@@ -118,10 +118,13 @@
     <Compile Include="Assets\Scripts\Objects\CLoadImage.cs" />
     <Compile Include="Assets\Scripts\Objects\CManagerObject.cs" />
     <Compile Include="Assets\Scripts\Objects\CObject.cs" />
+    <Compile Include="Assets\Scripts\Objects\CPlayer.cs" />
     <Compile Include="Assets\Scripts\Objects\Level\CLevelController.cs" />
+    <Compile Include="Assets\Scripts\Objects\Level\CSaveSystem.cs" />
     <Compile Include="Assets\Scripts\Ui\CUiAnimation.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\CAnimData.cs" />
     <Compile Include="Assets\Scripts\scriptableObject\CItemData.cs" />
+    <Compile Include="Assets\Scripts\scriptableObject\SaveAndLoadSystem\CPlayerData.cs" />
     <None Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
     <None Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
