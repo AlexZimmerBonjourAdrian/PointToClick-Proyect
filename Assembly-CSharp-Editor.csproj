@@ -77,6 +77,13 @@
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraph.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraphView.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Node\CDialogueNode.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueContainer.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueNodeData.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CExposedProperty.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CNodeLinkData.cs" />
     <Reference Include="UnityEngine">
       <HintPath>F:/unity/Editor/2019.4.1f1/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
