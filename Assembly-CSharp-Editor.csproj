@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraph.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraphView.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Node\CDialogueNode.cs" />
+    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Node\CNode.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueContainer.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueNodeData.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CExposedProperty.cs" />

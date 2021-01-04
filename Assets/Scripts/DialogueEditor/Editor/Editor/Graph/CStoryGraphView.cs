@@ -19,5 +19,9 @@ namespace Subtegral.DialogueSystem.Editor
         public CDialogueNode EntryPointNode;
         public Blackboard Blackboard = new Blackboard();
         public List<CExposedProperty> ExposedPropeties { get; private set; } = new List<CExposedProperty>();
-}
+    
+        
+    }
+
+
 }
