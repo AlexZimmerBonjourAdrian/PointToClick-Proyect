@@ -77,9 +77,6 @@
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraph.cs" />
-    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Graph\CStoryGraphView.cs" />
-    <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Node\CDialogueNode.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Editor\Node\CNode.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueContainer.cs" />
     <Compile Include="Assets\Scripts\DialogueEditor\Editor\Runtime\CDialogueNodeData.cs" />
