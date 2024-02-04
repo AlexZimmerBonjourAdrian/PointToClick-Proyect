@@ -22,7 +22,7 @@ public class CGenericObject : MonoBehaviour
     protected virtual void Start()
     {
         //name = item.name;
-        descripcion = item.description;
+        //descripcion = item.description;
         imageItem = item.imageItem;
         optional = item.Optional;
         isActive = item.isActive;
@@ -34,13 +34,13 @@ public class CGenericObject : MonoBehaviour
     }
     */
     //protected abstract ga
-    protected  void Destroy()
-    {
+    //protected  void Destroy()
+    //{
 
-    }
-    protected void Desactivate()
-    {
+    //}
+    //protected void Desactivate()
+    //{
 
-    }
+    //}
  
 }

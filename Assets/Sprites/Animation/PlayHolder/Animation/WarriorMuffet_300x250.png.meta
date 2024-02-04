@@ -219,7 +219,7 @@ TextureImporter:
       213: 1550456884307918890
     second: WarriorMuffet_300x250_71
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -236,9 +236,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -247,9 +250,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -270,9 +273,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -284,6 +293,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -296,6 +306,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -308,6 +319,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -320,6 +332,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1847,9 +1873,81 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      WarriorMuffet_300x250_0: 1977473330761261166
+      WarriorMuffet_300x250_1: 903841937465600869
+      WarriorMuffet_300x250_10: 6077685260024695548
+      WarriorMuffet_300x250_11: 2999377823499435344
+      WarriorMuffet_300x250_12: 7990988578250081343
+      WarriorMuffet_300x250_13: 4032478148271997622
+      WarriorMuffet_300x250_14: 8319646322250649168
+      WarriorMuffet_300x250_15: -4332470058652828398
+      WarriorMuffet_300x250_16: 4504877010281614688
+      WarriorMuffet_300x250_17: -4622027728403872281
+      WarriorMuffet_300x250_18: -8945988738088587174
+      WarriorMuffet_300x250_19: 8652130029692053399
+      WarriorMuffet_300x250_2: -7853146263385964005
+      WarriorMuffet_300x250_20: -3384769734640093348
+      WarriorMuffet_300x250_21: 5463132965036730126
+      WarriorMuffet_300x250_22: -3521474217694643669
+      WarriorMuffet_300x250_23: 7182265178115231948
+      WarriorMuffet_300x250_24: 837238206607606037
+      WarriorMuffet_300x250_25: 101637161147954571
+      WarriorMuffet_300x250_26: -746233622389990241
+      WarriorMuffet_300x250_27: 8102276388857011919
+      WarriorMuffet_300x250_28: 374957211125928333
+      WarriorMuffet_300x250_29: -4910598596123790608
+      WarriorMuffet_300x250_3: -6335928404421322621
+      WarriorMuffet_300x250_30: -5210426612558163818
+      WarriorMuffet_300x250_31: 2213494460206795395
+      WarriorMuffet_300x250_32: -2779408997444851503
+      WarriorMuffet_300x250_33: 7255680654520136640
+      WarriorMuffet_300x250_34: 3077681421671091181
+      WarriorMuffet_300x250_35: 3624851638243984179
+      WarriorMuffet_300x250_36: 6086069141114651914
+      WarriorMuffet_300x250_37: 4859735124620552647
+      WarriorMuffet_300x250_38: 6841906198315694631
+      WarriorMuffet_300x250_39: -6362054255769614509
+      WarriorMuffet_300x250_4: -8076959348277800583
+      WarriorMuffet_300x250_40: 1928933607787989369
+      WarriorMuffet_300x250_41: -2379262436816230983
+      WarriorMuffet_300x250_42: 8881063895470376847
+      WarriorMuffet_300x250_43: 4656378004563747264
+      WarriorMuffet_300x250_44: 3843149248507690527
+      WarriorMuffet_300x250_45: -5195023301578819726
+      WarriorMuffet_300x250_46: -4137863234605041540
+      WarriorMuffet_300x250_47: 2761639044262969028
+      WarriorMuffet_300x250_48: -3965533320125421815
+      WarriorMuffet_300x250_49: -1593634049306782960
+      WarriorMuffet_300x250_5: 4602421346799009744
+      WarriorMuffet_300x250_50: -8853057682989827879
+      WarriorMuffet_300x250_51: 5249933443997322877
+      WarriorMuffet_300x250_52: -6058362156920316551
+      WarriorMuffet_300x250_53: -6082448253676721475
+      WarriorMuffet_300x250_54: -2477611888952993933
+      WarriorMuffet_300x250_55: -2022927193304494636
+      WarriorMuffet_300x250_56: -7553532679189245377
+      WarriorMuffet_300x250_57: 2445577292798175231
+      WarriorMuffet_300x250_58: -6632181566034580993
+      WarriorMuffet_300x250_59: 1313927307938090951
+      WarriorMuffet_300x250_6: -3612844799788793644
+      WarriorMuffet_300x250_60: -7958376890687131812
+      WarriorMuffet_300x250_61: -1325945828589988355
+      WarriorMuffet_300x250_62: 5085068647093866748
+      WarriorMuffet_300x250_63: -1189582052040436096
+      WarriorMuffet_300x250_64: 1802296854864648685
+      WarriorMuffet_300x250_65: -8764147079415696018
+      WarriorMuffet_300x250_66: 7087852525884582503
+      WarriorMuffet_300x250_67: 5846883778529658736
+      WarriorMuffet_300x250_68: 5994810379823698734
+      WarriorMuffet_300x250_69: -5022694140582244891
+      WarriorMuffet_300x250_7: 846894045238672158
+      WarriorMuffet_300x250_70: 3659805133681994721
+      WarriorMuffet_300x250_71: 1550456884307918890
+      WarriorMuffet_300x250_8: 1436474404582491236
+      WarriorMuffet_300x250_9: 1806281465824186649
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -147,7 +147,7 @@ TextureImporter:
       213: 8952848727425634634
     second: MuffetSprite_Anim_47
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -164,9 +164,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -175,9 +178,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -198,9 +201,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -212,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -224,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -236,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -248,6 +260,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1271,9 +1297,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MuffetSprite_Anim_0: 2259004643392451032
+      MuffetSprite_Anim_1: -2630867365174101165
+      MuffetSprite_Anim_10: 2065473070982269933
+      MuffetSprite_Anim_11: -2119032538725299679
+      MuffetSprite_Anim_12: 7341562389193176289
+      MuffetSprite_Anim_13: -324970475298622653
+      MuffetSprite_Anim_14: 8414130691174941096
+      MuffetSprite_Anim_15: 5436314357219096429
+      MuffetSprite_Anim_16: -1341999159886151395
+      MuffetSprite_Anim_17: 2548697233370417075
+      MuffetSprite_Anim_18: 6392800548819298628
+      MuffetSprite_Anim_19: -8619321798973998788
+      MuffetSprite_Anim_2: 613508230705927047
+      MuffetSprite_Anim_20: 1477848865289525264
+      MuffetSprite_Anim_21: 226130310469003555
+      MuffetSprite_Anim_22: -4334269136105719962
+      MuffetSprite_Anim_23: -8039071739706991252
+      MuffetSprite_Anim_24: 1266664532885472952
+      MuffetSprite_Anim_25: -3032075075047589729
+      MuffetSprite_Anim_26: 5862219833543740170
+      MuffetSprite_Anim_27: -5559596159794540623
+      MuffetSprite_Anim_28: -2857043028507776094
+      MuffetSprite_Anim_29: -6115686986155712662
+      MuffetSprite_Anim_3: 8105932297070739689
+      MuffetSprite_Anim_30: 7778603667869720024
+      MuffetSprite_Anim_31: -134283901215312828
+      MuffetSprite_Anim_32: -1908821827537848542
+      MuffetSprite_Anim_33: 7995249884475929681
+      MuffetSprite_Anim_34: 7256526987725110229
+      MuffetSprite_Anim_35: 2903313196863242624
+      MuffetSprite_Anim_36: -2594652506208505162
+      MuffetSprite_Anim_37: -8858902596586676857
+      MuffetSprite_Anim_38: 80214144686234526
+      MuffetSprite_Anim_39: -5496356438236362845
+      MuffetSprite_Anim_4: -11708394977261228
+      MuffetSprite_Anim_40: 6469888927080353118
+      MuffetSprite_Anim_41: 8828788349659303087
+      MuffetSprite_Anim_42: 6497766439621037489
+      MuffetSprite_Anim_43: 3997958119788922396
+      MuffetSprite_Anim_44: -1483486783227365053
+      MuffetSprite_Anim_45: -5298389269358082479
+      MuffetSprite_Anim_46: 457151680306885006
+      MuffetSprite_Anim_47: 8952848727425634634
+      MuffetSprite_Anim_5: -3867934737473166392
+      MuffetSprite_Anim_6: -3705404855555845964
+      MuffetSprite_Anim_7: -5186237859517595935
+      MuffetSprite_Anim_8: 873686215861301749
+      MuffetSprite_Anim_9: 399629710498199199
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
