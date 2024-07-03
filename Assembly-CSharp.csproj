@@ -60,47 +60,47 @@
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\DialogueManager.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Dialogue.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\DialogueManager.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\DialogueTrigger.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Dialogue.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -1025,12 +1025,24 @@
       <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
@@ -1055,6 +1067,10 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1085,6 +1101,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
       <Private>False</Private>
@@ -1097,8 +1121,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1125,6 +1157,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
@@ -1139,6 +1175,14 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
@@ -1167,6 +1211,10 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
