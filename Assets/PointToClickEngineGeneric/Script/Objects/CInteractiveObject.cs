@@ -24,18 +24,18 @@ public class CInteractiveObject : MonoBehaviour,Iinteract
 
     public void Selected(int id)
     {
-        SpriteRenderer.color = Color.blue;
+       // SpriteRenderer.color = Color.blue;
         CLevel1.Inst.CheckSuccesfull(id);
     }
 
     public void Deselected()
     {
-        SpriteRenderer.color = Color.white;
+      //  SpriteRenderer.color = Color.white;
     }
   
     public void Complete()
     {
-        SpriteRenderer.color = Color.yellow;
+        //SpriteRenderer.color = Color.yellow;
     }
     
 
