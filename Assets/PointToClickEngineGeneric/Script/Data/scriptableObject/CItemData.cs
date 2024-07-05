@@ -8,12 +8,15 @@ using UnityEngine.UI;
 [Serializable]
 public class CItemData : ScriptableObject
 {
+    
     // Start is called before the first frame update
     private int Id;
     private string Name;
 
     [TextArea(2, 2)]
     private string description;
-    private Sprite imageItem;
+    private Sprite imageInventory;
     private bool Optional;
+
+
 }

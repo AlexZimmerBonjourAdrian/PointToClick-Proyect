@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CLevelController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Level Number")]
+    [SerializeField]
+    private ELevel.LevelNumber LevelNumber;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    [Space(20f)]
+    [Header("LevelType")]
+    private ELevel.LevelType LevelType;
+
+   // public actualLevel = 
+
 }

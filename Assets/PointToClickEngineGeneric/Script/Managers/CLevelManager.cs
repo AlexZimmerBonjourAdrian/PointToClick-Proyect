@@ -36,16 +36,6 @@ public class CLevelManager : MonoBehaviour
         _inst = this;
     }
 
-  /*
-
-    public void LateUpdate()
-    {
-         if(_CurrentLoadScene.isDone)
-        {
-            _CurrentLoadScene = null;
-        }
-    }
-  */
 
     public bool IsLoadingScene()
     {
@@ -72,4 +62,15 @@ public class CLevelManager : MonoBehaviour
     {
         _CurrentLoadScene = SceneManager.LoadSceneAsync(name, LoadSceneMode.Additive);
     }
+
+    /*
+
+  public void LateUpdate()
+  {
+       if(_CurrentLoadScene.isDone)
+      {
+          _CurrentLoadScene = null;
+      }
+  }
+*/
 }

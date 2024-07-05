@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.Plastic.Newtonsoft.Json.Bson;
 using UnityEngine;
 
-public class CLevel1 : MonoBehaviour
+public class CLevel1 : CLevelGeneric
 {
     //TODO: Integrar el puzzle con los elementos del nivel
     //TODO-Alpha: Separar los puzzles en clases para cada puzzle e heredar.
@@ -37,6 +37,8 @@ public class CLevel1 : MonoBehaviour
          List<int> SequencePuzzle = new List<int>();
     _inst = this;
     }
+
+    //public 
 
     public void CheckSuccesfull(int code)
     {
@@ -98,7 +100,7 @@ public class CLevel1 : MonoBehaviour
         }
    }
 
-    private void CompleteRoom()
+    protected override void CompleteRoom()
     {
         var ObjectsPuzzles = FindObjectOfType<CLightSwitch>();
         if (isSuccesfull == true)
