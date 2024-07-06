@@ -82,8 +82,6 @@ public class CPointToClick : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 _actionState = ACTIONSTATE_INTERACT;
-                Debug.Log("Entra en el entract");
-                Debug.Log(_actionObj.name);
             }
         }
         else if (_actionState == ACTIONSTATE_INTERACT)

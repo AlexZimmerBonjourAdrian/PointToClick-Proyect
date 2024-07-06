@@ -25,6 +25,10 @@ public  class CLevelGeneric : MonoBehaviour
         //Load post death
     }
 
+    public virtual bool GetIsComplete()
+    {
+        return false;
+    }
 
 }
 

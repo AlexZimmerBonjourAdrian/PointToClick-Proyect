@@ -12,7 +12,63 @@ public class CLevelController : MonoBehaviour
     [Space(20f)]
     [Header("LevelType")]
     private ELevel.LevelType LevelType;
+    
+    private CLevelGeneric Level;
 
+    public static CLevelController Inst
+    {
+        get
+        {
+            if (_inst == null)
+            {
+                Debug.Log("Entra?");
+                GameObject obj = new GameObject("Level");
+                return obj.AddComponent<CLevelController>();
+            }
+            Debug.Log("Entra en el return");
+            return _inst;
+
+        }
+    }
+    private static CLevelController _inst;
+
+    public void Awake()
+    {
+        _inst = this;
+    }
+    public void checkCompleteLevel()
+    {
+
+      switch((int)LevelNumber)
+       {
+            case 0:
+               
+                break;
+            case 1:
+                Level = (CLevel1)FindAnyObjectByType<CLevelGeneric>();
+                
+                if (Level.GetIsComplete())
+                {
+                    Debug.Log("Entra en el complete del nivel 1");
+                    CDoor OBJ = FindAnyObjectByType<CDoor>();
+                    OBJ.SetThisLevelIsComplete(Level.GetIsComplete());
+                    OBJ.ViewDoor();
+                }
+                break;
+            case 2:
+                Level = (CLevel2)FindAnyObjectByType<CLevelGeneric>(); 
+                break;
+            case 3:
+                Level = (CLevel3)FindAnyObjectByType<CLevelGeneric>(); 
+                break;
+            default:
+                Debug.Log("No existen el nivel");
+                break;
+        };
+       
+    }
    // public actualLevel = 
+        
+
 
 }
