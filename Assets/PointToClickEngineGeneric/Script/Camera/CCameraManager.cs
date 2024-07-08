@@ -5,6 +5,23 @@ using UnityEngine;
 public class CCameraManager : MonoBehaviour
 {
     // Start is called before the first frame update
+
+     //Singleton
+     public static CCameraManager Inst
+    {
+        get
+        {
+            if (_inst == null)
+            {
+                GameObject obj = new GameObject("CCameraManager");
+                return obj.AddComponent<CCameraManager>();
+            }
+            return _inst;
+
+        }
+    }
+    private static CCameraManager _inst;
+
     public Camera CameraSegurityRoom;
     public Camera camera_1A;
     public Camera camera_1B;
@@ -20,15 +37,15 @@ public class CCameraManager : MonoBehaviour
     public Camera camera_6;
     public Camera camera_7;
 
-
-    void Start()
+public void Awake()
     {
-        
+    if(_inst != null && _inst != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(this.gameObject);
+        _inst = this;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 }

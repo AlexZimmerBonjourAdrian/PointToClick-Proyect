@@ -25,7 +25,7 @@ public class CLevelManager : MonoBehaviour
 
     private AsyncOperation _CurrentLoadScene;
 
-    public void Awake()
+  public void Awake()
     {
     if(_inst != null && _inst != this)
         {

@@ -25,7 +25,7 @@ public class CLevelController : MonoBehaviour
                 GameObject obj = new GameObject("Level");
                 return obj.AddComponent<CLevelController>();
             }
-            Debug.Log("Entra en el return");
+          //  Debug.Log("Entra en el return");
             return _inst;
 
         }
@@ -34,6 +34,12 @@ public class CLevelController : MonoBehaviour
 
     public void Awake()
     {
+    if(_inst != null && _inst != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+       // DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
     public void checkCompleteLevel()
@@ -67,7 +73,16 @@ public class CLevelController : MonoBehaviour
         };
        
     }
-   // public actualLevel = 
+
+public int GetLevel()
+{
+    return ((int)LevelNumber);
+}
+
+public ELevel.LevelType GetLevelType()
+{
+    return LevelType;
+}
         
 
 

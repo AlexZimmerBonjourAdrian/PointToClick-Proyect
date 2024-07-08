@@ -5,16 +5,10 @@ using UnityEngine;
 public class CInteractiveObject : MonoBehaviour,Iinteract
 {
     public int id;
-
-
-    //Temp Prototipe
-    private SpriteRenderer SpriteRenderer;
-
     public void Awake()
     {
         CPointToClick.Inst.CreatePoint();
         CGameEvent.current.OnChangeColor += Selected;
-        SpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void Oninteract()
@@ -22,22 +16,23 @@ public class CInteractiveObject : MonoBehaviour,Iinteract
         Selected(id);
     }
 
-    public void Selected(int id)
+      public void Selected(int id)
     {
-       // SpriteRenderer.color = Color.blue;
+        // Reproducir sonido de seleccion
+        CManagerSFX.Inst.PlaySFX(ESFXType.SFXType.Selected);
         CLevel1.Inst.CheckSuccesfull(id);
     }
 
     public void Deselected()
     {
-      //  SpriteRenderer.color = Color.white;
+        // Reproducir sonido de deseleccion
+       CManagerSFX.Inst.PlaySFX(ESFXType.SFXType.Unselected);
     }
-  
+
     public void Complete()
     {
-        //SpriteRenderer.color = Color.yellow;
+        // Solo reproduccirlo una sola vez
+        // Reproducir sonido de Completado
+        CManagerSFX.Inst.PlaySFX(ESFXType.SFXType.Door);
     }
-    
-
-
 }

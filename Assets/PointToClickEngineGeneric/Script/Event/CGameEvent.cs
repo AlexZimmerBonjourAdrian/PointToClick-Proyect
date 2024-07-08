@@ -12,7 +12,7 @@ public class CGameEvent : MonoBehaviour
         {
             if (_inst == null)
             {
-                GameObject obj = new GameObject("PointMechanic");
+                GameObject obj = new GameObject("GameEvent");
 
                 return obj.AddComponent<CGameEvent>();
             }
@@ -32,6 +32,11 @@ public class CGameEvent : MonoBehaviour
     public event Action OnLight;
 
     public event Action<int> OnSelected;
+
+    public event Action OnMove;
+
+    // public event Action<int> OnSelectedMove;
+    //Remove
     public void OnChangeTrigger(int id)
     {
         if(OnChangeColor != null)
@@ -47,6 +52,14 @@ public class CGameEvent : MonoBehaviour
         }
     }
 
+    // public void SelectedMove(int id)
+    // {
+    //     if(OnSelectedMove != null)
+    //     {
+    //         OnSelectedMove(id);
+    //     }
+    // }
+    //Repair
     public void OnSwitchLight()
     {
         if(OnLight != null)
@@ -55,4 +68,11 @@ public class CGameEvent : MonoBehaviour
         }
     }
 
+    public void Move()
+    {
+        if(OnMove != null)
+        {
+            OnMove();
+        }
+    }
 }

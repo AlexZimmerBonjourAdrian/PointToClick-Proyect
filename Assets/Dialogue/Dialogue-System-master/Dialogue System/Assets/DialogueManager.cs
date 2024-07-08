@@ -12,6 +12,34 @@ public class DialogueManager : MonoBehaviour {
 
 	private Queue<string> sentences;
 
+
+public static DialogueManager  Inst
+    {
+        get
+        {
+            if (_inst == null)
+            {
+                Debug.Log("Entra?");
+                GameObject obj = new GameObject("Music");
+                return obj.AddComponent<DialogueManager >();
+            }
+            Debug.Log("Entra en el return");
+            return _inst;
+
+        }
+    }
+    private static DialogueManager  _inst;
+
+	  public void Awake()
+    {
+    if(_inst != null && _inst != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(this.gameObject);
+        _inst = this;
+    }
 	// Use this for initialization
 	void Start () {
 		sentences = new Queue<string>();

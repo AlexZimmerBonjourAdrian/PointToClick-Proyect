@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class CClick : MonoBehaviour,Iinteract
 {
+    
     public void Oninteract()
     {
-        CGameEvent.current.OnSwitchLight();
+        if(CLevelController.Inst.GetLevel() == 1)
+        {
+          CGameEvent.current.OnSwitchLight();
+        }
+       
+        
     }
 }
