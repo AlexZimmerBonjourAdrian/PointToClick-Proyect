@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 126
+  controlID: 122
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 845.6
+    width: 1006.4
     height: 730.8
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
@@ -165,8 +165,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 845.6
-    height: 373.6
+    width: 1006.4
+    height: 452
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
@@ -188,8 +188,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 262.4
-    height: 373.6
+    width: 367.2
+    height: 452
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -212,12 +212,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 262.4
+    x: 367.2
     y: 0
-    width: 224
-    height: 373.6
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 526.39996
+    height: 452
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -238,12 +238,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 486.4
+    x: 893.6
     y: 0
-    width: 359.19998
-    height: 373.6
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 112.80005
+    height: 452
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 373.6
-    width: 845.6
-    height: 357.19998
+    y: 452
+    width: 1006.4
+    height: 278.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -292,12 +292,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 845.6
+    x: 1006.4
     y: 0
-    width: 690.4
+    width: 529.6
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -324,9 +324,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 845.60004
+    x: 919.2
     y: 73.6
-    width: 689.4
+    width: 615.8
     height: 709.8
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 2810
+    ID: 35753
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -371,7 +371,7 @@ MonoBehaviour:
       name: PointToclick
       fullName: PointToclick
       resultStatus: 2
-      duration: 6.821512
+      duration: 5.069147
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -382,12 +382,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1014
+    - id: 1006
       uniqueId: '[PlayModeTesting][E:/PointToClick-Proyect/Library/ScriptAssemblies/PlayModeTesting.dll][suite]'
       name: PlayModeTesting.dll
       fullName: E:/PointToClick-Proyect/Library/ScriptAssemblies/PlayModeTesting.dll
       resultStatus: 2
-      duration: 4.1040163
+      duration: 5.042795
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -396,14 +396,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1005
+      parentId: 1000
       parentUniqueId: '[PointToclick][suite]'
-    - id: 1006
+    - id: 1001
       uniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
       name: CLevel2Tests
       fullName: CLevel2Tests
       resultStatus: 2
-      duration: 2.1393242
+      duration: 5.0320063
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -412,327 +412,263 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1014
+      parentId: 1006
       parentUniqueId: '[PlayModeTesting][E:/PointToClick-Proyect/Library/ScriptAssemblies/PlayModeTesting.dll][suite]'
-    - id: 1011
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.GoToNextRoom_OutOfBounds_DoesNotLoadRoom]
-      name: GoToNextRoom_OutOfBounds_DoesNotLoadRoom
-      fullName: CLevel2Tests.GoToNextRoom_OutOfBounds_DoesNotLoadRoom
+    - id: 1005
+      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoomByTag_InvalidTag_LogsCorrectMessage]
+      name: LoadRoomByTag_InvalidTag_LogsCorrectMessage
+      fullName: CLevel2Tests.LoadRoomByTag_InvalidTag_LogsCorrectMessage
       resultStatus: 2
-      duration: 0.0227027
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
+      duration: 4.831112
+      messages: 'Expected log did not appear: [Warning] La room 0 con tag InvalidTag
+        no es accesible.'
+      output: 'DontDestroyOnLoad only works for root GameObjects or components on
+        root GameObjects.
+
+        La room 1Es
+
+        La room 1 con tag InvalidTag
+        no es accesible.
+
+        La room 2 con tag InvalidTag no es accesible.
+
+        La
+        room 3 con tag InvalidTag no es accesible.
+
+        La room 4 con tag InvalidTag
+        no es accesible.
+
+        La room 5 con tag InvalidTag no es accesible.
+
+        La
+        room 6 con tag InvalidTag no es accesible.
+
+        La room 7 con tag InvalidTag
+        no es accesible.
+
+        La room 8 con tag InvalidTag no es accesible.
+
+        La
+        room 9 con tag InvalidTag no es accesible.
+
+        La room 10 con tag InvalidTag
+        no es accesible.
+
+        La room 12 con tag InvalidTag no es accesible.
 
 '
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1006
+      parentId: 1001
       parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1010
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.GoToNextRoom_WithinBounds_LoadsNextRoom]
-      name: GoToNextRoom_WithinBounds_LoadsNextRoom
-      fullName: CLevel2Tests.GoToNextRoom_WithinBounds_LoadsNextRoom
+    - id: 1003
+      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoomByTag_InvalidTag_SetsAllRoomsInaccessible]
+      name: LoadRoomByTag_InvalidTag_SetsAllRoomsInaccessible
+      fullName: CLevel2Tests.LoadRoomByTag_InvalidTag_SetsAllRoomsInaccessible
       resultStatus: 2
-      duration: 0.0034781
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
+      duration: 4.6403627
+      messages: 'Expected log did not appear: [Warning] La room 0 con tag Room1 es
+        accesible.'
+      output: 'DontDestroyOnLoad only works for root GameObjects or components on
+        root GameObjects.
+
+        La room 1Es
+
+        La room 1 con tag InvalidTag
+        no es accesible.
+
+        La room 2 con tag InvalidTag no es accesible.
+
+        La
+        room 3 con tag InvalidTag no es accesible.
+
+        La room 4 con tag InvalidTag
+        no es accesible.
+
+        La room 5 con tag InvalidTag no es accesible.
+
+        La
+        room 6 con tag InvalidTag no es accesible.
+
+        La room 7 con tag InvalidTag
+        no es accesible.
+
+        La room 8 con tag InvalidTag no es accesible.
+
+        La
+        room 9 con tag InvalidTag no es accesible.
+
+        La room 10 con tag InvalidTag
+        no es accesible.
+
+        La room 12 con tag InvalidTag no es accesible.
 
 '
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1006
+      parentId: 1001
       parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1013
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.GoToPreviousRoom_OutOfBounds_DoesNotLoadRoom]
-      name: GoToPreviousRoom_OutOfBounds_DoesNotLoadRoom
-      fullName: CLevel2Tests.GoToPreviousRoom_OutOfBounds_DoesNotLoadRoom
+    - id: 1004
+      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoomByTag_ValidTag_LogsCorrectMessage]
+      name: LoadRoomByTag_ValidTag_LogsCorrectMessage
+      fullName: CLevel2Tests.LoadRoomByTag_ValidTag_LogsCorrectMessage
       resultStatus: 2
-      duration: 0.0033178
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
+      duration: 4.838388
+      messages: 'Expected log did not appear: [Warning] La room 0 con tag Room1 es
+        accesible.'
+      output: 'DontDestroyOnLoad only works for root GameObjects or components on
+        root GameObjects.
+
+        La room 1Es
+
+        La room 1 con tag Normal
+        es accesible.
+
+        La room 2 con tag Normal es accesible.
+
+        La
+        room 3 con tag Normal es accesible.
+
+        La room 4 con tag Normal es
+        accesible.
+
+        La room 5 con tag Normal es accesible.
+
+        La
+        room 6 con tag Normal es accesible.
+
+        La room 7 con tag Normal es
+        accesible.
+
+        La room 8 con tag Normal no es accesible.
+
+        La
+        room 9 con tag Normal no es accesible.
+
+        La room 10 con tag Normal
+        no es accesible.
+
+        La room 12 con tag Normal no es accesible.
 
 '
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1006
+      parentId: 1001
       parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1012
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.GoToPreviousRoom_WithinBounds_LoadsPreviousRoom]
-      name: GoToPreviousRoom_WithinBounds_LoadsPreviousRoom
-      fullName: CLevel2Tests.GoToPreviousRoom_WithinBounds_LoadsPreviousRoom
+    - id: 1002
+      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoomByTag_ValidTag_SetsRoomAccessible]
+      name: LoadRoomByTag_ValidTag_SetsRoomAccessible
+      fullName: CLevel2Tests.LoadRoomByTag_ValidTag_SetsRoomAccessible
       resultStatus: 2
-      duration: 0.0035082
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
+      duration: 4.8895936
+      messages: 'Expected log did not appear: [Warning] La room 0 con tag Room1 es
+        accesible.'
+      output: 'DontDestroyOnLoad only works for root GameObjects or components on
+        root GameObjects.
+
+        La room 1Es
+
+        La room 1 con tag Normal
+        es accesible.
+
+        La room 2 con tag Normal es accesible.
+
+        La
+        room 3 con tag Normal es accesible.
+
+        La room 4 con tag Normal es
+        accesible.
+
+        La room 5 con tag Normal es accesible.
+
+        La
+        room 6 con tag Normal es accesible.
+
+        La room 7 con tag Normal es
+        accesible.
+
+        La room 8 con tag Normal no es accesible.
+
+        La
+        room 9 con tag Normal no es accesible.
+
+        La room 10 con tag Normal
+        no es accesible.
+
+        La room 12 con tag Normal no es accesible.
 
 '
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1006
+      parentId: 1001
       parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1008
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoom_InaccessibleRoom_LogsWarning]
-      name: LoadRoom_InaccessibleRoom_LogsWarning
-      fullName: CLevel2Tests.LoadRoom_InaccessibleRoom_LogsWarning
-      resultStatus: 2
-      duration: 0.0025073
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
-
-'
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1009
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoom_InvalidIndex_LogsError]
-      name: LoadRoom_InvalidIndex_LogsError
-      fullName: CLevel2Tests.LoadRoom_InvalidIndex_LogsError
-      resultStatus: 2
-      duration: 0.00234
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
-
-'
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    - id: 1007
-      uniqueId: PlayModeTesting.dll/CLevel2Tests/[PlayModeTesting][CLevel2Tests.LoadRoom_ValidIndex_LoadsRoom]
-      name: LoadRoom_ValidIndex_LoadsRoom
-      fullName: CLevel2Tests.LoadRoom_ValidIndex_LoadsRoom
-      resultStatus: 2
-      duration: 0.0023042
-      messages: 'SetUp : Unhandled log message: ''[Exception] NullReferenceException:
-        Object reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NullReferenceException: Object reference not set to an instance of
-        an object
-
-'
-      stacktrace: 'CLevel2.LoadRoom (System.Int32 index) (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:27)
-
-        CLevel2.Awake
-        () (at Assets/PointToClickEngineGeneric/Script/Level/Puzzles/Level-2/CLevel2.cs:21)
-
-        UnityEngine.GameObject:AddComponent()
-
-        CLevel2Tests:Setup()
-        (at Assets/Testing/PlayModeTesting/CLevel2Tests.cs:20)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
-
-        
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayModeTesting.dll/[PlayModeTesting][CLevel2Tests][suite]
-    m_ResultText: 'CLevel2Tests (2,139s)
+    m_ResultText: 'LoadRoomByTag_ValidTag_SetsRoomAccessible (4,890s)
 
       ---
 
-      One or more child tests
-      had errors'
+      Expected
+      log did not appear: [Warning] La room 0 con tag Room1 es accesible.
+
+      ---
+
+      DontDestroyOnLoad
+      only works for root GameObjects or components on root GameObjects.
+
+      La
+      room 1Es
+
+      La room 1 con tag Normal es accesible.
+
+      La room 2 con
+      tag Normal es accesible.
+
+      La room 3 con tag Normal es accesible.
+
+      La
+      room 4 con tag Normal es accesible.
+
+      La room 5 con tag Normal es accesible.
+
+      La
+      room 6 con tag Normal es accesible.
+
+      La room 7 con tag Normal es accesible.
+
+      La
+      room 8 con tag Normal no es accesible.
+
+      La room 9 con tag Normal no
+      es accesible.
+
+      La room 10 con tag Normal no es accesible.
+
+      La
+      room 12 con tag Normal no es accesible.'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3b957083
-      m_LastClickedID: -2089773765
+      m_SelectedIDs: f0fc2269
+      m_LastClickedID: 1763900656
       m_ExpandedIDs: 3b9570838f29f28b9f5e86d4ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1015,10 +951,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 486.4
+    x: 893.60004
     y: 73.6
-    width: 357.19998
-    height: 352.6
+    width: 110.80005
+    height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1073,10 +1009,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 357.19998
-      height: 331.6
-    m_Scale: {x: 0.23255207, y: 0.23255207}
-    m_Translation: {x: 178.59999, y: 165.8}
+      width: 110.80005
+      height: 410
+    m_Scale: {x: 0.07213545, y: 0.07213545}
+    m_Translation: {x: 55.400024, y: 205}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1084,12 +1020,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -768
-      y: -712.9586
+      y: -2841.876
       width: 1536
-      height: 1425.9172
+      height: 5683.752
     m_MinimalGUI: 1
-  m_defaultScale: 0.23255207
-  m_LastWindowPixelSize: {x: 446.49997, y: 440.75}
+  m_defaultScale: 0.07213545
+  m_LastWindowPixelSize: {x: 138.50006, y: 538.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1118,8 +1054,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 261.4
-    height: 352.6
+    width: 366.2
+    height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1133,23 +1069,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 705e0000
+      m_SelectedIDs: a4650000
       m_LastClickedID: 0
-      m_ExpandedIDs: 46a6ffff82a6ffffa2a7ffff96bbffffd6bbffff0abeffff4abeffff8abeffff64c0ffff74c1ffffb4c1ffffd0c3ffff28c4ffff68c4ffff80c6ffffb0c7fffff0c7ffff76c9ffff3acaffff7acaffff54ccffff6ccdffffaccdffff3acfffff56d0ffff96d0ffff70d2ffff0cd4ffff4cd4ffff10d6fffffcf3ffff16fbfffff4ffffff
+      m_ExpandedIDs: 8659feff9a5efeff3264feff9067feffa071feff2c89fefff29efeff0aa1feffdca4feffc2a9feffb2b2feff96b4feffd6b4feff54b6feff8cb6feffccb6feff4ab8feff54b9feff94b9feff12bbfeff18bcfeff58bcfeffd6bdfeffd4befeff14bffeff92c0feff90c1feffd0c1feff4ec3feff54c4feff94c4feff12c6feff46c6feff86c6feff04c8feff0ec9feff4ec9feffcccafeff00cbfeff40cbfeffc0ccfefff6ccfeff36cdfeffb4cefeff2ad0feff6ad0feffe8d1feff1cd2feff5cd2feffe6d3feff22d4feff62d4feffe0d5feffded6feff1ed7feff98d8feff9ad9feffdad9feff4cdbfeff36ddfeff76ddfefffedefeff40e5feff80e5feff32e7feffc0e9feff00eafeffb2ebfeffd4ecfeff14edfeffc6eefefff8effeff38f0feffd8f1feffa807ffff7022ffffe872ffff287effff2ec5ffff0ec6ffff02c8ffff10f9ffffe0f9ffff06fbfffff4ffffff26660000ca6f0000fa6f0000768c00008aa90000caa90000cea90000f4a900003ac000008ac00000e4c0000028c50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: PointToClick
+        m_OriginalName: PointToClick
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 49362
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1180,10 +1116,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 262.4
+    x: 367.2
     y: 73.6
-    width: 222
-    height: 352.6
+    width: 524.39996
+    height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1419,7 +1355,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -184.00002, y: -242.40002}
+      snapOffset: {x: -209.60004, y: -242.40002}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -1529,9 +1465,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.271143, y: -0.47449908, z: -0.026735295}
+    m_Target: {x: 6.9412727, y: -0.47715703, z: -0.073611096}
     speed: 2
-    m_Value: {x: 6.271143, y: -0.47449908, z: -0.026735295}
+    m_Value: {x: 6.660866, y: -0.5037044, z: -0.06941333}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1581,9 +1517,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.7600856
+    m_Target: 9.748245
     speed: 2
-    m_Value: 6.7600856
+    m_Value: 9.3284645
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1630,9 +1566,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 447.2
-    width: 844.6
-    height: 336.19998
+    y: 525.60004
+    width: 1005.4
+    height: 257.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1644,7 +1580,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: mana
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1654,38 +1590,38 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PointToClickEngineGeneric/Script/Objects/Level2
+    - Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level
     m_Globs: []
-    m_OriginalText: mana
+    m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PointToClickEngineGeneric/Script/Objects/Level2
+  - Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\PointToClick-Proyect
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 595.80005}
-    m_SelectedIDs: f6650000
-    m_LastClickedID: 26102
-    m_ExpandedIDs: 00000000d4630000d6630000d8630000da630000dc630000de630000e0630000e2630000e4630000e6630000e8630000ec6300006e65000074650000766500007a6500009c650000a0650000a2650000ca6500007e670000526800005668000000ca9a3b
+    scrollPos: {x: 0, y: 118.20001}
+    m_SelectedIDs: a4650000
+    m_LastClickedID: 26020
+    m_ExpandedIDs: 00000000e0630000e2630000e6630000e8630000ea630000ec630000ee630000f0630000f2630000f4630000f6630000f8630000fa63000006640000086400000a6400004a6d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Design-Patterns
-      m_OriginalName: Design-Patterns
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 26000
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -1699,7 +1635,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4630000d6630000d8630000da630000dc630000de630000e0630000e2630000e4630000e6630000e8630000ea630000ec630000
+    m_ExpandedIDs: 00000000e0630000e2630000e4630000e6630000e8630000ea630000ec630000ee630000f0630000f2630000f4630000f6630000f8630000fa630000fc630000fe63000000640000026400000464000006640000086400000a640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1727,18 +1663,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000082810000e0620000
+    m_ExpandedInstanceIDs: c623000082810000e0620000b6660000aa660000b0660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CClick
-      m_OriginalName: CClick
+      m_Name: Level-3
+      m_OriginalName: Level-3
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22054
+      m_UserData: 49114
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1778,7 +1714,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 447.2
-    width: 844.6
+    width: 1107.8
     height: 336.19998
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1811,9 +1747,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 845.60004
+    x: 1006.4
     y: 73.6
-    width: 689.4
+    width: 528.6
     height: 709.8
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1832,7 +1768,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 159.20001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
