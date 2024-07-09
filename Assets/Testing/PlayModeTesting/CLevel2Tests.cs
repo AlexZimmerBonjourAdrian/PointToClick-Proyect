@@ -3,184 +3,121 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.TestTools;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
-// Assuming CLevelGeneric is a base class, you might need to mock it or provide a test implementation
-public class CLevel2Tests 
+public class CLevel2Tests
 {
-    // private CLevel2 level2;
-    // private SpriteRenderer spriteRenderer;
+    private CLevel2 level2;
+    
+    private SpriteRenderer spriteRenderer;
+    private MapData mapData;
 
-    // [SetUp]
-    // public void Setup()
+    [SetUp]
+    public void Setup()
+    {
+
+        EditorSceneManager.LoadScene(2);
+
+    }
+
+    // [TearDown]
+    // public void Teardown()
     // {
-    //     SceneManager.LoadScene(2);
-    //     // Create a new GameObject and attach the CLevel2 component
-    //     GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
-
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
-
-    //     //List<CLevel2.Room> roomsTesting = level2.GetRooms();
-    //     // Create some test rooms 
+    //     // Clean up the GameObject after each test
+    //     Object.Destroy(level2.gameObject);
     // }
 
-    // // [TearDown]
-    // // public void Teardown()
-    // // {
-    // //     // Clean up the GameObject after each test
-    // //     Object.Destroy(level2.gameObject);
-    // // }
+    [UnityTest]
+    public IEnumerator LoadRoomByTag_ValidTag_SetsRoomAccessible()
+    {
 
-    // [Test]
-    // public void LoadRoom_ValidIndex_LoadsRoom()
-    // {
 
-    //     // Arrange
-    //     GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
+        // Act
+        yield return new WaitForSeconds(4f);
+        
+          level2 = GameObject.FindObjectOfType<CLevel2>();
+        level2._SprtR = spriteRenderer;
 
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
+        // Create a mock MapData
+        mapData = ScriptableObject.CreateInstance<MapData>();
+        mapData = level2.GetComponent<CLevel2>().GetRouterooms();
+        
+        level2.SetRouterooms(mapData);
+        LogAssert.Expect(LogType.Warning, "La room 0 con tag Room1 es accesible.");
 
-    //     // Act
-    //     level2.LoadRoom(0);
+        level2.LoadRoomByTag("Normal");
 
-    //     // Assert
-    //     Assert.AreEqual(level2.GetRooms()[0].RoomImage, spriteRenderer.sprite);
-    //     Assert.AreEqual(0, level2.GetCurrentRoomIndex());
-    // }
+        // Assert
+        Assert.IsTrue(level2.rooms[0].IsAccessible);
+        Assert.IsFalse(level2.rooms[1].IsAccessible);
+        Assert.IsTrue(level2.rooms[2].IsAccessible);
+    }
 
-    // [Test]
-    // public void LoadRoom_InaccessibleRoom_LogsWarning()
-    // {
-    //     //Arrage
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
+     [UnityTest]
+    public IEnumerator LoadRoomByTag_InvalidTag_SetsAllRoomsInaccessible()
+    {
+        // Act
+        yield return new WaitForSeconds(4f);
 
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
+         level2 = GameObject.FindObjectOfType<CLevel2>();
+        level2._SprtR = spriteRenderer;
 
-    //     // Use LogAssert to check for warnings
-    //     LogAssert.Expect(LogType.Warning, "La room 1 no es accesible.");
+        // Create a mock MapData
+        mapData = ScriptableObject.CreateInstance<MapData>();
+        mapData = level2.GetComponent<CLevel2>().GetRouterooms();
+        
+        level2.SetRouterooms(mapData);
+        LogAssert.Expect(LogType.Warning, "La room 0 con tag Room1 es accesible.");
+        level2.LoadRoomByTag("InvalidTag");
+        
+        // Assert
+        Assert.IsFalse(level2.rooms[0].IsAccessible);
+        Assert.IsFalse(level2.rooms[1].IsAccessible);
+        Assert.IsFalse(level2.rooms[2].IsAccessible);
+    }
 
-    //     // Act
-    //     level2.LoadRoom(1);
+     [UnityTest]
+    public IEnumerator LoadRoomByTag_ValidTag_LogsCorrectMessage()
+    {
+        // Use LogAssert to check for warnings
+        yield return new WaitForSeconds(4f);
 
-    //     // Assert that the room was not loaded
-    //     Assert.AreNotEqual(level2.GetRooms()[1].RoomImage, spriteRenderer.sprite);
-    // }
+         level2 = GameObject.FindObjectOfType<CLevel2>();
+        level2._SprtR = spriteRenderer;
 
-    // [Test]
-    // public void LoadRoom_InvalidIndex_LogsError()
-    // {
+        // Create a mock MapData
+        mapData = ScriptableObject.CreateInstance<MapData>();
+        mapData = level2.GetComponent<CLevel2>().GetRouterooms();
+        
+        level2.SetRouterooms(mapData);
+        LogAssert.Expect(LogType.Warning, "La room 0 con tag Room1 es accesible.");
 
-    //     // Arrange
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
+        // Act
+        level2.LoadRoomByTag("Normal");
 
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
+        Assert.IsFalse(level2.rooms[0].IsAccessible);
+        Assert.IsFalse(level2.rooms[1].IsAccessible);
+        Assert.IsFalse(level2.rooms[2].IsAccessible);
+    }
+  [UnityTest]
+    public IEnumerator LoadRoomByTag_InvalidTag_LogsCorrectMessage()
+    {
+        yield return new WaitForSeconds(4f);
 
-    //     // Use LogAssert to check for errors
-    //     LogAssert.Expect(LogType.Error, "Índice de room inválido: -1");
+               level2 = GameObject.FindObjectOfType<CLevel2>();
+        level2._SprtR = spriteRenderer;
 
-    //     // Act
-    //     level2.LoadRoom(-1);
+        // Create a mock MapData
+        mapData = ScriptableObject.CreateInstance<MapData>();
+        mapData = level2.GetComponent<CLevel2>().GetRouterooms();
+        
+        level2.SetRouterooms(mapData);
+        // Use LogAssert to check for warnings
+        LogAssert.Expect(LogType.Warning, "La room 0 con tag InvalidTag no es accesible.");
+        LogAssert.Expect(LogType.Warning, "La room 1 con tag InvalidTag no es accesible.");
+        LogAssert.Expect(LogType.Warning, "La room 2 con tag InvalidTag no es accesible.");
 
-    //     // Assert (no specific assertion needed for the error, LogAssert handles it)
-    // }
-
-    // [Test]
-    // public void GoToNextRoom_WithinBounds_LoadsNextRoom()
-    // {
-    //     //Arrage
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
-
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
-
-    //     // Start at the first room
-    //     level2.LoadRoom(0);
-
-    //     // Act
-    //     level2.GoToNextRoom();
-
-    //     // Assert
-    //     Assert.AreEqual(2, level2.GetCurrentRoomIndex()); 
-    //     Assert.AreEqual(level2.GetRooms()[2].RoomImage, spriteRenderer.sprite);
-    // }
-
-    // [Test]
-    // public void GoToNextRoom_OutOfBounds_DoesNotLoadRoom()
-    // {
-    //     //Arrage
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
-
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
-
-    //     // Start at the last room
-    //     level2.LoadRoom(2);
-
-    //     // Act
-    //     level2.GoToNextRoom();
-
-    //     // Assert that the room index and sprite did not change
-    //     Assert.AreEqual(2, level2.GetCurrentRoomIndex());
-    //     Assert.AreEqual(level2.GetRooms()[2].RoomImage, spriteRenderer.sprite);
-    // }
-
-    // [Test]
-    // public void GoToPreviousRoom_WithinBounds_LoadsPreviousRoom()
-    // {
-    //     //Arrage
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
-
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
-
-    //     // Start at the third room
-    //     level2.LoadRoom(2);
-
-    //     // Act
-    //     level2.GoToPreviousRoom();
-
-    //     // Assert
-    //     Assert.AreEqual(0, level2.GetCurrentRoomIndex()); 
-    //     Assert.AreEqual(level2.GetRooms()[0].RoomImage, spriteRenderer.sprite);
-    // }
-
-    // [Test] 
-    // public void GoToPreviousRoom_OutOfBounds_DoesNotLoadRoom()
-    // {
-    //     //Arrage
-    //       GameObject gameObject = new GameObject("BackGround");
-    //     level2 = gameObject.AddComponent<CLevel2>();
-
-    //     // Create a mock SpriteRenderer and assign it
-    //     spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-    //     level2._SprtR= spriteRenderer;
-
-    //     // Start at the first room
-    //     level2.LoadRoom(0);
-
-    //     // Act
-    //     level2.GoToPreviousRoom();
-
-    //     // Assert that the room index and sprite did not change
-    //     Assert.AreEqual(0, level2.GetCurrentRoomIndex());
-    //     Assert.AreEqual(level2.GetRooms()[0].RoomImage, spriteRenderer.sprite);
-    // }
+        // Act
+        level2.LoadRoomByTag("InvalidTag");
+    }
 }

@@ -26,6 +26,4 @@ public class CMovementPlayer : MonoBehaviour, Iinteract
     {
        MoveLocation(id_room);
     }
-   
-
 }
