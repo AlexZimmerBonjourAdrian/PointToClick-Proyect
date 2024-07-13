@@ -60,32 +60,33 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\AlexZimmer\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\PointToClick-Proyect\Assets\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\CreaseShadingEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Runtime\CNodeLinkData.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Runtime\CDialogueNodeData.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Runtime\CDialogueContainer.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Editor\Node\CNode.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Editor\Graph\CStoryGraph.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Editor\Graph\CStoryGraphView.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Editor\Node\CDialogueNode.cs" />
-    <Compile Include="Assets\Dialogue\DialogueEditor\Editor\Runtime\CExposedProperty.cs" />
-    <Compile Include="Assets\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\CreaseShadingEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Editor\Node\CDialogueNode.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Runtime\CDialogueContainer.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Runtime\CDialogueNodeData.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Editor\Graph\CStoryGraph.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Editor\Node\CNode.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Runtime\CExposedProperty.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\BloomEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Runtime\CNodeLinkData.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
+    <Compile Include="Assets\DialogueLogic\Dialogue\DialogueEditor\Editor\Editor\Graph\CStoryGraphView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -458,6 +459,66 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Text.Json">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Drawing.Common">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>Assets\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Reflection.Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Text.Encodings.Web">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>Assets\YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>Assets\YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Threading.Tasks.Extensions">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.IO.Packaging">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>Assets\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Collections.Immutable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.Microsoft.Win32.SystemEvents">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -1179,7 +1240,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="YarnSpinner.Unity.csproj" />
+    <ProjectReference Include="Runtime.csproj" />
+    <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
     <ProjectReference Include="Core.csproj" />
+    <ProjectReference Include="Editor.csproj" />
+    <ProjectReference Include="YarnSpinner.Unity.Editor.csproj" />
+    <ProjectReference Include="YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 122
+  controlID: 138
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 50
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +188,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 367.2
+    width: 283.2
     height: 452
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -212,9 +212,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 367.2
+    x: 283.2
     y: 0
-    width: 526.39996
+    width: 456
     height: 452
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -238,12 +238,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 893.6
+    x: 739.2
     y: 0
-    width: 112.80005
+    width: 267.2
     height: 452
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -544,21 +544,21 @@ MonoBehaviour:
 
         La room 5 con tag Normal es accesible.
 
-        La
-        room 6 con tag Normal es accesible.
+        La room
+        6 con tag Normal es accesible.
 
-        La room 7 con tag Normal es
-        accesible.
-
-        La room 8 con tag Normal no es accesible.
+        La room 7 con tag Normal es accesible.
 
         La
-        room 9 con tag Normal no es accesible.
+        room 8 con tag Normal no es accesible.
 
-        La room 10 con tag Normal
+        La room 9 con tag Normal
         no es accesible.
 
-        La room 12 con tag Normal no es accesible.
+        La room 10 con tag Normal no es accesible.
+
+        La
+        room 12 con tag Normal no es accesible.
 
 '
       stacktrace: 
@@ -596,21 +596,21 @@ MonoBehaviour:
 
         La room 5 con tag Normal es accesible.
 
-        La
-        room 6 con tag Normal es accesible.
+        La room
+        6 con tag Normal es accesible.
 
-        La room 7 con tag Normal es
-        accesible.
-
-        La room 8 con tag Normal no es accesible.
+        La room 7 con tag Normal es accesible.
 
         La
-        room 9 con tag Normal no es accesible.
+        room 8 con tag Normal no es accesible.
 
-        La room 10 con tag Normal
+        La room 9 con tag Normal
         no es accesible.
 
-        La room 12 con tag Normal no es accesible.
+        La room 10 con tag Normal no es accesible.
+
+        La
+        room 12 con tag Normal no es accesible.
 
 '
       stacktrace: 
@@ -657,13 +657,13 @@ MonoBehaviour:
       La
       room 8 con tag Normal no es accesible.
 
-      La room 9 con tag Normal no
-      es accesible.
+      La room 9 con tag Normal no es
+      accesible.
 
       La room 10 con tag Normal no es accesible.
 
-      La
-      room 12 con tag Normal no es accesible.'
+      La room
+      12 con tag Normal no es accesible.'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -951,9 +951,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 893.60004
+    x: 739.2
     y: 73.6
-    width: 110.80005
+    width: 265.2
     height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1009,10 +1009,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 110.80005
+      width: 265.2
       height: 410
-    m_Scale: {x: 0.07213545, y: 0.07213545}
-    m_Translation: {x: 55.400024, y: 205}
+    m_Scale: {x: 0.17265625, y: 0.17265625}
+    m_Translation: {x: 132.6, y: 205}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1020,12 +1020,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -768
-      y: -2841.876
+      y: -1187.3303
       width: 1536
-      height: 5683.752
+      height: 2374.6606
     m_MinimalGUI: 1
-  m_defaultScale: 0.07213545
-  m_LastWindowPixelSize: {x: 138.50006, y: 538.75}
+  m_defaultScale: 0.17265625
+  m_LastWindowPixelSize: {x: 331.5, y: 538.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1054,7 +1054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 366.2
+    width: 282.2
     height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1069,23 +1069,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a4650000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8659feff9a5efeff3264feff9067feffa071feff2c89fefff29efeff0aa1feffdca4feffc2a9feffb2b2feff96b4feffd6b4feff54b6feff8cb6feffccb6feff4ab8feff54b9feff94b9feff12bbfeff18bcfeff58bcfeffd6bdfeffd4befeff14bffeff92c0feff90c1feffd0c1feff4ec3feff54c4feff94c4feff12c6feff46c6feff86c6feff04c8feff0ec9feff4ec9feffcccafeff00cbfeff40cbfeffc0ccfefff6ccfeff36cdfeffb4cefeff2ad0feff6ad0feffe8d1feff1cd2feff5cd2feffe6d3feff22d4feff62d4feffe0d5feffded6feff1ed7feff98d8feff9ad9feffdad9feff4cdbfeff36ddfeff76ddfefffedefeff40e5feff80e5feff32e7feffc0e9feff00eafeffb2ebfeffd4ecfeff14edfeffc6eefefff8effeff38f0feffd8f1feffa807ffff7022ffffe872ffff287effff2ec5ffff0ec6ffff02c8ffff10f9ffffe0f9ffff06fbfffff4ffffff26660000ca6f0000fa6f0000768c00008aa90000caa90000cea90000f4a900003ac000008ac00000e4c0000028c50000
+      m_SelectedIDs: bacaffff
+      m_LastClickedID: -13638
+      m_ExpandedIDs: 34cfffffbcd1ffff7cd3ffff7ad5ffff66d6ffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: PointToClick
-        m_OriginalName: PointToClick
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 49362
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1116,9 +1116,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 367.2
+    x: 283.2
     y: 73.6
-    width: 524.39996
+    width: 454
     height: 431
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1199,9 +1199,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: -32.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       id: Orientation
       index: 0
       layout: 4
@@ -1355,8 +1355,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -209.60004, y: -242.40002}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: -100, y: -242.40002}
+      snapOffsetDelta: {x: -109.600006, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
       index: 9
@@ -1465,9 +1465,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.9412727, y: -0.47715703, z: -0.073611096}
+    m_Target: {x: 2.2939506, y: -1.3086504, z: -0.041595977}
     speed: 2
-    m_Value: {x: 6.660866, y: -0.5037044, z: -0.06941333}
+    m_Value: {x: 2.2939506, y: -1.3086504, z: -0.041595977}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1517,9 +1517,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.748245
+    m_Target: 5.5760407
     speed: 2
-    m_Value: 9.3284645
+    m_Value: 5.5760407
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1598,30 +1598,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level
+  - Assets/Resources
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\PointToClick-Proyect
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 118.20001}
-    m_SelectedIDs: a4650000
-    m_LastClickedID: 26020
-    m_ExpandedIDs: 00000000e0630000e2630000e6630000e8630000ea630000ec630000ee630000f0630000f2630000f4630000f6630000f8630000fa63000006640000086400000a6400004a6d000000ca9a3b
+    scrollPos: {x: 0, y: 22.200012}
+    m_SelectedIDs: 42660000
+    m_LastClickedID: 26178
+    m_ExpandedIDs: 00000000986400009a6400009c6400009e640000a0640000a2640000a4640000a8640000aa640000ac640000b66400003866000060660000a6670000227b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Fnaf-Game-Idea
+      m_OriginalName: Fnaf-Game-Idea
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26164
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -1635,7 +1635,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0630000e2630000e4630000e6630000e8630000ea630000ec630000ee630000f0630000f2630000f4630000f6630000f8630000fa630000fc630000fe63000000640000026400000464000006640000086400000a640000
+    m_ExpandedIDs: 00000000986400009a6400009c6400009e640000a0640000a2640000a4640000a6640000a8640000aa640000ac640000ae640000b0640000b2640000b4640000b6640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1662,19 +1662,19 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000082810000e0620000b6660000aa660000b0660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Level-3
-      m_OriginalName: Level-3
+      m_Name: PlayHolder
+      m_OriginalName: PlayHolder
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 49114
+      m_UserData: 26168
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+  m_DirectoriesAreaWidth: 354.19998
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1713,9 +1713,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 447.2
-    width: 1107.8
-    height: 336.19998
+    y: 525.60004
+    width: 1005.4
+    height: 257.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1768,7 +1768,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 159.20001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
