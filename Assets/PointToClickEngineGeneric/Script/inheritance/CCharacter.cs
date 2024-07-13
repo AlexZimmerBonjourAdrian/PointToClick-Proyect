@@ -8,6 +8,9 @@ public class CCharacter : MonoBehaviour, Iinteract
 {
     private Animator anim;
     private bool isActiveAnim = false;
+
+    [SerializeField]
+    private string CharacterName;
     
     // Start is called before the first frame update
     void Start()
@@ -19,14 +22,14 @@ public class CCharacter : MonoBehaviour, Iinteract
     public void Oninteract()
     {
         Debug.Log("Hola");
-        ChangeAnimation();
+      //  ChangeAnimation();
     }
 
-    private void ChangeAnimation()
-    {
-        isActiveAnim = !isActiveAnim;
-        anim.SetBool("IsActive", isActiveAnim);
-    }
+    // private void ChangeAnimation()
+    // {
+    //     isActiveAnim = !isActiveAnim;
+    //     anim.SetBool("IsActive", isActiveAnim);
+    // }
 
 
 }

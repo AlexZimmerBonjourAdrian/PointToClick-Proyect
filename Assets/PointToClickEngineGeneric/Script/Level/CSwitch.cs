@@ -47,6 +47,10 @@ public class CSwitch : MonoBehaviour
         {
             CLevelManager.Inst.LoadScene(2);
         }
+        else if(Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            CLevelManager.Inst.LoadScene(3);
+        }
     }
 
     public void SwitchScene(string name)

@@ -1531,4 +1531,6 @@ namespace Yarn.Unity
             public bool[] boolValues;
         }
     }
+
+    
 }

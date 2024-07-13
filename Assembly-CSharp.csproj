@@ -539,24 +539,32 @@
       <HintPath>E:\UnityInstalled\2022.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Yarn.System.Text.Encodings.Web">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Yarn.System.Text.Json">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Drawing.Common">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="YarnSpinner">
       <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Yarn.System.Text.Encodings.Web">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
+    <Reference Include="Yarn.Microsoft.Win32.SystemEvents">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Drawing.Common">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.IO.Packaging">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Bcl.AsyncInterfaces">
@@ -571,16 +579,8 @@
       <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="YarnSpinner.Compiler">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.IO.Packaging">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.Microsoft.Win32.SystemEvents">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
+    <Reference Include="Yarn.System.Text.Json">
+      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
