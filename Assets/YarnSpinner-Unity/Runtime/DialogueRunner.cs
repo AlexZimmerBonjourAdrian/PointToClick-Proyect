@@ -680,7 +680,14 @@ namespace Yarn.Unity
                 }
             }
         }
-
+public YarnProject GetYarnProject()
+{
+    if (yarnProject == null)
+    {
+        return yarnProject;
+    }
+    return null;
+}
         /// <summary>
         /// Prepares the Dialogue Runner for start.
         /// </summary>
