@@ -24,11 +24,20 @@ public class CLevel2 : CLevelGeneric
     //     }
         
     // }
+
+
+    //Todo
+    //Logica de prototipo remover luego
+    [SerializeField]
+    public List<GameObject> LevelRooms;
+
+
+
     [SerializeField] public MapData Routerooms;
 
     [SerializeField] public List<StructRoom.Room> rooms; // Lista de todas las rooms
 
-    public SpriteRenderer _SprtR;
+    //public SpriteRenderer _SprtR;
     private int currentRoomIndex; // Índice de la room actual
 
     [SerializeField]
@@ -39,6 +48,7 @@ public class CLevel2 : CLevelGeneric
 
      [SerializeField]
       private EPuzzleType.Puzzle TypePuzzle;
+
     public static CLevel2 Inst
     {
         get
@@ -62,17 +72,46 @@ public class CLevel2 : CLevelGeneric
         //rooms = Routerooms.Rooms.ToList();
         //rooms = Routerooms.Rooms.Select(x => new Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible }).ToList();
         //rooms = Routerooms.Rooms.Select(x => new Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible }).ToList();
-      //  rooms = Routerooms.GetRooms().Select(x => new StructRoom.Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible,  tag = x.tag }).ToList();
-        rooms = Routerooms.GetRooms();
+        //rooms = Routerooms.GetRooms().Select(x => new StructRoom.Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible,  tag = x.tag }).ToList();
+        
+
+        LevelRooms = GetComponentsInChildren<Room>().Select(room => room.gameObject).ToList();
+        //SetRoomActive(1,false);
         TypePuzzle = EPuzzleType.Puzzle.Sequence;
         SequencePuzzle = new List<int>();
-        _SprtR = GetComponent<SpriteRenderer>();
-        currentRoomIndex = rooms[0].id;
-        LoadRoom(currentRoomIndex); // Cargar la primera room al inicio
         _inst = this;
+          // rooms = Routerooms.GetRooms();
+        //_SprtR = GetComponent<SpriteRenderer>();
+        //currentRoomIndex = rooms[0].id;
+       // LoadRoom(currentRoomIndex); // Cargar la primera room al inicio
+        
         
     }
 
+
+ public void Start()
+{
+     for(int i = 1; i <= LevelRooms.Count-1; i++)
+        {
+            Debug.Log(i);
+            LevelRooms[i].SetActive(false);
+        }
+        LevelRooms[0].SetActive(false);
+         LevelRooms[10].SetActive(true);
+}
+
+
+  public void SetRoomActive(int roomIndex, bool isActive)
+    {
+        if (roomIndex >= 0 && roomIndex < LevelRooms.Count)
+        {
+            LevelRooms[roomIndex].SetActive(isActive);
+        }
+        else
+        {
+            Debug.LogError("Invalid room index: " + roomIndex);
+        }
+    }
 
 public void LoadRoom(int index)
     {
@@ -85,7 +124,7 @@ public void LoadRoom(int index)
                 {
                     Debug.LogWarning("La room " + index + "Es");
                     currentRoomIndex = index;
-                    _SprtR.sprite = R.RoomImage;
+                    //_SprtR.sprite = R.RoomImage;
 
                 break;
             }
