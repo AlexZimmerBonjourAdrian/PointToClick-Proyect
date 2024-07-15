@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 
 public class MapManagerEditor : EditorWindow
 {
@@ -48,10 +49,10 @@ public class MapManagerEditor : EditorWindow
 
         // Botones para crear habitaciones y guardar el mapa
         EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button("Crear Habitación"))
-        {
-            CreateRoomNode();
-        }
+        // if (GUILayout.Button("Crear Habitación"))
+        // {
+        //     CreateRoomNode();
+        // }
         if (GUILayout.Button("Guardar Mapa"))
         {
           //  SaveMapData();
@@ -123,12 +124,12 @@ public class MapManagerEditor : EditorWindow
     //     }
     // }
 
-    private void CreateRoomNode()
-    {
-        RoomNode newNode = new RoomNode(roomNodes.Count);
-        roomNodes.Add(newNode.RoomId, newNode);
-        nodeRects.Add(newNode, new Rect(position.width / 2 - 50, position.height / 2 - 25, 100, 50));
-    }
+    // private void CreateRoomNode()
+    // {
+    //     RoomNode newNode = new RoomNode(roomNodes.Count);
+    //     roomNodes.Add(newNode.RoomId, newNode);
+    //     nodeRects.Add(newNode, new Rect(position.width / 2 - 50, position.height / 2 - 25, 100, 50));
+    // }
 
    private void DrawNodes()
     {

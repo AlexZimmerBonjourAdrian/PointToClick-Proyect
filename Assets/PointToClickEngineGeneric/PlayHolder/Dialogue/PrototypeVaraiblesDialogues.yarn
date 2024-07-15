@@ -10,4 +10,5 @@ tags:
 <<declare $Loop_Responde = false>>
 
 <<declare $Activate_Event_Terror_Change_Room = false>>
+
 ===

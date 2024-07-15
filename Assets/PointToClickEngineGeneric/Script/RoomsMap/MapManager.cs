@@ -11,6 +11,7 @@ public class MapManager : MonoBehaviour
      private RoomNode currentRoomNode; // Nodo de la habitación actual
      public Dictionary<int, RoomNode> roomNodes; // Diccionario para acceder a los nodos por ID
  
+    
      // Inicializar el mapa y crear los nodos
      private void Start()
      {
