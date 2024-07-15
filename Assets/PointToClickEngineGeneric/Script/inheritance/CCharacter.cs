@@ -26,9 +26,15 @@ public class CCharacter : MonoBehaviour, Iinteract
     {
        // Debug.Log("Hola");
       //  ChangeAnimation();
-      CManagerDialogue.Inst.SetListYarn(id);
-      CManagerDialogue.Inst.StartDialogueRunner();
+      if(!CManagerDialogue.Inst.GetIsDialogueRunning())
+      {
+       // (Dictionary<string, float> floatVariables, Dictionary<string, string> stringVariables, Dictionary<string, bool> boolVariables) = CManagerDialogue.Inst.GetVariableStorage().GetAllVariables();
+       
+          CManagerDialogue.Inst.SetListYarn(id);
+          CManagerDialogue.Inst.StartDialogueRunner();
 
+
+      }
     }
     // private void ChangeAnimation()
     // {

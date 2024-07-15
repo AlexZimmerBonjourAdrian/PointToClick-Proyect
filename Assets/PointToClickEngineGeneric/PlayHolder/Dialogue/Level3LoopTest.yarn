@@ -1,13 +1,29 @@
-title: Start
+title: Loop
 tags: Loop
 colorID: 0
 position: 956,-302
 ---
-Loop: Hola que tal? 
-Loop: Soy Loop
-
+<<if  $IsYes_Tour is false && $IsMutantDialog is false>>   
+    Loop: Hola que tal? 
+    Loop: Soy Loop
 -> Loop: Y tu eres?.
-<<jump Loop_Respond>>
+    <<jump Loop_Respond>>
+
+<<elseif  $IsYes_Tour is true && $IsMutantDialog is false>>
+    Loop: hehe, vamos!.
+    <<stop>> 
+
+<<elseif $IsMutantDialog is true>>
+  Loop: No me hables, eres un cretino.
+  <<stop>> 
+
+<<elseif $Loop_Responde is true>>
+ Loop: No e visto a nadie. cuando lo haga, se lo hare Saber.
+ Loop: Haha.
+
+<<else>>
+ Loop: ha?.
+<<endif>>
 ===
 title: Soy_Player
 tags: Loop
@@ -71,7 +87,11 @@ position: 1403,411
 Loop:Que?!, NO!
 Loop:Soy una persona normal!.
 Loop:Que grosero de tu parte.
+
+<<set $IsMutantDialog to true>>
+<<NormalEnd>>
 <<stop>>
+
 ===
 title: No_Tour
 tags: Loop Player
@@ -80,7 +100,9 @@ position: 546,737
 ---
 Player:No gracias, estoy bien.
 Player:Le agradezco su cooperacion
+<<NormalEnd>>
 <<stop>>
+
 ===
 title: Yes_Tour
 tags: Loop Player
@@ -88,6 +110,8 @@ colorID: 8
 position: 205,747
 ---
 Player:Gracias, seria de gran ayuda.
+<<set $IsYes_Tour to true>>
+<<EndTerror>>
 <<stop>>
 ===
 title: Loop_Responde
@@ -98,5 +122,8 @@ position: 961,1026
 Loop: Lo hare!, 
 Loop: se lo prometo.
 Loop: hehe.
+<<set $Loop_Responde to true >>
+<<NormalEnd>>
 <<stop>>
+
 ===

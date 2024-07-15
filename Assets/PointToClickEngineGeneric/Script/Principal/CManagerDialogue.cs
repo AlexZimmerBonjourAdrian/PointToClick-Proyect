@@ -7,11 +7,16 @@ using Yarn;
 using Yarn.Compiler;
 using Yarn.Unity;
 using Yarn.Unity.Example;
+using UnityEngine.TextCore.Text;
 
 
 public class CManagerDialogue : MonoBehaviour
 {
-
+    [SerializeField]
+    private DialogueRunner dialogueRunner;
+   
+    [SerializeField]
+    private  InMemoryVariableStorage varibleStorage;
     public static CManagerDialogue Inst
     {
         get
@@ -37,12 +42,13 @@ public class CManagerDialogue : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         _inst = this;
 
-            dialogueRunner = GameObject.FindAnyObjectByType<DialogueRunner>();
+        dialogueRunner = GameObject.FindAnyObjectByType<DialogueRunner>();
+        varibleStorage = GameObject.FindAnyObjectByType<InMemoryVariableStorage>();
     }
    
-    [SerializeField]
-    private DialogueRunner dialogueRunner;
-   
+    
+
+
     [SerializeField]
     private List<YarnProject> ListYarnProyect;
 
@@ -71,4 +77,13 @@ public class CManagerDialogue : MonoBehaviour
        dialogueRunner.StartDialogue(ActualYarn.NodeNames[0]);
    }
 
+   public bool GetIsDialogueRunning()
+   {
+       return dialogueRunner.IsDialogueRunning;
+   }
+
+    private void GetVariableStorage()
+    {
+        
+    }
 }

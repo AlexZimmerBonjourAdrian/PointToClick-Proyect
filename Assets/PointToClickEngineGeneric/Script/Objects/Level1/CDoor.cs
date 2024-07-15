@@ -10,8 +10,7 @@ public class CDoor : MonoBehaviour, Iinteract
     private SpriteRenderer SpriteRender;
     private void Awake()
     {
-        CPointToClick.Inst.CreatePoint();
-      
+        CPointToClick.Inst.CreatePoint(); 
     }
     void Start()
     {
@@ -29,7 +28,12 @@ public class CDoor : MonoBehaviour, Iinteract
             Debug.LogError("El nivel no esta completo");
         }
     }
+    
 
+    public void SetRoom(int idex)
+    {
+         IndexLevel = idex;
+    }
     public void SetThisLevelIsComplete(bool isBool)
     {
         ThisLevelIsComplete = isBool;
