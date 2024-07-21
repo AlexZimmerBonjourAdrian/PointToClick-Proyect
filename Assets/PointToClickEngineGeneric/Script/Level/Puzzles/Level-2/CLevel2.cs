@@ -4,6 +4,7 @@ using Codice.Client.BaseCommands;
 using System.Linq;
 using UnityEngine;
 using JetBrains.Annotations;
+//using Patterns.GameEvents;
 
 public class CLevel2 : CLevelGeneric
 {
@@ -29,9 +30,12 @@ public class CLevel2 : CLevelGeneric
     //Todo
     //Logica de prototipo remover luego
     [SerializeField]
+    public List<int> RouteNormalRoom;
+
+    
+
+     [SerializeField]
     public List<GameObject> LevelRooms;
-
-
 
     [SerializeField] public MapData Routerooms;
 
@@ -40,14 +44,36 @@ public class CLevel2 : CLevelGeneric
     //public SpriteRenderer _SprtR;
     private int currentRoomIndex; // Índice de la room actual
 
-    [SerializeField]
-    private List<int> SequencePuzzle;
+    // [SerializeField]
+    // private List<int> SequencePuzzle;
     
     [SerializeField]
     private List<int> CorrectSequence;
 
-     [SerializeField]
-      private EPuzzleType.Puzzle TypePuzzle;
+    [SerializeField]
+    private EPuzzleType.Puzzle TypePuzzle;
+
+
+    
+    [SerializeField]
+    private bool IsTakeShootgun;
+    
+    [SerializeField]
+    private bool IsRevolver;
+    [SerializeField]
+    private bool IsMagRevolver;
+    [SerializeField]
+    private bool IsShootGunShell;
+
+    [SerializeField]
+    private bool IsFinished;
+
+    [SerializeField]
+    private bool IsTakeCard;
+
+    
+
+    private int ActualRoom = 0;
 
     public static CLevel2 Inst
     {
@@ -78,7 +104,9 @@ public class CLevel2 : CLevelGeneric
         LevelRooms = GetComponentsInChildren<Room>().Select(room => room.gameObject).ToList();
         //SetRoomActive(1,false);
         TypePuzzle = EPuzzleType.Puzzle.Sequence;
-        SequencePuzzle = new List<int>();
+       // RouteNormalRoom = new List<int>();
+        //RouteNormalRoom.Add([0,2,6,0,1,3,4,8,9,10,12]);
+       // SequencePuzzle = new List<int>();
         _inst = this;
           // rooms = Routerooms.GetRooms();
         //_SprtR = GetComponent<SpriteRenderer>();
@@ -91,26 +119,71 @@ public class CLevel2 : CLevelGeneric
 
  public void Start()
 {
-     for(int i = 1; i <= LevelRooms.Count-1; i++)
-        {
-            Debug.Log(i);
-            LevelRooms[i].SetActive(false);
-        }
-        LevelRooms[0].SetActive(false);
-         LevelRooms[10].SetActive(true);
+    SetRoomActive(0, true);
+        // LevelRooms[10].SetActive(true);
+}
+
+public void SetIsTakeShootgun(bool aBool)
+{
+    IsTakeShootgun = aBool;
+}
+
+public void SetIsRevolver(bool aBool)
+{
+    IsRevolver = aBool;
+}
+
+public void SetIsFinished(bool aBool)
+{
+    IsFinished = aBool;
+}
+public void SetIsMagRevolver(bool aBool)
+{
+    IsMagRevolver = aBool;
+}
+
+public void SetIsTakeCard(bool aBool)
+{
+    IsTakeCard = aBool;
 }
 
 
-  public void SetRoomActive(int roomIndex, bool isActive)
+
+public void SetIsShootGunShell(bool aBool)
+{
+    IsShootGunShell = aBool;
+}
+
+public bool GetIsTakeShootGun()
+{
+    return IsTakeShootgun;
+}
+
+public bool GetIsShootGunShell()
+{
+    return IsShootGunShell;
+}
+
+public void SetRoomActive(int roomIndex, bool isActive)
     {
         if (roomIndex >= 0 && roomIndex < LevelRooms.Count)
         {
             LevelRooms[roomIndex].SetActive(isActive);
+            ActualRoom = roomIndex;
+            RouteNormalRoom.Add(ActualRoom);
         }
         else
         {
             Debug.LogError("Invalid room index: " + roomIndex);
         }
+        for(int i = 0; i <=  LevelRooms.Count-1; i++)
+        {
+            if( i != ActualRoom)
+            {
+                 LevelRooms[i].SetActive(false);
+            }
+        }
+
     }
 
 public void LoadRoom(int index)
@@ -124,7 +197,7 @@ public void LoadRoom(int index)
                 {
                     Debug.LogWarning("La room " + index + "Es");
                     currentRoomIndex = index;
-                    //_SprtR.sprite = R.RoomImage;
+                    //_SprtR.sprite = R.RoomImage;                   
 
                 break;
             }

@@ -14,7 +14,8 @@ public class CMovementPlayer : MonoBehaviour, Iinteract
 
    public void MoveLocation(int id)
    {
-      CLevel2.Inst.LoadRoom(id);  
+     // CLevel2.Inst.LoadRoom(id);  
+     CLevel2.Inst.SetRoomActive(id,true);
    }
 
     public void Oninteract()

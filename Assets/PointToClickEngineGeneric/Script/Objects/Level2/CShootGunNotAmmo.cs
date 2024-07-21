@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CShootGunNotAmmo : MonoBehaviour
+public class CShootGunNotAmmo : MonoBehaviour, Iinteract
 {
-    // Start is called before the first frame update
-    void Start()
+     [SerializeField]
+    private int idRoom;
+    public void Oninteract()
     {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+            CLevel2.Inst.SetIsTakeShootgun(true);
+             CLevel2.Inst.SetRoomActive(idRoom, true);
     }
 }
