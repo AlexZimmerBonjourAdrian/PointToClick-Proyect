@@ -29,6 +29,13 @@ public class CLevel2 : CLevelGeneric
 
     //Todo
     //Logica de prototipo remover luego
+   
+    [SerializeField] 
+    private List<GameObject> POV;
+
+    [SerializeField] 
+    private List<GameObject> Mesa;
+   
     [SerializeField]
     public List<int> RouteNormalRoom;
 
@@ -37,7 +44,7 @@ public class CLevel2 : CLevelGeneric
      [SerializeField]
     public List<GameObject> LevelRooms;
 
-    [SerializeField] public MapData Routerooms;
+   [SerializeField] public MapData Routerooms;
 
     [SerializeField] public List<StructRoom.Room> rooms; // Lista de todas las rooms
 
@@ -53,6 +60,7 @@ public class CLevel2 : CLevelGeneric
     [SerializeField]
     private EPuzzleType.Puzzle TypePuzzle;
 
+ 
 
     
     [SerializeField]
@@ -71,8 +79,10 @@ public class CLevel2 : CLevelGeneric
     [SerializeField]
     private bool IsTakeCard;
 
-    
+    [SerializeField]
+    private bool IsShootMusicBox;
 
+    private CDoor doorTemp;
     private int ActualRoom = 0;
 
     public static CLevel2 Inst
@@ -100,7 +110,7 @@ public class CLevel2 : CLevelGeneric
         //rooms = Routerooms.Rooms.Select(x => new Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible }).ToList();
         //rooms = Routerooms.GetRooms().Select(x => new StructRoom.Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible,  tag = x.tag }).ToList();
         
-
+       
         LevelRooms = GetComponentsInChildren<Room>().Select(room => room.gameObject).ToList();
         //SetRoomActive(1,false);
         TypePuzzle = EPuzzleType.Puzzle.Sequence;
@@ -108,6 +118,8 @@ public class CLevel2 : CLevelGeneric
         //RouteNormalRoom.Add([0,2,6,0,1,3,4,8,9,10,12]);
        // SequencePuzzle = new List<int>();
         _inst = this;
+
+        
           // rooms = Routerooms.GetRooms();
         //_SprtR = GetComponent<SpriteRenderer>();
         //currentRoomIndex = rooms[0].id;
@@ -119,8 +131,17 @@ public class CLevel2 : CLevelGeneric
 
  public void Start()
 {
+    doorTemp = FindObjectOfType<CDoor>();
     SetRoomActive(0, true);
+    SetPovActive(0,true);
+    SetMesaActive(0,true);
         // LevelRooms[10].SetActive(true);
+}
+
+
+public void SetIsShootMusicBox(bool aBool)
+{
+    IsShootMusicBox = aBool;
 }
 
 public void SetIsTakeShootgun(bool aBool)
@@ -135,7 +156,9 @@ public void SetIsRevolver(bool aBool)
 
 public void SetIsFinished(bool aBool)
 {
+   
     IsFinished = aBool;
+    doorTemp.SetThisLevelIsComplete(aBool);
 }
 public void SetIsMagRevolver(bool aBool)
 {
@@ -147,11 +170,23 @@ public void SetIsTakeCard(bool aBool)
     IsTakeCard = aBool;
 }
 
-
-
 public void SetIsShootGunShell(bool aBool)
 {
     IsShootGunShell = aBool;
+}
+public bool GetIsShootMusicBox()
+{
+   return IsShootMusicBox;
+}
+
+public bool GetIsRevolver()
+{
+    return IsRevolver;
+}
+
+public bool GetIsMagRevolver()
+{
+    return IsMagRevolver;
 }
 
 public bool GetIsTakeShootGun()
@@ -164,6 +199,11 @@ public bool GetIsShootGunShell()
     return IsShootGunShell;
 }
 
+public bool GetIsFinishLevel()
+{
+  
+    return  IsFinished;
+}
 public void SetRoomActive(int roomIndex, bool isActive)
     {
         if (roomIndex >= 0 && roomIndex < LevelRooms.Count)
@@ -185,6 +225,48 @@ public void SetRoomActive(int roomIndex, bool isActive)
         }
 
     }
+
+    public void SetPovActive(int roomIndex, bool isActive)
+    {
+        if (roomIndex >= 0 && roomIndex < POV.Count)
+        {
+            POV[roomIndex].SetActive(isActive);      
+        }
+        else
+        {
+            Debug.LogError("Invalid room index: " + roomIndex);
+        }
+        for(int i = 0; i <=  POV.Count-1; i++)
+        {
+            if( i != roomIndex)
+            {
+                 POV[i].SetActive(false);
+            }
+        }
+
+    }
+
+    
+        public void SetMesaActive(int roomIndex, bool isActive)
+    {
+        if (roomIndex >= 0 && roomIndex < Mesa.Count)
+        {
+            Mesa[roomIndex].SetActive(isActive);      
+        }
+        else
+        {
+            Debug.LogError("Invalid room index: " + roomIndex);
+        }
+        for(int i = 0; i <=  Mesa.Count-1; i++)
+        {
+            if( i != roomIndex)
+            {
+                Mesa[i].SetActive(false);
+            }
+        }
+
+    }
+
 
 public void LoadRoom(int index)
     {

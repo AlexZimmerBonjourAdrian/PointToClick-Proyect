@@ -9,6 +9,7 @@ public class CCard : MonoBehaviour, Iinteract
      public void Oninteract()
      {
         CLevel2.Inst.SetIsTakeCard(true);
+          CLevel2.Inst.SetIsFinished(true);
         CLevel2.Inst.SetRoomActive(idRoom, true);
      }
 }

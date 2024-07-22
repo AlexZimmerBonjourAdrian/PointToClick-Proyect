@@ -6,6 +6,7 @@ public class Room : MonoBehaviour
 {  
    [SerializeField]
    private int IdRoom;
+
    private string RoomName;
 
    private void Awake()

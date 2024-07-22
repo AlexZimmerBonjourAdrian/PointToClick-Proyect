@@ -10,7 +10,7 @@ public class CShootgunShell : MonoBehaviour, Iinteract
     private int idRoom;
     public void Oninteract()
     {
-         CLevel2.Inst.SetIsShootGunShell(true);
+        CLevel2.Inst.SetIsShootGunShell(true);
         CLevel2.Inst.SetRoomActive(idRoom, true);
     }
 }

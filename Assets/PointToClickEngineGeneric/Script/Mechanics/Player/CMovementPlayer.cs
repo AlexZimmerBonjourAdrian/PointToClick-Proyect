@@ -11,7 +11,7 @@ public class CMovementPlayer : MonoBehaviour, Iinteract
         CPointToClick.Inst.CreatePoint();
         CGameEvent.current.OnMove += FunctionMove;
     }
-
+  
    public void MoveLocation(int id)
    {
      // CLevel2.Inst.LoadRoom(id);  
@@ -27,4 +27,6 @@ public class CMovementPlayer : MonoBehaviour, Iinteract
     {
        MoveLocation(id_room);
     }
+
+    
 }
