@@ -118,6 +118,7 @@
     <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\DialogueTrigger.cs" />
     <Compile Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\DialogueLogic\AventureGameEngine\Script\CExit.cs" />
+    <Compile Include="Assets\CCursor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DialogueLogic\Dialogue\Dialogue-System-master\Dialogue System\Assets\Environment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
