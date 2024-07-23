@@ -8,30 +8,30 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class MapGraph : EditorWindow
+public class MapGraph //: EditorWindow
 {
  
-        private string _fileName = "New Map";
+        // private string _fileName = "New Map";
 
-        private MapGraphView _graphView;
-        private RoomContainer _dialogueContainer;
+        // private MapGraphView _graphView;
+        // private RoomContainer _dialogueContainer;
 
-        [MenuItem("Graph/Map Graph")]
-        public static void CreateGraphViewWindow()
-        {
-            var window = GetWindow<MapGraph>();
-            window.titleContent = new GUIContent("Map Graph");
-        }
+        // [MenuItem("Graph/Map Graph")]
+        // public static void CreateGraphViewWindow()
+        // {
+        //     var window = GetWindow<MapGraph>();
+        //     window.titleContent = new GUIContent("Map Graph");
+        // }
 
-        private void ConstructGraphView()
-        {
-            _graphView = new MapGraphView(this)
-            {
-                name = "Room Graph",
-            };
-            _graphView.StretchToParentSize();
-            rootVisualElement.Add(_graphView);
-        }
+        // private void ConstructGraphView()
+        // {
+        //     _graphView = new MapGraphView(this)
+        //     {
+        //         name = "Room Graph",
+        //     };
+        //     _graphView.StretchToParentSize();
+        //     rootVisualElement.Add(_graphView);
+        // }
 
         // private void GenerateToolbar()
         // {

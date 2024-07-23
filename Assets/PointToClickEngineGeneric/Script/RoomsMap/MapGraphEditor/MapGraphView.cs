@@ -4,119 +4,119 @@ using System.Collections.Generic;
 using System.Linq;
 //using Subtegral.DialogueSystem.DataContainers;
 using UnityEditor;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class MapGraphView : GraphView
+public class MapGraphView //: GraphView
 {
-    // Start is called before the first frame update
-     public readonly Vector2 DefaultNodeSize = new Vector2(200, 150);
+    // // Start is called before the first frame update
+    //  public readonly Vector2 DefaultNodeSize = new Vector2(200, 150);
     
-    public readonly Vector2 DefaultCommentBlockSize = new Vector2(300, 200);
+    // public readonly Vector2 DefaultCommentBlockSize = new Vector2(300, 200);
 
-        public RoomNode EntryPointNode;
-        public Blackboard Blackboard = new Blackboard();
-        public List<ExposedProperties> ExposedPropeties { get; private set; } = new List<ExposedProperties>();
+    //     public RoomNode EntryPointNode;
+    //     public Blackboard Blackboard = new Blackboard();
+    //     public List<ExposedProperties> ExposedPropeties { get; private set; } = new List<ExposedProperties>();
         
-        //private NodeSearchWindow _searchWindow;
-        private Texture2D DefaultSprite;
-         void Start()
-        {
-            DefaultSprite = Resources.Load<Texture2D>("Prefab / DefaultSprite");
-        }
-         public MapGraphView(MapGraph editorWindow)
-        {
-             styleSheets.Add(Resources.Load<StyleSheet>("NarrativeGraph"));
-             SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
+    //     //private NodeSearchWindow _searchWindow;
+    //     private Texture2D DefaultSprite;
+    //      void Start()
+    //     {
+    //         DefaultSprite = Resources.Load<Texture2D>("Prefab / DefaultSprite");
+    //     }
+    //      public MapGraphView(MapGraph editorWindow)
+    //     {
+    //          styleSheets.Add(Resources.Load<StyleSheet>("NarrativeGraph"));
+    //          SetupZoom(ContentZoomer.DefaultMinScale, ContentZoomer.DefaultMaxScale);
 
 
-            // this.AddManipulator(new ContentDragger());
-            // this.AddManipulator(new SelectionDragger());
-            // this.AddManipulator(new RectangleSelector());
-            // this.AddManipulator(new FreehandSelector());
+    //         // this.AddManipulator(new ContentDragger());
+    //         // this.AddManipulator(new SelectionDragger());
+    //         // this.AddManipulator(new RectangleSelector());
+    //         // this.AddManipulator(new FreehandSelector());
 
-             var grid = new GridBackground();
-             Insert(0, grid);
-             grid.StretchToParentSize();
+    //          var grid = new GridBackground();
+    //          Insert(0, grid);
+    //          grid.StretchToParentSize();
 
-            // AddElement(GetEntryPointNodeInstance());
+    //         // AddElement(GetEntryPointNodeInstance());
 
-            // AddSearchWindow(editorWindow);
-        }
+    //         // AddSearchWindow(editorWindow);
+    //     }
 
-        public void ClearBlackBoardAndExposedProperties()
-        {
-            ExposedPropeties.Clear();
-            Blackboard.Clear();
-        }
+    //     public void ClearBlackBoardAndExposedProperties()
+    //     {
+    //         ExposedPropeties.Clear();
+    //         Blackboard.Clear();
+    //     }
 
-        public Group CreateCommentBlock(Rect rect, CommentBlockDataRoom commentBlockData = null )
-        {
-           if(commentBlockData==null)
-                commentBlockData = new CommentBlockDataRoom();
-            var group = new Group
-            {
-                autoUpdateGeometry = true,
-                title = commentBlockData.Title
-            };
-            AddElement(group);
-            group.SetPosition(rect);
-            return group;
-        }  
+    //     public Group CreateCommentBlock(Rect rect, CommentBlockDataRoom commentBlockData = null )
+    //     {
+    //        if(commentBlockData==null)
+    //             commentBlockData = new CommentBlockDataRoom();
+    //         var group = new Group
+    //         {
+    //             autoUpdateGeometry = true,
+    //             title = commentBlockData.Title
+    //         };
+    //         AddElement(group);
+    //         group.SetPosition(rect);
+    //         return group;
+    //     }  
         
-     public void AddPropertyToBlackBoard(ExposedProperties property, bool loadMode = false)
-     {
-        var localPropertyName = property.PropertyName;
-        var localPropertyValue = property.PropertyValue;
+    //  public void AddPropertyToBlackBoard(ExposedProperties property, bool loadMode = false)
+    //  {
+    //     var localPropertyName = property.PropertyName;
+    //     var localPropertyValue = property.PropertyValue;
 
-        var localPropertyNameCharacter = property.PropertyNameCharacter;
-        if (!loadMode)
-        {
-          while (ExposedPropeties.Any(x => x.PropertyName == localPropertyName))
-               localPropertyName = $"{localPropertyName}(1)";
-        }
-           var item = ExposedProperties.CreateInstance();
-            item.PropertyName = localPropertyName;
-            item.PropertyValue = localPropertyValue;
-            item.PropertyNameCharacter = localPropertyNameCharacter;
-           // item.PropertySprite = localPropertySprite;
-            ExposedPropeties.Add(item);
+    //     var localPropertyNameCharacter = property.PropertyNameCharacter;
+    //     if (!loadMode)
+    //     {
+    //       while (ExposedPropeties.Any(x => x.PropertyName == localPropertyName))
+    //            localPropertyName = $"{localPropertyName}(1)";
+    //     }
+    //        var item = ExposedProperties.CreateInstance();
+    //         item.PropertyName = localPropertyName;
+    //         item.PropertyValue = localPropertyValue;
+    //         item.PropertyNameCharacter = localPropertyNameCharacter;
+    //        // item.PropertySprite = localPropertySprite;
+    //         ExposedPropeties.Add(item);
 
-             var container = new VisualElement();
-            //Serch Elements in BlackBoard
-            var field = new BlackboardField {text = localPropertyName, typeText = "string"};
-            container.Add(field);
+    //          var container = new VisualElement();
+    //         //Serch Elements in BlackBoard
+    //         var field = new BlackboardField {text = localPropertyName, typeText = "string"};
+    //         container.Add(field);
 
-            var propertyValueTextField = new TextField("Value:")
-            {
-                value = localPropertyValue
+    //         var propertyValueTextField = new TextField("Value:")
+    //         {
+    //             value = localPropertyValue
                 
-            };
-            propertyValueTextField.RegisterValueChangedCallback(evt =>
-            {
-                var index = ExposedPropeties.FindIndex(x => x.PropertyName == item.PropertyName);
-                ExposedPropeties[index].PropertyValue = evt.newValue;
-            });
-            var sa = new BlackboardRow(field, propertyValueTextField);
-            container.Add(sa);
-            Blackboard.Add(container);
-     }
-         public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
-        {
-            var compatiblePorts = new List<Port>();
-            var startPortView = startPort;
+    //         };
+    //         propertyValueTextField.RegisterValueChangedCallback(evt =>
+    //         {
+    //             var index = ExposedPropeties.FindIndex(x => x.PropertyName == item.PropertyName);
+    //             ExposedPropeties[index].PropertyValue = evt.newValue;
+    //         });
+    //         var sa = new BlackboardRow(field, propertyValueTextField);
+    //         container.Add(sa);
+    //         Blackboard.Add(container);
+    //  }
+    //      public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)
+    //     {
+    //         var compatiblePorts = new List<Port>();
+    //         var startPortView = startPort;
 
-            ports.ForEach((port) =>
-            {
-                var portView = port;
-                if (startPortView != portView && startPortView.node != portView.node)
-                    compatiblePorts.Add(port);
-            });
+    //         ports.ForEach((port) =>
+    //         {
+    //             var portView = port;
+    //             if (startPortView != portView && startPortView.node != portView.node)
+    //                 compatiblePorts.Add(port);
+    //         });
 
-            return compatiblePorts;
-        }
+    //         return compatiblePorts;
+    //     }
 
     //   public void CreateNewDialogueNode(string nodeName, Vector2 position, Texture2D Sprite, string nameRoom,bool IsEntryPoint, bool IsEndRoom,GameObject InteractsObject, List<RoomNode> ConnectedRoomList)
     // {
@@ -209,34 +209,34 @@ public class MapGraphView : GraphView
     //     //     return tempDialogueNode;
     //     }
 
-         private Port GetPortInstance(RoomNode node, Direction nodeDirection,
-            Port.Capacity capacity = Port.Capacity.Single)
-        {
-            return node.InstantiatePort(Orientation.Horizontal, nodeDirection, capacity, typeof(float));
-        }
+        //  private Port GetPortInstance(RoomNode node, Direction nodeDirection,
+        //     Port.Capacity capacity = Port.Capacity.Single)
+        // {
+        //     return node.InstantiatePort(Orientation.Horizontal, nodeDirection, capacity, typeof(float));
+        // }
 
-        private RoomNode GetEntryPointNodeInstance()
-        {
-            var nodeCache = new  RoomNode()
-            {
-                title = "START",
-                GUID = Guid.NewGuid().ToString(),
-                ConnectedRooms = new List<RoomNode>(),
-                Interacts = null,
-                EntryPoint = false,
-                EndRoom= true
-            };
-            var generatedPort = GetPortInstance(nodeCache, Direction.Output);
-            generatedPort.portName = "Next";
-            nodeCache.outputContainer.Add(generatedPort);
+        // private RoomNode GetEntryPointNodeInstance()
+        // {
+        //     var nodeCache = new  RoomNode()
+        //     {
+        //         title = "START",
+        //         GUID = Guid.NewGuid().ToString(),
+        //         ConnectedRooms = new List<RoomNode>(),
+        //         Interacts = null,
+        //         EntryPoint = false,
+        //         EndRoom= true
+        //     };
+        //     var generatedPort = GetPortInstance(nodeCache, Direction.Output);
+        //     generatedPort.portName = "Next";
+        //     nodeCache.outputContainer.Add(generatedPort);
 
-            nodeCache.capabilities &= ~Capabilities.Movable;
-            nodeCache.capabilities &= ~Capabilities.Deletable;
+        //     nodeCache.capabilities &= ~Capabilities.Movable;
+        //     nodeCache.capabilities &= ~Capabilities.Deletable;
 
-            nodeCache.RefreshExpandedState();
-            nodeCache.RefreshPorts();
-            nodeCache.SetPosition(new Rect(100, 200, 100, 150));
-            return nodeCache;
+        //     nodeCache.RefreshExpandedState();
+        //     nodeCache.RefreshPorts();
+        //     nodeCache.SetPosition(new Rect(100, 200, 100, 150));
+        //     return nodeCache;
 
-        }
+        // }
 }
