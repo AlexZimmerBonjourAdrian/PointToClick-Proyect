@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 public class CLightSwitch : CGenericObject
 {
     
-    public bool IsActive;
+    public bool IsActive = false;
     public bool IsComplete = false;
     public SpriteRenderer SpriteBackGround;
     public Sprite[] SpriteLight;
@@ -26,14 +26,16 @@ public class CLightSwitch : CGenericObject
         if(IsComplete == false)
         {
 
-        IsActive = !IsActive;
+       
         if (IsActive)
         {
             SpriteBackGround.sprite = SpriteLight[0];
+             IsActive = !IsActive;
         }
         else
         {
             SpriteBackGround.sprite = SpriteLight[1];
+            IsActive = !IsActive;
         }
 
         }

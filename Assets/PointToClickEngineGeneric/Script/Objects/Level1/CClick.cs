@@ -9,9 +9,9 @@ public class CClick : MonoBehaviour,Iinteract
     {
         if(CLevelController.Inst.GetLevel() == 1)
         {
+          CManagerSFX.Inst.PlaySound(0);
           CGameEvent.current.OnSwitchLight();
         }
-       
         
     }
 }

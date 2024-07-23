@@ -9,6 +9,7 @@ public class CMag : MonoBehaviour, Iinteract
     public void Oninteract()
     {
         CLevel2.Inst.SetIsMagRevolver(true);
+         CManagerSFX.Inst.PlaySound(0);
          CLevel2.Inst.SetRoomActive(idRoom, true);
     }
 }

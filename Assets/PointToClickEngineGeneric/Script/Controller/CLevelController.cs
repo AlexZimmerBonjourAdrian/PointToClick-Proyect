@@ -55,8 +55,10 @@ public class CLevelController : MonoBehaviour
                 
                 if (Level.GetIsComplete())
                 {
+                     
                     Debug.Log("Entra en el complete del nivel 1");
                     CDoor OBJ = FindAnyObjectByType<CDoor>();
+                    CManagerSFX.Inst.PlaySound(3);
                     OBJ.SetThisLevelIsComplete(Level.GetIsComplete());
                     OBJ.ViewDoor();
                 }

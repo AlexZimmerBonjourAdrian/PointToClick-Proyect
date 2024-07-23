@@ -2,7 +2,6 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Plastic.Newtonsoft.Json.Bson;
 using UnityEngine;
 
 public class CLevel1 : CLevelGeneric
@@ -16,8 +15,8 @@ public class CLevel1 : CLevelGeneric
     [SerializeField]
     private EPuzzleType.Puzzle TypePuzzle;
    
-    private bool isSuccesfull;
-    private bool isComplete;
+    private bool isSuccesfull = false;
+    private bool isComplete  = false;
     public static CLevel1 Inst
     {
         get
@@ -47,32 +46,33 @@ public class CLevel1 : CLevelGeneric
     public void CheckSuccesfull(int code)
     {
        
-        if (TypePuzzle == EPuzzleType.Puzzle.Sequence)
+          if (TypePuzzle == EPuzzleType.Puzzle.Sequence)
+    {
+        if (isSuccesfull != true)
         {
-            if (isSuccesfull != true)
-            {
-                SequencePuzzle.Add(code);
-            }
-          
+            SequencePuzzle.Add(code);
+        }
 
-            if (SequencePuzzle.Count >= CorrectSequence.Count)
+        // Comparar las secuencias hasta el tamaño de la secuencia más corta
+        int minLength = Mathf.Min(SequencePuzzle.Count, CorrectSequence.Count);
+        for (int i = 0; i < minLength; i++)
+        {
+            if (SequencePuzzle[i] != CorrectSequence[i])
             {
-                foreach (var i in SequencePuzzle)
-                {
-                    if (SequencePuzzle[i] != CorrectSequence[i])
-                    {
-                       
-                        isSuccesfull = false;
-                        ResetSequence(); break;
-                    }
-                    isSuccesfull = true;
-                    SuccesfullSequence();
-                    break;
-
-                }
-                
+                CManagerSFX.Inst.PlaySound(1);
+                ResetSequence();
+                isSuccesfull = false;
+                break;
             }
         }
+
+        // Si se llega al final del bucle sin encontrar errores, la secuencia es correcta
+        if (minLength == CorrectSequence.Count)
+        {
+            isSuccesfull = true;
+            SuccesfullSequence();
+        }
+    }
     }
 
   private void ResetSequence()

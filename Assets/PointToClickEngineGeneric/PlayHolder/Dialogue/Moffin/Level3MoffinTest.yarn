@@ -93,10 +93,11 @@ tags: Moffin
 colorID: 0
 position: 651,471
 ---
--> Player: Que es vino?.
--> Player: esto es te de hongos.
--> Player: Muy comun aqui extrangero.
-
+ Moffin: Que es vino?.
+ Moffin: esto es te de hongos.
+ moffin: Muy comun aqui extrangero.
+ -> player:No tengo dinero, disculpe.
+<<jump no_tengo_dinero_disculpe>>
 ===
 title: No_tengo_terrones
 tags: Moffin

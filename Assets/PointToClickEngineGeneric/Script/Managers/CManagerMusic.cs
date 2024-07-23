@@ -30,14 +30,23 @@ public class CManagerMusic : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
     [SerializeField] public List<AudioClip> musicLists;
 
     [SerializeField] public AudioMixer audioMixer;
+
+      [SerializeField] public bool IsAutoMusic= true;
     
-   
+   public void Start()
+   {
+    if(IsAutoMusic == true)
+    {
+        PlayMusicBackground(0);
+    }
+
+   }
 
     public void PlayMusic()
 {
@@ -69,6 +78,16 @@ public class CManagerMusic : MonoBehaviour
     {
         audioSource.Pause();
     }
+}
+
+public void PlayMusicBackground(int id)
+{
+    // Buscar el AudioClip correspondiente al id
+    AudioClip clip = musicLists[id];
+    AudioSource soundObject = GetComponent<AudioSource>();
+    soundObject.clip = clip;
+    soundObject.Play();
+
 }
 
    public void FadeIn(float duration = 1f)

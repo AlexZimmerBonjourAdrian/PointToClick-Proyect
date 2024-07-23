@@ -20,6 +20,8 @@ public class CReturnMovements : MonoBehaviour, Iinteract
          id = 11;
          CLevel2.Inst.SetRoomActive(id,true);   
       }
+      
+       CManagerSFX.Inst.PlaySFX(0);
    }
 
    private void Povregion()

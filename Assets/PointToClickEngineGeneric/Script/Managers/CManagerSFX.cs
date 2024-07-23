@@ -6,11 +6,7 @@ using UnityEngine.Audio;
 using UnityEngine.Video;
 
 public class CManagerSFX : MonoBehaviour
-{
-
-
-    
-    
+{   
     public static CManagerSFX Inst
     {
         get
@@ -37,7 +33,7 @@ public class CManagerSFX : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+       // DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
 
@@ -77,11 +73,21 @@ public class CManagerSFX : MonoBehaviour
     }
 
 
+public void PlaySound(int id)
+{
+    // Buscar el AudioClip correspondiente al id
+    AudioClip clip = ListSFX[id];
+    AudioSource soundObject = GetComponent<AudioSource>();
+    soundObject.clip = clip;
+    soundObject.Play();
+
+}
 public void StopSFX()
 {
     foreach (GameObject sound in ListSounds)
     {
         sound.GetComponent<AudioSource>().Stop();
+        
     }
 }
     

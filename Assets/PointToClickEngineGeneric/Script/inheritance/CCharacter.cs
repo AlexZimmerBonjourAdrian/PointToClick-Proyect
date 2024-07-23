@@ -8,8 +8,9 @@ public class CCharacter : MonoBehaviour, Iinteract
     private Animator anim;
     private bool isActiveAnim = false;
 
-    [SerializeField]
-    private int id;
+   
+    public  int id;
+    
     
 
     [SerializeField]
@@ -19,23 +20,30 @@ public class CCharacter : MonoBehaviour, Iinteract
     void Start()
     {
         anim = GetComponent<Animator>(); 
+        
     }
 
     // Update is called once per frame
     public void Oninteract()
-    {
+    {   
+        CManagerSFX.Inst.PlaySound(0);
        // Debug.Log("Hola");
       //  ChangeAnimation();
+      
       if(!CManagerDialogue.Inst.GetIsDialogueRunning())
       {
        // (Dictionary<string, float> floatVariables, Dictionary<string, string> stringVariables, Dictionary<string, bool> boolVariables) = CManagerDialogue.Inst.GetVariableStorage().GetAllVariables();
-       
+
           CManagerDialogue.Inst.SetListYarn(id);
           CManagerDialogue.Inst.StartDialogueRunner();
-
-
       }
     }
+
+    public int GetIDCharacter()
+    {
+        return id;
+    }
+
     // private void ChangeAnimation()
     // {
     //     isActiveAnim = !isActiveAnim;

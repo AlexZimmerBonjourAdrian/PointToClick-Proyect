@@ -32,7 +32,7 @@ public class CLevelManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        DontDestroyOnLoad(this.gameObject);
+       // DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
 
@@ -61,6 +61,12 @@ public class CLevelManager : MonoBehaviour
     public void LoadSceneAsyncAdditive(string name)
     {
         _CurrentLoadScene = SceneManager.LoadSceneAsync(name, LoadSceneMode.Additive);
+    }
+
+    
+    public void ApplicationQuit()
+    {
+        Application.Quit();
     }
 
     /*

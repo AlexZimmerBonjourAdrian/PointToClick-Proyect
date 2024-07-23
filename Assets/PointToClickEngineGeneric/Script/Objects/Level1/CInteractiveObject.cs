@@ -19,7 +19,7 @@ public class CInteractiveObject : MonoBehaviour,Iinteract
       public void Selected(int id)
     {
         // Reproducir sonido de seleccion
-        CManagerSFX.Inst.PlaySFX(ESFXType.SFXType.Selected);
+       CManagerSFX.Inst.PlaySound(0);
         CLevel1.Inst.CheckSuccesfull(id);
     }
 

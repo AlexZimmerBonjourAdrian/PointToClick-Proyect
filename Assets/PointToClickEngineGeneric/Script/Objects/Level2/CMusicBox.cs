@@ -10,6 +10,7 @@ public class CMusicBox : MonoBehaviour, Iinteract
   {
     if(CLevel2.Inst.GetIsShootGunShell() && CLevel2.Inst.GetIsTakeShootGun())
     {
+       CManagerSFX.Inst.PlaySound(7);
         CLevel2.Inst.SetIsShootMusicBox(true);
         CLevel2.Inst.SetRoomActive(idRoom, true);
     }

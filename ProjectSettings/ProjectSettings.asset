@@ -39,7 +39,9 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 0}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -412,6 +414,9 @@ PlayerSettings:
     m_APIs: 150000000b000000
     m_Automatic: 1
   - m_BuildTarget: iOSSupport
+    m_APIs: 10000000
+    m_Automatic: 1
+  - m_BuildTarget: MacStandaloneSupport
     m_APIs: 10000000
     m_Automatic: 1
   m_BuildTargetVRSettings: []

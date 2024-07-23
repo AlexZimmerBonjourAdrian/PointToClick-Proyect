@@ -8,7 +8,6 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
-using Button = UnityEngine.UIElements.Button;
 
 public class MapGraphView : GraphView
 {

@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Codice.Client.BaseCommands;
 using System.Linq;
 using UnityEngine;
 using JetBrains.Annotations;
@@ -39,7 +38,7 @@ public class CLevel2 : CLevelGeneric
     [SerializeField]
     public List<int> RouteNormalRoom;
 
-    
+    private  bool EnterSound = false;
 
      [SerializeField]
     public List<GameObject> LevelRooms;
@@ -332,6 +331,15 @@ public void LoadRoom(int index)
     public void SetRouterooms(MapData Data)
     {
         Routerooms = Data;
+    }
+
+    public void Update()
+    {
+        if(GetIsShootGunShell() == true && GetIsShootGunShell() && EnterSound == false)
+        {
+            CManagerSFX.Inst.PlaySound(8);
+            EnterSound = true;
+        }
     }
 
     // public void SetCurrentRoomIndex(int index)
