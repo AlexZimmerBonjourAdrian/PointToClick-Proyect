@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarnSpinner.Editor.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor.csproj", "{0BF044C4-ED35-7168-D176-64158B004D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayModeTesting", "PlayModeTesting.csproj", "{C63177C4-7FD5-7E07-E5E0-74D051F29E04}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarnSpinnerTests.CommandsInAnAssemblyDefinition", "YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj", "{C971F2A5-B52C-D298-2C84-2D5673AE4F6F}"
 EndProject
 Global
@@ -71,10 +69,6 @@ Global
 		{0BF044C4-ED35-7168-D176-64158B004D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BF044C4-ED35-7168-D176-64158B004D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BF044C4-ED35-7168-D176-64158B004D98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C63177C4-7FD5-7E07-E5E0-74D051F29E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C63177C4-7FD5-7E07-E5E0-74D051F29E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C63177C4-7FD5-7E07-E5E0-74D051F29E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C63177C4-7FD5-7E07-E5E0-74D051F29E04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C971F2A5-B52C-D298-2C84-2D5673AE4F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C971F2A5-B52C-D298-2C84-2D5673AE4F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C971F2A5-B52C-D298-2C84-2D5673AE4F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -7,27 +7,6 @@ using JetBrains.Annotations;
 
 public class CLevel2 : CLevelGeneric
 {
- 
-    // [System.Serializable] // Permite editar la estructura en el Inspector de Unity
-    // public struct Room
-    // {
-    //     public int id;
-    //     public Sprite RoomImage;
-    //     public bool IsAccessible;
-
-    //     public string tag;
-
-
-    //     public void SetIsAccessible(bool v)
-    //     {
-    //         IsAccessible = true;
-    //     }
-        
-    // }
-
-
-    //Todo
-    //Logica de prototipo remover luego
    
     [SerializeField] 
     private List<GameObject> POV;
@@ -43,15 +22,10 @@ public class CLevel2 : CLevelGeneric
      [SerializeField]
     public List<GameObject> LevelRooms;
 
-   [SerializeField] public MapData Routerooms;
-
     [SerializeField] public List<StructRoom.Room> rooms; // Lista de todas las rooms
 
-    //public SpriteRenderer _SprtR;
     private int currentRoomIndex; // Índice de la room actual
 
-    // [SerializeField]
-    // private List<int> SequencePuzzle;
     
     [SerializeField]
     private List<int> CorrectSequence;
@@ -103,28 +77,12 @@ public class CLevel2 : CLevelGeneric
 
     public void Awake()
     {
-        //rooms = new List<Room>();
-        //rooms = Routerooms.Rooms.ToList();
-        //rooms = Routerooms.Rooms.Select(x => new Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible }).ToList();
-        //rooms = Routerooms.Rooms.Select(x => new Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible }).ToList();
-        //rooms = Routerooms.GetRooms().Select(x => new StructRoom.Room { id = x.id, RoomImage = x.RoomImage, IsAccessible = x.IsAccessible,  tag = x.tag }).ToList();
-        
+    
        
-        LevelRooms = GetComponentsInChildren<Room>().Select(room => room.gameObject).ToList();
         //SetRoomActive(1,false);
         TypePuzzle = EPuzzleType.Puzzle.Sequence;
-       // RouteNormalRoom = new List<int>();
-        //RouteNormalRoom.Add([0,2,6,0,1,3,4,8,9,10,12]);
-       // SequencePuzzle = new List<int>();
+       
         _inst = this;
-
-        
-          // rooms = Routerooms.GetRooms();
-        //_SprtR = GetComponent<SpriteRenderer>();
-        //currentRoomIndex = rooms[0].id;
-       // LoadRoom(currentRoomIndex); // Cargar la primera room al inicio
-        
-        
     }
 
 
@@ -323,15 +281,7 @@ public void LoadRoom(int index)
          return currentRoomIndex;
      }
 
-     public MapData GetRouterooms()
-     {
-        return Routerooms;
-     }
-
-    public void SetRouterooms(MapData Data)
-    {
-        Routerooms = Data;
-    }
+   
 
     public void Update()
     {

@@ -7,8 +7,6 @@ public class CGenericObject : MonoBehaviour
     [SerializeField]
     protected int id;
     [SerializeField]
-    protected CItemData item;
-    [SerializeField]
     protected new string name;
     [SerializeField]
     protected string descripcion;
