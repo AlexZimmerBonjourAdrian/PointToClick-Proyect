@@ -44,4 +44,66 @@ public class CGameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         _inst = this;
     }
+
+
+    // Métodos para inicializar y finalizar el juego
+    public void InitializeGame()
+    {
+        // Cargar niveles, configurar controles, etc.
+
+    }
+
+    public void EndGame()
+    {
+        // Guardar puntuación, mostrar pantalla de game over, etc.
+        
+    }
+
+    // Métodos para manejar eventos del juego
+    public void OnPlayerDeath()
+    {
+        // Restar vida al jugador, mostrar efecto de muerte, etc.
+    }
+
+    public void OnLevelComplete()
+    {
+        // Incrementar nivel, mostrar pantalla de victoria, etc.
+    }
+
+    // Métodos para actualizar y renderizar el juego
+    public void UpdateGame()
+    {
+        // Actualizar física, renderizar gráficos, etc.
+    }
+
+    public void RenderGame()
+    {
+        // Renderizar gráficos, mostrar HUD, etc.
+    }
+
+
+    public void SaveGame()
+    {
+        // Guardar puntuación, nivel actual, Data del inventario, Progreso, niveles completados
+    }
+
+    public void LoadGame()
+    {
+        // Cargar puntuación, nivel actual, Data del inventario, Progreso, niveles completados
+    }
+
+    public void CreateNewSaveGame()
+    {
+        // Crea una partida nueva en un slot, que gurda el progreso
+    }
+
+    public void AutoloadGamePostDeath()
+    {
+        // Carga el juego después de la muerte del jugador cuando se presiona cualquier tecla
+    }
+
+    public void DeleteInventarieItem()
+    {
+
+    }
 }
