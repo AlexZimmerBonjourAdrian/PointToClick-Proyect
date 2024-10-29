@@ -11,11 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level/Level-1.unity
     guid: 135589f2b01c6d24b8bbabed0217e9e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level/Level-2
       Android.unity
     guid: 075977f08eacfac4e83364f036aa3f88
-  - enabled: 0
+  - enabled: 1
     path: Assets/PointToClickEngineGeneric/Scenes/PlayHolder/Testing-FullGame/Games/Level/Level-2.unity
     guid: 2b480a1a39a3a2b4ca31754a9cfca1c9
   - enabled: 1
