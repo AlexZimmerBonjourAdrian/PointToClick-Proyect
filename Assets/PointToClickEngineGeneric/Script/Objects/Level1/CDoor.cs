@@ -6,7 +6,7 @@ public class CDoor : MonoBehaviour, Iinteract
 {
     [SerializeField]
     private int IndexLevel = 0;
-    private bool ThisLevelIsComplete = false;
+    [SerializeField]private bool ThisLevelIsComplete = false;
     private SpriteRenderer SpriteRender;
     private void Awake()
     {
