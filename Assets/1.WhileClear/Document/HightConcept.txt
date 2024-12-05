@@ -1,0 +1,33 @@
+Game Concept
+
+Hith Concept
+es un juego point to click en primera persona de puzzles y navegacion, no excisten dialogos ni personajes solo el lugar y los eventos, donde estas?, a donde vas?
+que eres?, que buscas? eso se revelara al final.
+
+Feacture
+
+* Ambiente inquietante ilustrado y minimalista
+* Multiplataforma(pc, consolas , celulares y otros dispositivos)
+* Storia contada con el ambiente.
+
+Storia
+Una persona sin identidad, busca entre los recuerdos de su vida para contrar su verdadero ser quien es o mejor dicho quien fue un accidente le quito su identidad siendo un fantasma, la busqueda termina con la sombra diciendole quien es en base a los objetos que le traiga.
+y las desiciones no explicitas que mencione
+
+Overview
+Empiezas con una introduccion de carl jung su frace de la sombra, empiezas en un largo pasillo, alrededor un monton de puertas, pero todas estan cerradas, excento la del frente
+Que lleva a una tetrica habitacion, en la cual se encuentra un juguete, este lo lleva a un area aun mas oscura y torcida que hay se encuentra sombras que te pueden matar.
+
+Plataforms
+Todas
+
+Player motivation
+Averiguar que es este mundo como en este mundo y cual es el final.
+
+Tag
+Point to click, horror psicologico, puzzles.
+
+
+
+
+

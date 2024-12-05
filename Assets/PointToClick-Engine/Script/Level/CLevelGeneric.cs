@@ -5,6 +5,10 @@ using UnityEngine;
 public  class CLevelGeneric : MonoBehaviour
 {
 
+    public virtual void SetRoomActive(int roomIndex, bool isActive)
+    {
+    }
+
     protected virtual void CompleteRoom()
     {
         //Debug CompleteRoom
