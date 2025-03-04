@@ -203,7 +203,7 @@ public bool GetIsFinishLevel()
   
     return  IsFinished;
 }
-public void SetRoomActive(int roomIndex, bool isActive)
+public override void SetRoomActive(int roomIndex, bool isActive)
     {
         if (roomIndex >= 0 && roomIndex < LevelRooms.Count)
         {

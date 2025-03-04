@@ -1,0 +1,77 @@
+
+
+Legal y licencias
+Este juego fue creado como MVP para el motor de point to click de zimmzimmgames todos los derechos son reservados.
+Este motor esta lisenciado, solo se le pide la cliente que mencione si uso nuestra herramienta para su proyecto.
+
+
+Mechanics
+
+Navegation 2d World.
+Guardar siempre una lista de la habitacion responsable las root
+Guardar los cambios de la habitacion y el mundo.
+
+Tener las flags guardadas y chequeadas al final del juego
+
+
+
+Doors
+Te llevan a otra sala 
+Windows
+Te llevan a una vista surrealista del exterior
+Alternate dimension
+Siempre es  lugar mas lugubre que el anterior
+
+
+Inspector Object
+algunos objetos son para inspecionar y no son tomarlos
+
+Blending tramsition
+La pantalla realiza una blendig transition.
+
+Al igual que a moverse en una habitacion pasa de una transicion de fundido a negro a color
+
+las transiciones a otor mundo son una expiral un twist distorcionado.
+
+Las transiciones a objetos del lugar son cecas y automaticas entrar y salir.
+
+
+
+Switch Scenes
+
+Death
+
+
+Historia
+
+
+Event system
+Al tomar objetos
+ *Se pueden tomar objetos y velros mas de cerca
+ *Algunos tiene cosas interesantes dentro.
+
+Al hacer pickup en el entorno
+* Puzzles escondidos
+* Puzzles secretos
+* Accionar mecanismo en el mundo.
+
+Enemigos
+Hombres sombra
+* Jumpscare muerte inmediata.
+* No realizar ningun movimiento al momento de verlos(presionar tecla o hacer el cursor).
+
+Tutorial y menu.
+el meno es minimalista una puerta blanca que se expande, letras negras con fondo blanco y simple
+
+Sistema de guardado automatico no existe el menu.
+
+El tutorial es intuitivo hasta la parte de la creatura, donde se somete por script a una confrontacion que casi mata a esta creatura.
+
+
+Plataforms seller
+
+Pc, android, iso, y demas.
+
+
+
+
