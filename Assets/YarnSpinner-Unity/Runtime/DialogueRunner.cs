@@ -11,7 +11,6 @@ using System.Reflection;
 using System;
 using System.Linq;
 
-
 namespace Yarn.Unity
 {
     /// <summary>
@@ -679,10 +678,7 @@ namespace Yarn.Unity
                     Debug.LogError($"The Yarn Project \"{yarnProject.name}\" uses the Unity Localization system, but the Unity Localization system is not currently installed. Please install it.");
 #endif
                 }
-              
             }
-
-            
         }
 public YarnProject GetYarnProject()
 {
@@ -755,28 +751,7 @@ public YarnProject GetYarnProject()
             selectAction = SelectedOption;
             return dialogue;
         }
- #region  MiImplementacion
-        private IEnumerator HandleKeywordCommand(string keyword)
-        {
-        if (verboseLogging)
-        {
-            Debug.Log($"Keyword command: {keyword}");
-        }
 
-        // Ejemplo: Buscar un nodo con el nombre "keyword_[String]"
-        string targetNodeName = $"keyword_{keyword}";
-        if (NodeExists(targetNodeName))
-        {
-            StartDialogue(targetNodeName);
-        }
-        else
-        {
-            Debug.LogWarning($"Keyword node not found: {targetNodeName}");
-        }
-
-            yield break; 
-        }
-#endregion
         internal void HandleOptions(OptionSet options)
         {
             // see comments in HandleLine for why we do this

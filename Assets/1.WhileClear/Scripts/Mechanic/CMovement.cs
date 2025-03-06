@@ -11,7 +11,7 @@ namespace WhileClear
    public void Oninteract()
    {
     
-      // CGameManager.Inst.MoveLocation(id);
+       CGameManager.Inst.MoveLocation(id);
        CManagerSFX.Inst.PlaySFX(0);
    }
 

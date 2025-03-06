@@ -6,7 +6,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
-using System;
 
 namespace Yarn.Unity
 {
@@ -294,22 +293,5 @@ namespace Yarn.Unity
             Debug.Log($"bulk loaded {floats.Count} floats, {strings.Count} strings, {bools.Count} bools");
         }
         #endregion
-        public override Type GetVariableType(string variableName)
-    {
-        if (!Contains(variableName))
-        {
-            return null;
-        }
-        if(variableTypes.ContainsKey(variableName))
-        {
-            return variableTypes[variableName];
-        }
-        else
-        {
-        return base.GetVariableType(variableName);   
-        }
     }
-    }
-
-    
 }
