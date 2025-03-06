@@ -7,6 +7,7 @@ using UnityEngine;
 using FloatDictionary = System.Collections.Generic.Dictionary<string, float>;
 using StringDictionary = System.Collections.Generic.Dictionary<string, string>;
 using BoolDictionary = System.Collections.Generic.Dictionary<string, bool>;
+using System;
 
 namespace Yarn.Unity
 {
@@ -34,6 +35,23 @@ namespace Yarn.Unity
         public abstract void SetValue(string variableName, bool boolValue);
 
         /// <inheritdoc/>
+        /// 
+         public virtual Type GetVariableType(string variableName)
+        {
+            if (!Contains(variableName))
+            {
+                return null;
+            }
+
+            // Use TryGetValue to get the variable and its type.
+            // Since we don't know the type beforehand, we'll use object and then check.
+            if (TryGetValue<object>(variableName, out object value))
+            {
+                return value.GetType();
+            }
+            
+            return null;
+        }
         public abstract void Clear();
 
         /// <summary>

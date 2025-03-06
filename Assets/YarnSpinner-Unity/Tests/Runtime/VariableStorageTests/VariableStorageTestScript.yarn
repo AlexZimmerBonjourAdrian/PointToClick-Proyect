@@ -16,8 +16,8 @@ title: DefaultValueTests
 <<declare $defaultString = "hello">>
 <<declare $defaultBool = true>>
 <<declare $defaultFloat = 999>>
+
 ===
 
-title: EmptyNode
----
-===
+
+

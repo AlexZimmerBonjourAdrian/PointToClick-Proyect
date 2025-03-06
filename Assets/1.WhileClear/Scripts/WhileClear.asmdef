@@ -2,7 +2,7 @@
     "name": "WhileClear",
     "rootNamespace": "",
     "references": [
-        "Core"
+        "Engine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
