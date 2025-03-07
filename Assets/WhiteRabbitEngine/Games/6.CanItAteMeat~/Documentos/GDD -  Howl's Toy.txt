@@ -1,0 +1,155 @@
+
+Titulo Howl's Toy
+
+Introduccion
+este documento y juego es propiedad de ZimmzimmGames todos lso derechos reservados
+
+Concept
+Eres un sujeto que compro una mascota en un portal de animales exoticos, eres una persona con dinero y la creatura era muy tienra para no comprarla, compras una jaula para ella y notas que es una mascota muy tranquila
+Pero cada vez que la dejas de mirar parece que hace cosas al principo normales y tienras, luego graciosas aunque pareciera que humanas y luego perturbadoras hasta aterradoras, llegando al final que la mascota se escapa para deborarte.
+
+historia
+Eres un persona un joven que quiere comprar una mascota pero no un gato o perro quieres comprar un conejo, pero el mas exotico que hay, compras un conejo especial que te lo venden como exotico que solo quedan pocos en el mundo el precio era economico, y tu como impulsivio que eres lo compras.
+Te llega en la noche y lo ves, es una conejo al parecer algo extraño si pero adorable, te muestra cariño al principo y cada vez cada dia la cosa se pone mas y mas rara, como verte mientras duermes, buscar comida por la noche, como comer carne o fumar. la historia la creatura termina devorandote mientras aun estas vivo con la tetrica face de "Te quiero mucho".
+
+Background
+    La creatura es un arma biologica que fue vendida para desacerse de ella y no ser arrestados, las personas que las encuentran son tratadas como locas o que esa cosa esta generada por AI no es real.
+    por mas que las imagenes sean reales.
+    Al final las creaturas escapan y no se sabe que cosas podrian hacer.
+    Son depredadores apex insteligentes.
+
+Mecanicas
+
+    Modelos 3d de habitacion low poly creados por nosotros.
+    Sistema de interacion con objetos 3d tambien poseeo ese control.
+
+    Mecanica de parpadeo, en esta mecanica, se hace una transicion de parpadeo que la imagen se torna negra con una animacion para cerrar los ojos
+    En ese aspecto la mascota puede hacer todo tipo de cosas extrañas.
+
+    Sistema para texto que muestra textos de una carta o libro.
+
+    Agregar puzzles en la computadora para poder encontrar la pagina y buscar informacion de como se controla este ser.
+
+    La creatura ejecuta sus acciones por triggers, que seria la mejor opcion para ahorrar costes.
+
+    La creatura realiza acciones para incomodar el jugador o moverse.
+
+
+    Paginas web:
+
+        Moobs de diseño web con algunos links asociados que son triggers que cargan otra imagen.
+        Seria una camara que sube y vaja, esta transicion se trata como una transicion de imagenes.
+        Estos triggers se van de la mano con los triggers de la creatura.
+
+
+        Plataformas
+        PC(Principalmente) y Android(secundario)
+
+Animaciones:
+    La mascota puede
+    Normal:
+    Dormir
+    Asicalarce
+    Estornudar
+    Rascarse la nariz
+    Ver al jugador
+    Dejar su barriga expuesta
+
+
+    Raras:
+    Cocinar su comida
+    Ducharse
+    Escribir
+    Jugar con una navaja
+    Quedarse mirando al jugador con su cabeza torcida y una sonrisa en su rostro.
+    Cortar imagenes de corazones a la mitad.
+
+    Perturbadoras
+    Posibles opciones para la mascota
+    Escribir en las paredes(Cambio en el nivel dejando las palabras escritas)
+    Fumar.
+    Amenazar el jugador
+    Girar su cabeza en 180 grados
+    Caminar por las paredes.
+    Tejer tela de araña.
+    Se le cae la cabeza y se la vuelve a colocar.
+    Pegada al techo y cambiar a una forma desagradable estirando su cuello y sacando su lengua.
+
+    Prefiero que la creatura sea 2D y que el jugador pueda verlo en su habitacion.
+
+    La animacion estan animadas a 15 fps por fotograma a doble cuadro para ahorrar costes.
+
+    El jugador puede cargarlo para guardarlo en su caja.
+
+    Transiciones suaves
+
+escenario:
+    La casa del jugador
+        * Sala
+        * Cocina
+
+    La jaula de la creatura
+    Que es una habitacion blanca con el ser haciendo cosas.
+    Se puede sacar la creatura
+
+El ser tiene unos lugares en los cuales se para o mueve
+
+ *La mesa de la cocina
+ *La pared de la cocina
+ *El refrigerador de la cocina
+ *En medio de la Sala
+ *Una de las sillas.
+
+Realmente quiero crear un personaje animado en 2d integrado en el juego.
+
+
+Estilo:
+    Tetrico desde el principio.
+
+
+GameLoop
+    Te llega el paquete y lo deja en una mesa de luz con su jaula envuelta, con una nota de que compro y que le pide que el ser tiene cuidado especiales, cualquier duda puede visitar el sitio de la pagina.
+
+    Al principio esta normal la creatura haciendo acciones, tienras.
+
+    Luego el jugador vuelve al trabajo en su computadora
+    
+    Que seria usando cualquier boton escribe un extro que es una historia.
+    
+    Luego la creatura empieza a hacer ruiodos, tienes que ir ver lo que hace, siendo que esta esta haciendo un gesto de saludo, y de alegria 
+    
+    Luego despues de eso regresas a tu computadora
+    Y la creatura vuelve a  hacer algun ruido puede ser por hambre, cosa que debes buscar que darle de comer, parece hervivoros asi que debes darle algo de comer.
+    
+    Le das de comer y regresas, El proceso continua ahora haciendo acciones que son mas raras como escribir, o hablar en monosilabas. 
+    
+    Una carta aparece debajo de tu puerta y esta dice, Matala ahora que puedes.
+    
+    Ya la cosa se pone rara, asi que decides buscar informacion en el sitio que no existe, en varios sitios mas que tampoco existen, en algun foro.
+    
+    Igual. En ese proceso el animal pide comida o que le prestes atencion.
+    
+    En ese proceso las cosas raras pasan a ser mas perturbadoras
+    
+    Al averiguar que lo que tienes hay es un arma biologica.
+    
+    La cosa tel llama de manera mas amenasante, hay se da el paso de amenazar al jugador y formzar apagones para poder aterrarte.
+    En ese momento debes buscar un cuchillo en la cocina.
+    
+    La luz se apaga, y al parecer no hay nada, desde el techo este ser te come la cabeza.
+    Fin del juego.
+
+    
+
+Motivacion del player
+    resolver el misterio de que es este ser y como se puede desacer de el.
+
+
+Programas
+    Unity, toon boon Harmony, clip studio, maya para los modelos 3d, android sdk, ads(google adsense)
+
+Movile control
+    rotacion de escenario en ves de control de movimiento, tap para poder entrar en un area o objeto, ui para volver a atras, jumpscare al final con la creatura.
+
+Plataform:
+     Plataforma PC

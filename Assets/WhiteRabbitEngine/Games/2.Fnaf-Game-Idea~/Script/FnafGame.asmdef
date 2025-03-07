@@ -1,0 +1,16 @@
+{
+    "name": "FnafGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f0656f4e8759110429570303630b0f10"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -75,13 +75,10 @@
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\WhiteRabbitEngine\1.WhileClear\Document\HightConcept.txt" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\WhiteRabbitEngine\1.WhileClear\Document\GDD.txt" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\WhiteRabbitEngine\2.Fnaf-Game-Idea\Scene\Fnaf-Idea-Wip.txt" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
@@ -91,6 +88,7 @@
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\WhiteRabbitEngine\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\WhiteRabbitEngine\Docs\Documentos.txt" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -1353,11 +1351,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="YarnSpinner.Unity.csproj" />
-    <ProjectReference Include="FirstPrototype.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.Editor.csproj" />
-    <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
     <ProjectReference Include="Core.csproj" />
-    <ProjectReference Include="WhileClear.csproj" />
+    <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
+    <ProjectReference Include="FirstPrototype.csproj" />
     <ProjectReference Include="YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
