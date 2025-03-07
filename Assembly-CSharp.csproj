@@ -60,7 +60,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\AlexZimmer\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Github\PointToClick-Proyect\Assets\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
+    <Analyzer Include="C:\Github\PointToClick-Proyect\Assets\WhiteRabbitEngine\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -69,33 +69,33 @@
     <Compile Include="Assets\CCursor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\1.WhileClear\Document\HightConcept.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\1.WhileClear\Document\GDD.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\2.Fnaf-Game-Idea\Scene\Fnaf-Idea-Wip.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\WhiteRabbitEngine\1.WhileClear\Document\HightConcept.txt" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\WhiteRabbitEngine\1.WhileClear\Document\GDD.txt" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\WhiteRabbitEngine\2.Fnaf-Game-Idea\Scene\Fnaf-Idea-Wip.txt" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\WhiteRabbitEngine\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\WhiteRabbitEngine\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -563,7 +563,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Text.Encodings.Web">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -571,7 +571,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="YarnSpinner.Compiler">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -579,23 +579,23 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="YarnSpinner">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Win32.SystemEvents">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Drawing.Common">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.IO.Packaging">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -603,15 +603,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Threading.Tasks.Extensions">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Extensions.FileSystemGlobbing">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Text.Json">
-      <HintPath>Assets\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
+      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1186,6 +1186,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1196,10 +1200,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
@@ -1352,12 +1352,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="YarnSpinner.Unity.csproj" />
     <ProjectReference Include="FirstPrototype.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.Editor.csproj" />
-    <ProjectReference Include="WhileClear.csproj" />
-    <ProjectReference Include="YarnSpinner.Unity.csproj" />
-    <ProjectReference Include="Core.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
+    <ProjectReference Include="Core.csproj" />
+    <ProjectReference Include="WhileClear.csproj" />
     <ProjectReference Include="YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
