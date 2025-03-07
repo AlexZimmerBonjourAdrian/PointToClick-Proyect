@@ -66,46 +66,18 @@
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CShootGun.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CReolver.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\CObjectColor.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Player\CPickupObject.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-4\CLevel4A.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CShootGunNotAmmo.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-4\CLevel4B.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CRevolverNotMag.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level1\CClick.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-2\CLevel2.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\CAsteroid.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level1\CInteractiveObject.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level1\CLightSwitch.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Player\CPlayer.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level1\CDoor.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CCard.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-3\CLevel3.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CShootgunShell.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CMusicBox.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Level\CLevelController.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Player\CReturnMovements.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\Level2\CMag.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Level\ELevel.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-1\CLevel1.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-0\CLevel0.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-4\CLevel4.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\C3DBox.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Player\CMovementPlayer.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Puzzles\Level-5\CLevel5.cs" />
-    <Compile Include="Assets\0.FirstPrototype\Script\Objects\CLoadImage.cs" />
     <Compile Include="Assets\CCursor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\1.WhileClear\Document\HightConcept.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\1.WhileClear\Document\GDD.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -1380,6 +1352,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FirstPrototype.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.Editor.csproj" />
     <ProjectReference Include="WhileClear.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.csproj" />

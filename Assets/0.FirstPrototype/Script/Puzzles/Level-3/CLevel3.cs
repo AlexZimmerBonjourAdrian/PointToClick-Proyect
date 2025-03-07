@@ -45,7 +45,7 @@ public class CLevel3 : CLevelGeneric
     [YarnCommand("EndTerror")]
     public static void EventEndTerror()
     {      
-        Door.SetRoom(4);
+        Door.SetRoom(5);
        Door.SetThisLevelIsComplete(true);
     }
 
@@ -70,7 +70,7 @@ public class CLevel3 : CLevelGeneric
     [YarnCommand("NormalEnd")]
     public static void EventEndNormal()
     {
-       Door.SetRoom(5);
+       Door.SetRoom(6);
        Door.SetThisLevelIsComplete(true);
 
     }
