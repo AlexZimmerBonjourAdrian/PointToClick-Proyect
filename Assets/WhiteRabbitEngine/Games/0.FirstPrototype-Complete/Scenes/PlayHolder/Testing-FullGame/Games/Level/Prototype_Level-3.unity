@@ -481,7 +481,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203108401}
-  - component: {fileID: 203108400}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -489,20 +488,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &203108400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203108399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbfbb8a1331aaf7418c4a0da394b6235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MapUI: {fileID: 0}
-  RoomIconPrefab: {fileID: 0}
 --- !u!4 &203108401
 Transform:
   m_ObjectHideFlags: 0
@@ -3642,7 +3627,6 @@ GameObject:
   - component: {fileID: 1995064636}
   - component: {fileID: 1995064640}
   - component: {fileID: 1995064639}
-  - component: {fileID: 1995064638}
   - component: {fileID: 1995064637}
   m_Layer: 0
   m_Name: Dialogue Runner
@@ -3748,18 +3732,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1995064638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995064635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1995064639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3803,7 +3775,7 @@ MonoBehaviour:
   onNodeComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1995064638}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: NodeComplete
         m_Mode: 0

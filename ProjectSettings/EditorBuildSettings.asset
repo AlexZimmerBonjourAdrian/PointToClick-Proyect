@@ -33,7 +33,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WhiteRabbitEngine/Games/0.FirstPrototype-Complete/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-4B.unity
     guid: 05b146f7e8e06db4984e6d566e4ab99a
-  - enabled: 1
+  - enabled: 0
     path: Assets/WhiteRabbitEngine/0.FirstPrototype/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-5.unity
     guid: fe5a4f37c5d8f884ca992d06f94745d7
   m_configObjects:
