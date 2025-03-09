@@ -21,5 +21,9 @@ public class CCard : MonoBehaviour, Iinteract
         CLevel2.Inst.SetIsFinished(true);
         CLevel2.Inst.SetRoomActive(idRoom, true);
      }
+     public void OnStopInteract()
+     {
+         Debug.Log("Stopped interacting with " + gameObject.name);
+     }
 }
 }

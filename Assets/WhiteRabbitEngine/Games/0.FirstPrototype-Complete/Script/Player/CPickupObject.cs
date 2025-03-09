@@ -10,6 +10,9 @@ public class CPickupObject : MonoBehaviour, Iinteract
     {
         throw new System.NotImplementedException();
     }
-
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
 }
 }

@@ -76,6 +76,10 @@ public class CReturnMovements : MonoBehaviour, Iinteract
       }
    }
 
+   public void OnStopInteract()
+   {
+       Debug.Log("Stopped interacting with " + gameObject.name);
+   }
 }
 }
    

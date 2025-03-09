@@ -32,6 +32,10 @@ public class CDoor : MonoBehaviour, Iinteract
         }
     }
     
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
 
     public void SetRoom(int idex)
     {

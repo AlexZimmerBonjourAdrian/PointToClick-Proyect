@@ -1,0 +1,78 @@
+
+Spanish template:
+
+1. Título del Juego: [Título Provisional / Título Final]
+
+2. Idea Central (High Concept):
+
+    [Descripción breve y atractiva de la idea principal del juego en 1-2 frases. Debe captar la atención inmediatamente. Ejemplo: "Un FPS cooperativo donde robots con almas de guerreros combaten hordas de demonios alienígenas, personalizando sus armas en tiempo real."]
+3. Resumen del Concepto:
+
+    [Ampliación de la idea central en 3-5 frases. Describe la jugabilidad básica, el objetivo principal del jugador y el "loop" de juego. Ejemplo: "Los jugadores controlan a Legend, un autómata animado por el alma de un antiguo guerrero. Su misión es defender el planeta Atalaya de una invasión demoníaca. Los jugadores deben sobrevivir a oleadas de enemigos, mejorar sus armas en tiempo real y colaborar para vencer las amenazas."]
+4. Género(s):   
+
+    [Lista de géneros a los que pertenece el juego. Ejemplo: FPS, Cooperativo, Supervivencia, Acción RPG]
+5. Puntos Únicos de Venta (PUV):
+
+    [3-4 viñetas que describen qué hace a este juego diferente. Ejemplo:
+        Personalización de armas en tiempo real durante la partida.
+        Personajes con formas vehiculares/transformables.
+        Sistema de progresión con elementos RPG.
+        Enfrenta a oleadas de enemigos cada vez mas grandes.
+        Un universo con historia propia. ]
+6. Características Principales:
+
+    [5-7 viñetas con las mecánicas de juego más importantes. Ejemplo:
+        Combate basado en oleadas con dificultad progresiva.
+        Sistema profundo de personalización de armas (accesorios, conversiones).
+        Progresión de personaje y habilidades (estilo RPG).
+        Economía in-game (compra/venta de armas y mejoras).
+        Modo multijugador cooperativo para 4 jugadores.
+        Diversos tipos de armas y enemigos.
+    Jefes de final de oleada. ]
+7. Público Objetivo:
+
+    [Descripción del jugador ideal. Ejemplo: "Jugadores de PC y consola que disfruten de FPS de acción rápida con fuertes elementos cooperativos, personalización de armas y un reto de supervivencia contra hordas. Fans de juegos como Killing Floor, Payday 2 y Ghost Recon."]
+8. Ambientación/Historia (Breve):
+
+    [3-4 frases que describan el mundo del juego y su historia. Ejemplo: "El planeta Atalaya está bajo el asedio de una invasión demoníaca de otro universo. Los habitantes desesperados despiertan a Legend, un antiguo autómata, infundiéndole un alma de un guerrero para que sea su última esperanza. Legend, junto con otros guardianes, debe defender Atalaya."]
+9. Motivación del Jugador:
+
+    [1-2 frases que expliquen qué impulsa al jugador. Ejemplo: "Los jugadores se sentirán motivados a sobrevivir, volverse más fuertes, proteger su mundo y superar lo imposible a través del trabajo en equipo y la personalización estratégica de sus armas."]
+10. Plataformas:
+
+    [Lista de plataformas de lanzamiento. Ejemplo: PC (Steam, Epic), PS5, Xbox Series X]
+11. Competencia:
+
+    [3-5 títulos que compiten en el mismo mercado. Ejemplo: Killing Floor 2, Deep Rock Galactic, Left 4 Dead 2, Back 4 Blood, Vermintide 2]
+12. Estilo Artístico/Visual (Breve):
+
+    [2-3 frases que describen el estilo del juego. Ejemplo: Futurista-medieval, Oscuro y fantástico]
+13. Monetización
+
+    [Como va a dar dinero, Ejemplo: Comprar el juego]
+14. Mockup
+
+    [Una imagen representativa de la idea].
+Notas Adicionales (Opcional):
+
+    [Espacio para cualquier otra información relevante que no encaje en las secciones anteriores.]
+Cómo Usar Esta Plantilla:
+
+    Sé conciso: El objetivo es una visión general rápida. No necesitas entrar en todos los detalles.
+    Sé claro: Usa un lenguaje sencillo y directo.
+    Prioriza el "gancho": La "Idea Central" es lo más importante. Debe ser atractiva e intrigante.
+    Destaca lo único: Los "Puntos Únicos de Venta" deben brillar.
+    Adapta: Ajusta la plantilla a las necesidades de cada proyecto. Algunas secciones pueden ser más o menos relevantes según el juego.
+    Revision: Revisa el texto varias veces, esto es lo que verán los demás.
+    This template is designed to be:
+
+    In Spanish: As requested.
+    Concise: For a quick overview.
+    Focused on Viability: Highlighting key elements.
+    Flexible: Adaptable to different game ideas.
+    Easy to read: With sections and sub sections.
+    I believe this template accurately addresses your request and should be useful for your future game concept documents. Let me know if you have any other questions!
+
+
+

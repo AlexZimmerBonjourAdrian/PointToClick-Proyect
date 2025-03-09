@@ -71,6 +71,12 @@ public class C3DBox : MonoBehaviour, Iinteract
 
         Debug.Log("Estoy Interactuando");
     }
+
+    public void OnStopInteract()
+    {
+        // This line of code will print the "Texto" value to the console.
+        Debug.Log("Estoy dejando de interactuar");
+    }
 }
 
 }

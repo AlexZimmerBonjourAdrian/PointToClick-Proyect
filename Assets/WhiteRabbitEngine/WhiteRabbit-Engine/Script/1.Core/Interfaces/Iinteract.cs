@@ -15,6 +15,7 @@ public interface Iinteract
     // Start is called before the first frame update
     void Oninteract();
     
+    void OnStopInteract();
     
 }
 }

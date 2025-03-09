@@ -39,5 +39,10 @@ public class CAsteroid : MonoBehaviour, Iinteract
         
     }
 
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
+
 }
 }

@@ -1,0 +1,331 @@
+Core:
+    Enums:
+        EObjectType
+        EPuzzleType
+        ESFXType
+
+    Events:
+        CGameEvent
+
+    Interfaces:
+        Iinteract
+
+    Level:
+        CLevelGeneric
+
+    Managers:
+        CLevelManager
+        CManagerMusic
+        CManagerObject
+        CManagerSFX
+        CPuzzleManager
+
+    Principal:
+        CManagerDialogue
+        CPointToClick
+        Principal
+
+    RoomsMap:
+        MapData
+        Room
+
+    SFX:
+        CSFX
+
+    Manager:
+        CGameManager
+
+    Singletons:
+        CGameManager
+
+    Structure:
+        StructRoom
+
+    Systems:
+        CSaveSystem
+
+    UI:
+        CUiAnimation
+
+
+
+Todo Important
+CPlayer - Maked
+CInteractableObject - Maked
+CInputManager - Maked
+CCamera - Maked
+CUIManager - Maked
+CManagerObject - Maked
+CItem - Maked
+CInventoryUI - Maked
+CContainer - Maked
+CDoor - Maked
+
+
+
+
+
+
+Aquí está la lista de elementos que, basándome en la estructura actual, son necesarios o serían muy beneficiosos para un juego point and click:
+
+1. Jugador (Player/Character):
+
+Clase CPlayer (o CCharacter, CProtagonist):
+Propósito: Representar al personaje controlable por el jugador.
+Atributos: Posición, inventario, estado (vivo, muerto, etc.), animaciones, atributos específicos (fuerza, inteligencia, etc.) si se necesita.
+Métodos: Moverse, Interactuar, Usar Ítem, Hablar, etc.
+2. Objetos Interactivos (Items/Objects):
+
+Clase CInteractableObject (o CItem, CObject):
+Propósito: Representar los objetos con los que se puede interactuar.
+Atributos: EObjectType, posición, nombre, descripción, estado (abierto, cerrado, roto, etc.), imagen/modelo, acciones posibles (usar, examinar, coger, etc.).
+Métodos: Interactuar (implementando IInteract), Usar, Combinar, etc.
+Inventario: Un sistema de inventario, para guardar los objetos que tiene el jugador.
+3. Interacciones Específicas:
+
+Clases para Tipos de Interacciones: Aunque IInteract es genérico, se podrían crear clases específicas que implementen IInteract:
+CDoor: Para puertas que se pueden abrir y cerrar.
+CContainer: Para contenedores que se pueden abrir para ver su contenido.
+CLever: Para palancas.
+CPuzzle: Para los rompecabezas
+CDialogueTrigger: Para objetos que inician una conversación.
+4. Interfaz de Usuario (UI) Más Completa:
+
+Clase CUIManager:
+Propósito: Gestionar toda la interfaz de usuario.
+Métodos: Mostrar/Ocultar Inventario, Mostrar/Ocultar Diálogos, Mostrar/Ocultar Menú Principal, etc.
+Inventario: Que se vea la lista de objetos que tiene el jugador.
+Clases para Elementos de la UI:
+CInventoryUI: Para mostrar el inventario.
+CDialogueUI: Para mostrar los diálogos.
+CMenuUI: Para el menú principal.
+CSubtitles: Para los subtitulos.
+5. Sistema de Input Completo:
+
+Clase CInputManager:
+Propósito: Gestionar todas las entradas del jugador (ratón, teclado, etc.).
+Métodos: Detectar Clic, Detectar Doble Clic, etc.
+Clase Cursors:
+Para tener diferentes cursores, para saber que va a hacer el jugador, ejemplo: Mirar, Coger, Interactuar, etc.
+6. Lógica de Juego Adicional:
+
+Clase CGameRules (o CGameLogic):
+Propósito: Contener reglas específicas del juego, como combinaciones de objetos, condiciones para resolver puzles, etc.
+Condiciones de Victoria/Derrota:
+Definir las condiciones para ganar o perder.
+7. Sistema de Animaciones:
+
+Clase CAnimation:
+Para las animaciones de los personajes.
+8. Sistema de Cutscenes:
+
+Clase CCutScene:
+Para las cutscenes del juego.
+9. Audio completo:
+
+Clase CAudio:
+Que controle la musica y los SFX.
+10. Camera:
+
+Clase CCamera:
+Para que el jugador pueda ver el juego.
+Resumen de Elementos Faltantes:
+
+Jugador (CPlayer)
+Objetos Interactivos (CInteractableObject)
+Clases para Interacciones Específicas (CDoor, CContainer, etc.)
+Sistema de Inventario
+UI más Completa (CUIManager, CInventoryUI, etc.)
+Sistema de Input Completo (CInputManager)
+Cursor: Para dar feedback al jugador.
+Lógica de Juego (CGameRules)
+Sistema de animaciones.
+Sistema de Cutscenes.
+Camera
+Audio completo
+En Conclusión:
+
+La base que tienes es un buen comienzo, pero para hacer un juego point and click completo, necesitas añadir las piezas que gestionan al jugador, los objetos interactivos, la interfaz de usuario, un sistema de input completo, la lógica de juego especifica del juego, y el sistema de animaciones. Tambien un sistema para la camara, un sistema de cutscenes, y un sistema de audio completo. Con esas implementaciones, tendrás una base mucho más sólida para tu juego.
+
+
+
+
+
+
+
+
+Claro que sí. He revisado todos los archivos que has proporcionado, y con base en eso, puedo armar un plan de acción en español para optimizar y mejorar tu código. Este plan se dividirá en varias etapas, abordando los diferentes aspectos que podemos mejorar, desde la eficiencia y la organización hasta la aplicación de patrones de diseño.
+
+Plan de Acción para Optimizar el Código del Proyecto "PointToClick-Proyect"
+
+Objetivo General: Mejorar la eficiencia, mantenibilidad, y estructura del código del proyecto, haciendo uso de patrones de diseño y buenas prácticas de programación.
+
+Etapas del Plan:
+
+Etapa 1: Refactorización y Limpieza del Código (Prioridad Alta)
+
+Objetivo: Eliminar código repetitivo, reducir la complejidad, y mejorar la legibilidad del código.
+
+Acciones:
+
+Eliminar OnStopInteract():
+Problema: La función OnStopInteract() está presente en muchas clases (por ejemplo, CReturnMovements, CMovementPlayer, CPickupObject, etc.) pero en su mayoría solo contiene un Debug.Log() similar o no tiene ninguna funcionalidad.
+Solución: Eliminar OnStopInteract() por completo en todas las clases que implementan Iinteract. Esto simplifica la interfaz y elimina código redundante. Modificar la Iinteract interface para que solo tenga un método Interact().
+Impacto: Reducción de la complejidad, menor cantidad de código, mayor consistencia.
+Unificar Oninteract() a Interact():
+Problema: El método para las interacciones se llama Oninteract.
+Solución: Cambiar el nombre del metodo a Interact() para mayor consistencia.
+Impacto: Mayor consistencia del código.
+Eliminar Código Comentado:
+Problema: Hay líneas de código comentadas que no aportan valor y solo generan ruido visual (por ejemplo, en CLevel2).
+Solución: Eliminar todos los fragmentos de código comentados que ya no sean necesarios.
+Impacto: Código más limpio y fácil de leer.
+Refactorizar Métodos SetRoomActive, SetPovActive, SetMesaActive en CLevel2:
+Problema: Estos métodos tienen una lógica similar para activar/desactivar objetos. Además se llaman SetActive() innecesariamente.
+Solución:
+Implementar las optimizaciones ya sugeridas para evitar llamadas innecesarias a SetActive().
+Considerar extraer la lógica común de desactivar objetos a un método privado (por ejemplo, DeactivateAllExcept()) para reducir la duplicación de código.
+Impacto: Mayor eficiencia, código más conciso, mejor mantenibilidad.
+Unificar lógica de interaccion en C3DBox y CObject
+Problema: la logica de la interaccion es similari en la C3DBox y en la CObject donde solo se imprime un log.
+Solucion: Unificar la logica en una sola clase o crear una interfaz donde se implemente.
+Impacto: Reduccion de codigo y mejor mantenibilidad.
+Eliminar hardcode:
+Problema: Hay muchos casos donde la logica esta escrita directamente en la clase.
+Solucion: Extraer la logica a una nueva clase para manejarla.
+Impacto: Reducir la dependecia entre las clases.
+Unificar los sonidos por medio de un ENUM:
+Problema: Los sonidos estan siendo llamado por id.
+Solucion: Crear un enum con los nombre de los sonido y remplazarlos donde corresponda.
+Impacto: mayor consistencia y facilidad al momento de cambiar o agregar sonidos.
+Reducir el God Object:
+Problema: la clase CLevel2 esta teniendo mucha responsabildiades.
+Solucion: Crear nuevas clases como CInventory, CPuzzleManager... para reducir la carga de CLevel2.
+Impacto: Reducir la complejidad y dependencias de una sola clase.
+Implementar el patron observer:
+Problema: la clase CLevel2 esta muy acoplada a las otras clases y sabe mucho de ellas.
+Solucion: Implementar el patron observer para que las clases solo se preocupen por mandar eventos.
+Impacto: Reducir las dependencias entre clases. Etapa 2: Aplicación de Patrones de Diseño (Prioridad Media)
+Objetivo: Mejorar la estructura del código, facilitar la extensibilidad, y reducir el acoplamiento entre clases.
+
+Acciones:
+
+Implementar el Patrón Observer:
+Problema: CLevel2 está directamente acoplado a muchas clases y tiene que consultar constantemente su estado (por ejemplo, GetIsRevolver(), GetIsShootGunShell(), etc.).
+Solución:
+Crear eventos (delegados) en las clases como CShootgunShell, CRevolverNotMag, CMusicBox, etc. que se disparen cuando su estado cambia (por ejemplo, cuando el objeto es recogido, usado, etc.).
+CLevel2 se "suscribe" a estos eventos (es decir, implementa los métodos que serán llamados cuando los eventos ocurran).
+Las clases que generan los eventos ya no necesitan saber nada sobre CLevel2; solo tienen que disparar el evento cuando corresponda.
+Impacto: Reducción del acoplamiento, código más flexible, más fácil de modificar o añadir nuevos objetos.
+Refactorizar CLevel2 a un patrón de "Gestor de Nivel":
+Problema: CLevel2 está empezando a convertirse en una clase muy grande, haciendo demasiadas cosas, lo que conocemos como "God Object".
+Solución:
+Crear Nuevas Clases:
+CPuzzleManager: Encargado de la lógica de los puzzles (secuencia, tipos, etc.).
+CInventoryManager: Encargado de la gestión del inventario del jugador (objetos recogidos, etc.).
+CRoomManager: Encargado de gestionar las rooms, el estado de las rooms, etc.
+CLevelStateManager: Encargado del estado general del nivel (completado, etc.)
+Delegar Responsabilidades: Mover la lógica respectiva de CLevel2 a estas nuevas clases.
+Reducir CLevel2: CLevel2 se convertirá en una clase más simple, encargada de orquestar el funcionamiento de los gestores.
+Impacto: Código más organizado, clases más pequeñas y con responsabilidades claras, más fácil de mantener y modificar.
+Utilizar la inyeccion de dependencia:
+Problema: Las clases estan muy acopladas y dependen unas de otras.
+Solucion: utilizar inyeccion de dependencias para tener mejor acoplamiento.
+Impacto: Reducir las dependencias y mejorar el codigo. Etapa 3: Mejora de la Eficiencia (Prioridad Media-Baja)
+Objetivo: Optimizar el rendimiento del juego, reduciendo operaciones innecesarias.
+
+Acciones:
+
+Revisar Uso de LINQ:
+Problema: El uso excesivo de LINQ puede tener un pequeño impacto en el rendimiento, aunque generalmente es mínimo.
+Solución: Si después de analizar el código con el Profiler, ves que algún bucle con LINQ es un cuello de botella, podrías considerar cambiarlo por un bucle foreach tradicional.
+Impacto: Potencial mejora de rendimiento en puntos críticos.
+Mejorar el uso de Awake y Start:
+Problema: Se usan indistintamente sin seguir un patrón.
+Solución: Definir claramente qué va en Awake (inicialización de variables y componentes) y qué va en Start (configuración inicial).
+Impacto: Mejor control del flujo de inicialización, menos posibilidades de errores.
+Utilizar el Pool de objetos:
+Problema: Se instancian muchos objetos en tiempo de ejecución.
+Solucion: Implementar un pool de objetos para poder reutilizar en vez de instanciar.
+Impacto: mejora en el rendimiento y reduccion en la cantidad de memoria. Etapa 4: Pruebas y Refinamiento (Prioridad Continua)
+Objetivo: Asegurar la calidad del código y el correcto funcionamiento del juego.
+
+Acciones:
+
+Utilizar el Unity Profiler:
+Acción: Usar el Profiler de Unity para identificar cuellos de botella en el rendimiento. Analizar CPU, renderizado, memoria y GC.
+Impacto: Detección de problemas de rendimiento, optimización basada en datos.
+Monitorizar FPS:
+Acción: Vigilar los FPS para asegurar que el juego se ejecute fluido.
+Impacto: Detección de caídas de rendimiento.
+Test unitarios:
+Accion: Implementar test unitarios para probar clases y metodos.
+Impacto: asegurar el funcionamiento del codigo al momento de refactorizarlo.
+Pruebas de Juego:
+Acción: Jugar el juego de manera exhaustiva para detectar errores y fallos.
+Impacto: Detección de errores que no se detectan con el Profiler.
+Revisión de Código:
+Acción: Realizar revisiones periódicas del código para asegurar su calidad y detectar posibles mejoras.
+Impacto: Mejora continua del código.
+Consideraciones Adicionales:
+
+Nomenclatura: Mantener una nomenclatura consistente para variables, métodos y clases.
+Comentarios: Agregar comentarios claros y concisos donde sea necesario para explicar el funcionamiento del código.
+Documentación: Crear documentación general del proyecto (README).
+Control de versiones: Hacer uso de un sistema de control de versiones.
+Ejemplo de Implementación (Patrón Observer)
+
+Aquí hay un ejemplo sencillo de cómo podrías empezar a implementar el patrón Observer para la clase CShootgunShell:
+
+
+// En CShootgunShell.cs
+using System;
+using UnityEngine;
+using WhiteRabbit.Core;
+
+namespace WhiteRabbit.FirstPrototype
+{
+    public class CShootgunShell : MonoBehaviour, Iinteract
+    {
+        public event Action OnShootgunShellCollected; // Evento que se dispara cuando se recoge el cartucho.
+        [SerializeField]
+        private int idRoom;
+
+        public void Interact()
+        {
+            CManagerSFX.Inst.PlaySound(0);
+            CLevel2.Inst.SetIsShootGunShell(true);
+            CLevel2.Inst.SetRoomActive(idRoom, true);
+
+            OnShootgunShellCollected?.Invoke(); // Disparar el evento
+            
+        }
+    }
+}
+
+// En CLevel2.cs
+// ... en el Start()
+public void Start()
+{
+    doorTemp = FindFirstObjectByType<CDoor>();
+    SetRoomActive(0, true);
+    SetPovActive(0,true);
+    SetMesaActive(0,true);
+    //Buscar la clase en el nivel
+    CShootgunShell shell = FindFirstObjectByType<CShootgunShell>(); 
+    if (shell != null)
+    {
+        shell.OnShootgunShellCollected += HandleShootgunShellCollected; // Suscribirse al evento
+    }
+    
+}
+
+private void HandleShootgunShellCollected()
+{
+    // Lógica que se ejecuta cuando se recolecta el cartucho.
+    Debug.Log("¡Se ha recogido el cartucho!");
+}
+
+//...
+
+Con este plan, podrás abordar las áreas clave de tu código, mejorando la calidad y el rendimiento de tu proyecto. Recuerda que la refactorización es un proceso iterativo, así que ve implementando las mejoras gradualmente y realizando pruebas. ¡Espero que te sirva!

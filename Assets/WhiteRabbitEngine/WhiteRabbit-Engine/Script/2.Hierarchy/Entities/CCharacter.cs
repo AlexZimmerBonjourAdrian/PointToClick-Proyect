@@ -25,6 +25,10 @@ public class CCharacter : MonoBehaviour, Iinteract
         
     }
 
+    public void OnStopInteract()
+    {
+        throw new System.NotImplementedException();
+    }
     // Update is called once per frame
     public void Oninteract()
     {   

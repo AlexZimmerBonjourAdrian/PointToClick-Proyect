@@ -66,13 +66,53 @@ public class Room : MonoBehaviour
    private string RoomName;
 
    /// <summary>
-   /// Initializes the room name to the name of the game object.
-   /// This method is called automatically when the script instance is loaded.
-   /// In this method, the RoomName is set to the name of the game object.
-   /// </summary>
-   private void Awake()
+    /// Collider that defines the area of the room.
+    /// </summary>
+    [SerializeField]
+    private Collider2D roomCollider;
+
+    /// <summary>
+    /// Initializes the room name to the name of the game object.
+    /// This method is called automatically when the script instance is loaded.
+    /// In this method, the RoomName is set to the name of the game object.
+    /// </summary>
+    private void Awake()
    {
       RoomName = gameObject.name;
+        // Try to get a collider if not set manually.
+        if (roomCollider == null)
+        {
+            roomCollider = GetComponent<Collider2D>();
+            if (roomCollider == null)
+            {
+                Debug.LogWarning("No Collider2D found for room: " + RoomName);
+            }
+        }
    }
+    /// <summary>
+    /// Gets the name of the room.
+    /// </summary>
+    public string name
+    {
+        get { return RoomName; }
+    }
+
+    /// <summary>
+    /// Checks if a given position is inside the room.
+    /// </summary>
+    /// <param name="position">The position to check.</param>
+    /// <returns>True if the position is inside the room, false otherwise.</returns>
+    public bool IsInsideRoom(Vector2 position)
+    {
+        // Ensure we have a valid collider.
+        if (roomCollider == null)
+        {
+            Debug.LogWarning("Room " + RoomName + " does not have a valid collider.");
+            return false;
+        }
+
+        // Check if the point is within the bounds of the collider.
+        return roomCollider.OverlapPoint(position);
+    }
 }
 }

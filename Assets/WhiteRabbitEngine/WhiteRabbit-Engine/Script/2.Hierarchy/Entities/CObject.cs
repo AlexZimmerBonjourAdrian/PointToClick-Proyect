@@ -70,5 +70,11 @@ namespace WhiteRabbit.Hierarchy
             // This line of code will print the "Texto" value to the console.
             Debug.Log(Texto);
         }
+
+        public void OnStopInteract()
+        {
+            // This line of code will print the "Texto" value to the console.
+            Debug.Log(Texto);
+        }
     }
 }

@@ -8,30 +8,29 @@ namespace WhiteRabbit.FirstPrototype
 {
 public class CLoadImage : MonoBehaviour, Iinteract
 {
-    //private SpriteRenderer Render = Sprite;
-    //private Image
-
-
-/*
-    void Start()
-    {
-        
-        if(Render==null)
-        {
-            
-        }
-        
-    }
-*/
+    [SerializeField]
+    private Image image;
+    [SerializeField]
+    private Sprite sprite;
+    [SerializeField]
+    private bool isLoad = false;
     public void Oninteract()
     {
-       
-
-
+        if(!isLoad)
+        {
+            image.sprite = sprite;
+            isLoad = true;
+        }
+        else
+        {
+            image.sprite = null;
+            isLoad = false;
+        }
     }
-    public void SetImage()
+    
+    public void OnStopInteract()
     {
-        //Render.sprite = 
+        Debug.Log("Stopped interacting with " + gameObject.name);
     }
 }
 

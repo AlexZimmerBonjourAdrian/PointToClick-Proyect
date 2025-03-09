@@ -13,5 +13,9 @@ public class CObjectColor : MonoBehaviour, Iinteract
 
         CGameEvent.current.OnChangeTrigger(id);
     }
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
 }
 }

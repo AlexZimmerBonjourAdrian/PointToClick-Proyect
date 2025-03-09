@@ -111,16 +111,44 @@ public class CLevelManager : MonoBehaviour
     {
         Application.Quit();
     }
+    
+     [Header("Rooms Data")]
+    // List of all rooms
+    public List<Room> rooms = new List<Room>();
 
-    /*
-     // removed this function. Not necesary for this class
-  public void LateUpdate()
-  {
-       if(_CurrentLoadScene.isDone)
-      {
-          _CurrentLoadScene = null;
-      }
-  }
-*/
+public Room GetRoomFromPosition(Vector2 position)
+    {
+        foreach (Room room in rooms)
+        {
+            if (room.IsInsideRoom(position))
+            {
+                return room;
+            }
+        }
+        Debug.LogWarning("No room found for position: " + position);
+        return null; // No room found
+    }
+
+     public void ChangeRoom(string roomName)
+     {
+        // This method is called when the player changes the room.
+        // Here you can implement the logic to update the room.
+        // For example: Load the new room or update the UI.
+        Debug.Log("Changing room to: " + roomName);
+
+        //Find the room
+        Room room = rooms.Find(r => r.name == roomName);
+
+        if(room != null)
+        {
+            // Here can add the logic to load the room
+            // For example: Change the camera position, enable/disable game objects
+        }
+        else
+        {
+            Debug.LogError("Room not found: " + roomName);
+        }
+    }   
 }
+
 }

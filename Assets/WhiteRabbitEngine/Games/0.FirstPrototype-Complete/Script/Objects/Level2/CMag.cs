@@ -14,5 +14,17 @@ public class CMag : MonoBehaviour, Iinteract
          CManagerSFX.Inst.PlaySound(0);
          CLevel2.Inst.SetRoomActive(idRoom, true);
     }
+    public int GetIdRoom()
+    {
+        return idRoom;
+    }
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
+    public void SetIdRoom(int id)
+    {
+        idRoom = id;
+    }
 }
 }

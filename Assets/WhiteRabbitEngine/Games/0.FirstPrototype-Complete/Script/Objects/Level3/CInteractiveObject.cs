@@ -39,5 +39,10 @@ public class CInteractiveObject : MonoBehaviour,Iinteract
         // Reproducir sonido de Completado
         CManagerSFX.Inst.PlaySFX(ESFXType.SFXType.Door);
     }
+
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
 }
 }

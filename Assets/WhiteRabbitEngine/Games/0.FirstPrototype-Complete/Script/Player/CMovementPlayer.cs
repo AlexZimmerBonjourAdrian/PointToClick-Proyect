@@ -29,6 +29,10 @@ public class CMovementPlayer : MonoBehaviour, Iinteract
        MoveLocation(id_room);
     }
 
+    public void OnStopInteract()
+    {
+        Debug.Log("Stopped interacting with " + gameObject.name);
+    }
     
 }
 }
