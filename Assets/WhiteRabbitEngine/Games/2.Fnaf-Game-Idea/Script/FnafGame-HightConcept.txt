@@ -1,0 +1,50 @@
+High Concept (for Investors):
+
+"Guardianes Nocturnos is a narrative-driven psychological horror point-and-click experience that blends the addictive gameplay loop of Five Nights at Freddy's with the atmospheric storytelling of Silent Hill. Players assume the role of a troubled ex-police officer trapped in a decaying, abandoned horror attraction where animatronics have come alive. The mystery unfolds through exploration, puzzle-solving, and tense evasion mechanics, culminating in multiple endings depending on the player’s choices. This unique blend of familiar addictive gameplay and emotionally resonant storytelling taps into a large and passionate fanbase while offering a fresh and mature take on the genre."
+
+Revised GDD – Guardianes Nocturnos (Investor Pitch Version):
+
+1. Título del Juego: Guardianes Nocturnos
+
+2. Idea Central (High Concept): (See above)
+
+3. Resumen del Concepto: Guardianes Nocturnos is a single-player, point-and-click survival horror game. Players take on the role of a haunted ex-police officer working the night shift at a derelict horror attraction. Animatronics, each with unique behaviors and backstories, come to life, forcing the player to rely on strategy, resource management (limited energy), and careful evasion to survive. The game's core loop involves monitoring via security cameras, strategically utilizing limited resources, uncovering clues within the environment, solving puzzles, and making critical decisions that impact the branching narrative and multiple endings. The story unfolds through environmental storytelling, creating a deeply unsettling and atmospheric experience.
+
+4. Género(s): Terror Psicológico, Survival Horror, Point-and-Click, Mystery, Narrative Adventure
+
+5. Puntos Únicos de Venta (PUV):
+
+Mature Narrative: Deeper, more complex storyline than comparable titles, attracting players seeking narrative depth beyond simple survival.
+Unique Animatronics: Original designs and backstories for each animatronic, making them more than just jump scares; they are integral to the mystery.
+Branching Narrative & Multiple Endings: High replayability through meaningful player choices and varied conclusions.
+Strategic Gameplay: Energy management adds a layer of tension and decision-making beyond simple hiding.
+Atmospheric Immersion: A focus on psychological horror, using sound design and environmental storytelling to build tension and dread.
+6. Características Principales:
+
+Security Camera Monitoring
+Resource Management (Energy)
+Environmental Puzzles & Clues
+Evasion Mechanics (Hiding, Distraction)
+Branching Narrative
+Multiple Endings
+Compelling, Atmospheric Setting
+Original Animatronic Designs
+Point-and-Click Gameplay
+7. Público Objetivo:
+
+Players aged 16+ who enjoy narrative-driven horror games with a strong emphasis on atmosphere, mystery, and replayability. This targets fans of Five Nights at Freddy's, Silent Hill, Layers of Fear, and similar titles, but with an added emphasis on mature themes and story depth. This also reaches beyond core gamers to those who enjoy immersive narrative experiences.
+
+8. Ambientación/Historia (Breve): The abandoned "House of Horrors" amusement park hides a dark secret linked to the protagonist's traumatic past. He must confront his demons and unravel the truth behind the malevolent animatronics while surviving each night.
+
+9. Motivación del Jugador: Survive the nights, uncover the truth behind the animatronics and the protagonist's past, and experience multiple narrative outcomes based on player choices.
+
+10. Plataformas: PC (Steam, Epic Games Store), with potential for console ports (PS5, Xbox Series X/S, Switch) depending on success.
+
+11. Competencia: Five Nights at Freddy's, Bendy and the Ink Machine, Layers of Fear series, Silent Hill series. Our unique blend of these elements sets us apart.
+
+12. Estilo Artístico/Visual (Breve): Dark, semi-realistic style emphasizing a decaying and oppressive atmosphere.
+
+13. Monetización: Premium one-time purchase model with potential for future DLC expanding the narrative or adding gameplay features.
+
+14. Mockup: [Include a compelling mockup or concept art showcasing the atmosphere and animatronics.]
+

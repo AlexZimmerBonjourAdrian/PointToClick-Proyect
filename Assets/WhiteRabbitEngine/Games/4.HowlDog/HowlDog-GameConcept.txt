@@ -1,0 +1,94 @@
+Este juego se trata de un scapeRoom de Terror Psicologico, en el cual tienes a un perro llamado Samael, el cual habla de forma criptica
+
+El jugador es un asesino el cual alucina con un perro que lo juzga, este habla de su pasado cosas que hizo pero no recuerda o no le importa, el jugador puede responder con palabras en concreto, Como un Test Psicologico.
+Hay dos finales la primera es Ser devorado por el perro transcurrido seis dias y no haber escapado, o escapar solo para darte cuenta de que estas en una institucion mental.
+
+Game Concept Analysis: HowlDog
+
+Core Idea: A psychological horror escape room where a hallucinated, cryptically-speaking dog, Samael, judges the player, an amnesiac serial killer.
+
+Narrative Premise:
+
+Player Character: A serial killer struggling with repressed memories and guilt.
+Samael: A talking dog, possibly a manifestation of the player's conscience or a demonic entity, acting as judge and guide (in a twisted way).
+Setting: An enclosed, potentially shifting environment representing the player's psyche or a purgatory-like space.
+Central Conflict: The player must confront their past deeds and escape the dog's judgment.
+Two Endings:
+Failure: Being consumed by Samael after six days.
+Success: Escaping, but revealing the player is in a mental institution.
+Game Designer Breakdown:
+
+1. Fun Mechanics:
+
+Psychological Test Dialogue:
+Mechanic: Samael presents cryptic statements or questions about the player's past. The player selects specific keywords or phrases from a limited list to respond.
+Purpose: To uncover pieces of the protagonist's fragmented memories and create a sense of psychological unraveling.
+Example: Samael says, "They screamed your name." The player can choose to respond with "I don't remember," "They deserved it," "Why?" or "I feel nothing".
+Consequence: Depending on the answers, Samael change his dialog or how the room changes, also unlock or lock new zones.
+Memory Fragments:
+Mechanic: The environment contains objects, notes, or visual distortions that trigger flashbacks or memory fragments.
+Purpose: To gradually reveal the player's past actions and build a disturbing picture of their crimes.
+Example: a knife, a red stain, a note with a adress.
+Environmental Storytelling:
+Mechanic: The escape room setting changes subtly over time, reflecting the protagonist's mental state.
+Purpose: To create a sense of unease and psychological manipulation.
+Example: Walls might bleed, shadows may move on their own, or the environment might distort.
+Samael's Presence:
+Mechanic: Samael's position in the enviroment, may be unseen for the player, but the player can hear him, or his presence, but not see him.
+Purpose: Give to the player a constant pressure.
+Example: the player see his shadow, or hear his step, in the distance.
+Puzzle Solvig:
+Mechanic: The player can find various puzzles, like inventory puzzles, enviromental, etc.
+Purpose: To give a sense of proggresion, to the player.
+Example: The player need to find a key, or a password, to unlock a door.
+Limited Time:
+Mechanic: A six-day countdown to represent the player's mental stability or Samael's patience.
+Purpose: To create a sense of urgency and risk, pushing the player to act quickly.
+Example: The day change by events, or just over time.
+2. Core Loop:
+
+Enter Room/Area: The player starts in a new area of the escape room.
+Samael's Judgment: Samael delivers a cryptic line or asks a question.
+Player's Response: The player selects a response, triggering memory fragments or altering the environment.
+Explore and Discover: The player explores the environment, finding objects, clues, and memory triggers.
+Solve Puzzles: The player solves puzzles to unlock new areas or progress.
+Day Progress: Time advances, bringing the player closer to the deadline.
+Repeat: Continue to step 2.
+Ending: If six days pass, the player is consumed. If they solve the final puzzle before the deadline, they escape to the mental institution reveal.
+3. Game Feel:
+
+Oppressive Atmosphere: The game should evoke feelings of unease, guilt, and paranoia.
+Psychological Discomfort: Samael's cryptic dialogue and the distorted environment should create psychological pressure.
+Sense of Mystery: The player should be driven by a desire to understand their past and Samael's nature.
+Fragmented Reality: The changing environment should make the player question what is real and what is not.
+Limited Control: The player is at the mercy of Samael's judgment and the environment's shifts.
+Loneliness: The player is all the time with Samael, and he is an hallucination, so he must feel alone.
+4. Risk and Reward:
+
+Risk:
+Time Limit: Failure to escape in six days results in death.
+Wrong Choices: Incorrect answers to Samael might trigger negative consequences, such as environmental traps or blocked pathways.
+Mental Deterioration: The environment's changes could be traps or obstacles to overcome.
+Reward:
+Unlocking Memories: Successfully navigating Samael's tests reveals more about the player's past.
+Environmental Clues: Exploring thoroughly provides more story context and puzzle solutions.
+Progress: Solving puzzles opens new areas and brings the player closer to escape.
+Multiple Endings: The opportunity to see both endings by replaying.
+Understanding: The player can understant who he is, and why is in this situation.
+5. Clear Objectives:
+
+Primary Objective: Escape the environment before six days pass.
+Secondary Objective: Uncover the truth about the player's past and the meaning of Samael.
+Hidden Objective: the player can understand if Samael is his conscience, a demon, etc.
+Daily Objectives: Each day might have a specific puzzle or set of memory fragments to uncover.
+Ending Objectives: Achieve either the "devoured" ending or the "institution" ending.
+Further Development Notes:
+
+Samael's Voice: The voice acting for Samael is crucial. It should be cryptic, unsettling, and potentially shifting in tone.
+Visual Design: The escape room should be dark, claustrophobic, and filled with unsettling details.
+Sound Design: Atmospheric sounds, whispers, and disturbing noises will be key to the horror experience.
+Game Play style: The game is more focus in the narrative, and the puzzles and game play are the secondary part.
+Conclusion:
+
+The "HowlDog" concept has great potential for a compelling psychological horror game. By focusing on these mechanics, core loop, game feel, risk/reward system, and clear objectives, you can create an experience that is both deeply unsettling and narratively satisfying. The key is to leverage the psychological horror aspects and the unique relationship between the player and Samael to create a truly memorable and disturbing adventure.
+

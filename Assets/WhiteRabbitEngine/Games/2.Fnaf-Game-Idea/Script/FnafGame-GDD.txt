@@ -1,0 +1,282 @@
+
+Título del Juego: Guardianes Nocturnos
+Género: Terror Psicológico, Survival Horror, Point-and-Click, Misterio.
+Idea Central (High Concept): Un guardia de seguridad, atormentado por su pasado, es contratado para vigilar una atracción de terror abandonada donde los animatrónicos cobran vida, pero las apariencias engañan.
+Público Objetivo: Jugadores de 16+ que disfrutan de juegos de terror con una fuerte narrativa, misterios, y una atmósfera opresiva. Fans de FNAF que buscan una experiencia más profunda y madura.
+Puntos Únicos de Venta (PUV):
+Narrativa profunda y ramificada con múltiples finales.
+Animatrónicos con diseños únicos, comportamientos complejos y una historia oculta.
+Atmósfera de tensión constante, con elementos de terror psicológico.
+Sistema de "combate" basado en evitar, distraer y resolver situaciones.
+Misterio profundo que se va desvelando progresivamente.
+Objetivo Principal del Juego: Sobrevivir a las noches en la atracción, descubrir la verdad sobre los animatrónicos y el pasado del protagonista.
+Porque este juego va a tener exito: La combinación de terror psicologico, misterio, una buena historia, y una jugabilidad desafiante.
+2. Visión General
+
+2.1. Idea Central (High Concept): "Guardianes Nocturnos" sumerge al jugador en una atracción abandonada donde deberá sobrevivir a las noches, desentrañando un misterio sobre unos animatronicos y el pasado del protagonista.
+2.2. Resumen del Juego: El jugador controla a un guardia de seguridad contratado para vigilar "La Casa de los Horrores", una antigua atracción de terror. Cada noche, los animatrónicos cobran vida de forma misteriosa, mostrando comportamientos erráticos y peligrosos. El jugador deberá utilizar las cámaras de seguridad, los sistemas de iluminación y otros recursos para monitorear y evitar a las criaturas, mientras descubre la verdad tras la maldición que pesa sobre el lugar. El protagonista tiene un pasado oscuro que esta ligado con el lugar.
+2.3. Género(s): Terror Psicológico, Survival Horror, Point-and-Click, Misterio, Aventura.
+2.4. Público Objetivo: Jugadores de 16 años en adelante que disfrutan de juegos de terror con una trama profunda, puzzles, y una gran atmósfera. Fans de FNAF que quieran una experiencia más rica en historia. Jugadores que prefieran un ritmo lento.
+2.5. Plataformas: PC (Steam, Epic), posiblemente consolas en el futuro (PS5, Xbox Series X, Nintendo Switch).
+2.6. Puntos Únicos de Venta (PUV):
+Narrativa ramificada: Las decisiones del jugador impactan en la historia y el final.
+Animatrónicos únicos: Cada uno con su personalidad, comportamiento y trasfondo.
+Terror psicológico: Manipulación de la percepción del jugador, creando una atmósfera inquietante.
+Misterio profundo: La verdad sobre la atracción y los animatrónicos se irá revelando poco a poco.
+Sistema de evasión: En vez de luchar, el jugador deberá esconderse y distraer.
+2.7. Competencia: Five Nights at Freddy's, Bendy and the Ink Machine, Layers of Fear, Silent Hill, Resident Evil, Detention.
+3. Mecánicas de Juego
+
+3.1. Mecánicas Principales:
+Monitoreo: Usar cámaras de seguridad para vigilar las habitaciones y el movimiento de los animatrónicos.
+Evasión: Evitar ser detectado por los animatrónicos. Esconderse, usar distracciones.
+Gestión de Energía: Controlar el consumo de energía de las cámaras, luces y otros sistemas.
+Investigación: Buscar pistas, notas, y objetos para desvelar la historia.
+Interacción con el Entorno: Manipular objetos, accionar mecanismos, resolver puzzles.
+3.2. Progresión del Jugador:
+Narrativa: El jugador va descubriendo la historia a medida que avanza en las noches.
+Acceso a nuevas áreas: Algunas zonas se desbloquearán al encontrar objetos clave.
+Conocimiento: Aprender los patrones de comportamiento de los animatrónicos.
+3.3. Inventario y Gestión de Recursos:
+Inventario Limitado: El jugador podrá llevar consigo solo algunos objetos clave.
+Gestión de la Energia: Hay que controlar el consumo de la energia.
+Objetos clave: Notas, fotos, herramientas, etc.
+3.4. Sistema de Puzzles:
+Puzzles Ambientales: Interactuar con el entorno para activar mecanismos o encontrar pistas.
+Puzzles de Lógica: Decodificar mensajes, resolver acertijos.
+Dificultad Variable: Algunos puzzles serán opcionales, otros serán esenciales para progresar.
+3.5. Sistema de Diálogo y Decisiones:
+Diálogo Limitado: El protagonista hablará consigo mismo, pero no con otros personajes.
+Decisiones Clave: En ciertos momentos, el jugador deberá tomar decisiones que afectarán la historia y el final.
+Concecuencias: Las decisiones van a tener concecuencias.
+3.6. Sistema de "Combate" (Evitar/Distracción):
+No hay combate directo: El jugador no puede atacar a los animatrónicos.
+Evasión: Esconderse, moverse en las sombras.
+Distracción: Usar sonidos, luces u objetos para desviar la atención de los animatrónicos.
+Sobrevivir: El objetivo es sobrevivir cada noche.
+3.7. Mini-Juegos (Si aplica):
+Minijuegos ocasionales que se integran con la historia (ej. reparar un sistema electrico).
+3.8. Controles:
+Click Izquierdo: Interactuar con objetos, activar mecanismos.
+Click Derecho: Observar objetos en detalle, acceder al inventario.
+WASD: Moverse por el escenario.
+Barra Espaciadora: Esconderse
+F: Usar linterna.
+M: Acceder al mapa.
+4. Narrativa y Mundo del Juego
+
+4.1. Ambientación y Mundo:
+La Casa de los Horrores: Una vieja atracción de terror, ahora abandonada, en un pueblo apartado.
+Atmósfera Opiva: Suciedad, habitaciones oscuras, desperfectos, todo esta roto.
+Secretos Ocultos: Cada rincón de la atracción guarda una pista sobre su pasado.
+4.2. Historia Principal: El protagonista, un ex-policía atormentado por un trágico suceso de su pasado, acepta el trabajo de guardia de seguridad en la abandonada atracción "La Casa de los Horrores". Pronto, descubre que los animatrónicos que allí habitan cobran vida durante la noche, pero no son simples máquinas. A medida que avanza la semana, deberá enfrentarse a sus propios demonios y descubrir el oscuro secreto que se esconde tras la atracción.
+4.3. Personaje Principal:
+Nombre: [A definir]
+Trasfondo: Ex-policía, con un pasado traumático que le atormenta.
+Personalidad: Reservado, observador, inteligente.
+Motivación: Redención, buscar respuestas, sobrevivir.
+4.4. Personajes Secundarios:
+Los Animatrónicos: Cada uno con una personalidad, comportamiento y trasfondo.
+Voces del Pasado: Fantasmas o recuerdos del pasado.
+4.5. Trasfondo (Lore):
+Historia de "La Casa de los Horrores": ¿Qué ocurrió allí? ¿Por qué fue abandonada?
+Origen de los Animatrónicos: ¿Por qué cobran vida? ¿Quién los creó?
+El pasado del protagonista: ¿Qué le ocurrió antes de llegar a la atracción?
+4.6. Motivación del Jugador:
+Sobrevivir: A cada noche, evitando a los animatrónicos.
+Descubrir la verdad: Sobre los animatrónicos, la atracción y el pasado del protagonista.
+Enfrentar su propio pasado: Las decisiones del jugador afectarán al destino del personaje.
+Conseguir los diferentes finales: Dependiendo de las decisiones que tome el jugador, puede conseguir uno u otro final.
+5. Diseño de Niveles
+
+5.1. Estructura General:
+Un solo nivel: La atracción "La Casa de los Horrores" será el único escenario.
+Zonas Interconectadas: Pasillos, habitaciones, salas de máquinas, etc.
+Espacios Cerrados: La mayoria de las zonas estaran cerradas.
+5.2. Áreas Clave:
+Oficina de Seguridad: Punto de inicio, con cámaras y controles.
+Sala Principal: Zona con animatrónicos principales.
+Almacén: Zona oscura, con objetos clave.
+Túneles: Pasadizos secretos.
+Cuarto de servicio: Donde se reparan los animatronicos.
+5.3. Interacción con el Entorno:
+Puertas: Abrir y cerrar puertas.
+Luces: Encender y apagar luces.
+Objetos: Manipular objetos para resolver puzzles o distraer a los animatrónicos.
+Ventanas: Vigilar lo que ocurre afuera.
+5.4. Puntos de Interés:
+Animatrónicos: Lugares donde se encuentran los animatrónicos.
+Objetos Clave: Zonas con objetos esenciales para progresar.
+Eventos: Zonas donde ocurren eventos importantes.
+5.5. Progresión:
+Desbloqueo de zonas: Algunas áreas se desbloquearán al avanzar en la historia y encontrar objetos.
+Noches: El juego tiene noches, y se van desbloqueando según avanzamos.
+6. Arte y Estilo Visual
+
+6.1. Estilo Artístico: Semi-Realista, oscuro, opresivo.
+6.2. Paleta de Colores: Tonos oscuros, grises, marrones. Toques de rojo y amarillo para puntos de interés.
+6.3. Diseño de Personajes (Animatrónicos y Humanos):
+Animatrónicos: Diseños originales, que dan miedo y tienen una sensación de estar rotos.
+Protagonista: Persona normal, con un aspecto cansado.
+6.4. Diseño de Entornos: Decrépito, sucio, abandonado. Oscuridad y zonas iluminadas.
+6.5. Interfaz de Usuario (UI): Minimalista, clara, sencilla.
+7. Sonido y Música
+
+7.1. Estilo Musical: Ambientación de terror, sonidos industriales, melodías distorsionadas.
+7.2. Efectos de Sonido: Crujidos, susurros, pasos, ruidos de máquinas. Sonidos que aumentan la tensión.
+7.3. Actuación de Voz (Si aplica): Voz del protagonista para narrar o hablar consigo mismo.
+8. Interfaz de Usuario (UI) y Experiencia de Usuario (UX)
+
+8.1. Cursor y Interacción: Cursor simple, cambia al interactuar.
+8.2. Inventario: Diseño sencillo, con información de los objetos.
+8.3. Menús: Claros y fáciles de navegar.
+8.4. HUD (Heads-Up Display):
+Noche actual: Que noche es.
+Energia: Cuanta energia queda.
+Mapa: Para ver la estructura de la atraccion.
+Item: Si llevas un item en la mano.
+8.5. Tutoriales: Integrados en la primera noche, se enseña de manera organica.
+9. Inteligencia Artificial (IA)
+
+9.1. Comportamiento de los Animatrónicos:
+Patrullaje: Se mueven por la atracción según una ruta.
+Detección: Reaccionan al sonido y a la luz.
+Persecución: Si detectan al jugador, lo perseguirán.
+Patrones: Cada animatrónico tendrá su patrón.
+9.2. Comportamiento de PNJ (Si aplica): Solo la voz del protagonista.
+10. Monetización
+
+10.1. Método de Monetización: Compra única del juego.
+11. Equipo de Desarrollo
+
+
+
+=======================================================================================================================================
+
+hat and analyze the provided GDD ("Guardianes Nocturnos") specifically focusing on the elements of Fun Mechanics, Core Loop, Game Feel, Risk and Reward, and Clear Objectives. I'll break down each of these aspects based on what's described in the document.
+
+Here's my professional Game Designer analysis:
+
+Game: Guardianes Nocturnos (Analysis)
+
+1. Fun Mechanics
+
+Fun mechanics are the specific gameplay systems and interactions that make a game enjoyable and engaging. Let's see what's in "Guardianes Nocturnos":
+
+Monitoreo (Monitoring):
+Fun Potential: The use of security cameras to track the animatronics' movements has high potential. It can create a sense of voyeurism and suspense. The player is not directly interacting with the danger, but observing it from afar, which can be very tense.
+Challenges: It needs to be more than just watching screens. There needs to be a reason to monitor specific areas, and information gained from it needs to be useful.
+How to make it more fun: Add different cameras with different perks. Some cameras can have better vision but less range, or viceversa.
+Evasión (Evasion):
+Fun Potential: Hiding, sneaking, and using distractions are core horror mechanics. Successfully outsmarting the animatronics will provide a strong sense of accomplishment.
+Challenges: The mechanics need to feel responsive and fair. If the player feels like evasion is random or the animatronics can "cheat," it will be frustrating, not fun.
+How to make it more fun: Add more ways of hiding, like under a table, or inside a locker.
+Gestión de Energía (Energy Management):
+Fun Potential: This adds a layer of strategic resource management. Players must decide what to prioritize (lights, cameras, etc.), which can lead to tense situations and difficult choices.
+Challenges: If too punishing, it can become a chore instead of a fun challenge. The player needs to feel that their choices matter.
+How to make it more fun: Add the option of saving more energy by using the minimun of cameras, but with more risk.
+Investigación (Investigation):
+Fun Potential: Discovering the lore and piecing together the mystery are key motivators for players of this type of game. Finding hidden notes and secrets can be very rewarding.
+Challenges: The story needs to be intriguing and well-written. The player needs to feel like they are actively uncovering the mystery, not just being fed exposition.
+How to make it more fun: Add hidden rooms, or hidden notes.
+Interacción con el Entorno (Environmental Interaction):
+Fun Potential: Manipulating objects, solving environmental puzzles, and finding secret passages makes the game world feel more alive and interactive.
+Challenges: Puzzles need to be logical and have clear visual and audio cues. "Pixel hunting" (searching for tiny objects) is generally not fun.
+How to make it more fun: Add differents types of interactions.
+Mini-Juegos:
+Fun Potential: Minigames can be very fun, and if they are well integrated, they can add a lot of depth.
+Challenges: They need to be well made, and not be repetitive.
+How to make it more fun: Make each mini game different and unique.
+2. Core Loop
+
+The core loop is the repeated sequence of actions that a player performs throughout the game. It's the heart of the gameplay experience. In "Guardianes Nocturnos," the core loop looks like this:
+
+Start of Night: The player begins a new night in the security office.
+Monitoreo (Monitoring): The player checks the security cameras to track animatronic movements.
+Planificación (Planning): The player assesses the situation and makes decisions about which areas to focus on and how to manage energy.
+Evasión (Evasion): If an animatronic gets too close, the player must evade it by hiding or using distractions.
+Investigación (Investigation): The player explores the environment, looking for clues and objects to progress.
+Interacción (Interacción): The player interacts with the environment, opening doors, turning on lights, and manipulating objects.
+Resolución de Puzzles (Puzzle Solving): The player solves puzzles to progress or unlock new areas.
+Repeat: The cycle repeats until the night ends (or the player is caught).
+Night ends: If the player survive, the next night starts.
+Analysis:
+
+Strong Potential: This core loop is strong because it combines tension, strategy, and exploration. It's a good foundation for a horror game.
+Clear Purpose: Each action in the loop has a clear purpose (avoid danger, gather information, progress).
+Needs refinement: The core loop can be improved by adding more mechanics, and differents ways to interact with the world.
+3. Game Feel
+
+Game feel is the overall sensory experience of playing the game. It's how the controls feel, how responsive the character is, and how satisfying the interactions are.
+
+Movement:
+Potential: The WASD movement suggests a free-roaming experience.
+Challenges: The movement needs to feel fluid and responsive, not clunky or sluggish. In a horror game, it's important to convey a sense of vulnerability, but not to the point of making movement feel frustrating.
+Interaction:
+Potential: Point-and-click interaction can be very satisfying when done well.
+Challenges: Interactions need to be clear and consistent. The player needs to know what they can interact with and how.
+Evasion:
+Potential: The act of hiding and sneaking can create intense moments of suspense.
+Challenges: The player needs to have clear visual and auditory cues about whether they are hidden or not. The animatronics need to have consistent rules for detection.
+Atmosphere:
+Potential: The GDD emphasizes a dark, oppressive atmosphere. This is crucial for a horror game.
+Challenges: Atmosphere is conveyed through a combination of visuals, sound, and pacing. All of these elements need to work together.
+Analysis:
+
+Atmosphere is Key: The GDD gets this right. An oppressive, unsettling atmosphere is essential for this type of game.
+Responsiveness: The player needs to feel in control, even when they are scared.
+Clarity: The player should have a good understanding of what he can do.
+4. Risk and Reward
+
+Risk and reward are about the choices players make and the consequences of those choices. Good risk/reward systems make games more engaging.
+
+Energy Management:
+Risk: Using too much energy, leading to power outages and vulnerability.
+Reward: Having visibility and control over the environment.
+Evasion:
+Risk: Being detected by an animatronic, leading to a "game over" or significant setback.
+Reward: Successfully hiding, avoiding danger, and progressing.
+Exploration/Investigation:
+Risk: Wandering into dangerous areas, potentially encountering animatronics.
+Reward: Finding clues, items, and unlocking new areas.
+Puzzle Solving:
+Risk: Wasting time and resources on a difficult puzzle.
+Reward: Unlocking new areas or gaining vital information.
+Decisions:
+Risk: Choosing the wrong decision, and getting a bad ending.
+Reward: Choose the right path, and get a good ending.
+Analysis:
+
+Good Foundation: The foundation for risk/reward is solid. The player is constantly balancing risk (getting caught, running out of energy) with reward (progress, information).
+Balance: The game must carefully balance risk and reward. If the risks are too high and the rewards too low, it will be frustrating.
+Concecuences: The decisions need to have concecuences.
+5. Clear Objectives
+
+Clear objectives are essential so players know what they should be doing and why.
+
+Primary Objective:
+Survive Each Night: This is very clear. The player knows that their main task each night is to not get caught.
+Uncover the Truth: This is a longer-term objective, and it drives the investigation and exploration elements.
+Secondary Objectives:
+Solve Puzzles: These are intermediary objectives that help the player progress.
+Find Clues: These are objectives that help the player understand the story.
+Night-to-Night Progression:
+Unlock New Areas: This gives players a sense of accomplishment.
+Learn Animatronic Patterns: This makes players feel like they are getting better at the game.
+Analysis:
+
+Clear Core: The core objective (survive) is very clear.
+Longer-Term Goal: The longer-term goal (uncovering the truth) is also clear.
+Direction: The player should always know what to do, even if it is challenging.
+Overall Assessment
+
+"Guardianes Nocturnos" has a strong foundation for a compelling psychological horror game. The combination of monitoring, evasion, resource management, and investigation creates a good core loop. The focus on a dark atmosphere and a mysterious story is also a good sign.
+
+Key Recommendations
+
+Refine the Animatronic AI: The behavior of the animatronics is crucial. They need to be challenging but fair.
+Polish the Game Feel: Movement, interaction, and evasion need to feel responsive and satisfying.
+Develop the Story: The story needs to be well-written and engaging, with intriguing characters and a compelling mystery.
+Balance: Carefully balance the difficulty of the puzzles and the risks associated with exploration and investigation.
+Add new mechanics: The game can be improved with more mechanics.
+By focusing on these areas, the game can be improved.

@@ -1,0 +1,131 @@
+Here's a breakdown of the game concept, focusing on the core loop, unique elements, and how to achieve the desired atmosphere and twist.
+
+Game Title: "The Oddity Emporium" (or "Strange Goods," "Curios & Creatures," etc.)
+
+High Concept: A casual time management/simulation game where the player manages a store frequented by bizarre and unsettling customers, only to discover they are one of them.
+
+Core Idea: The player runs a strange shop where they must attend to a cast of weird and unusual clients, these clients will become progressively grotesque as the game progresses, the twist in the game is at the end the player will realize he is one of them.
+
+Game Design Document
+
+1. Concept Summary:
+
+Genre: Time Management, Simulation, Mystery, Horror (Light/Psychological)
+Perspective: First-person (or fixed isometric view)
+Core Loop: Take orders, find items, serve customers, earn money, upgrade the store, discover lore, advance to new days with increasingly strange clients.
+Twist: The player is revealed to be a monstrous entity themself.
+2. Game Mechanics:
+
+Order Taking: Customers approach the counter and present their needs through dialogue bubbles, images, or gestures.
+Item Retrieval: The store is filled with odd items. The player must quickly locate the requested items and bring them to the counter.
+Customer Service: Correctly fulfill orders to satisfy customers, earning money and unlocking upgrades. Mistakes may anger customers.
+Time Management: Each day has a time limit. The faster the player works, the more money they earn.
+Store Upgrades: Money can be spent to improve the store, such as:
+Faster movement speed.
+Larger inventory.
+More items in stock.
+Automated systems (conveyor belts, etc.).
+Customer Variety: Each day introduces new and stranger customers with increasingly difficult or bizarre requests.
+Customers change: the customers that start normally, will change and be more odd and grotesque as days go on.
+Dialogue and Lore: Small clues about the store, the town, and the nature of the customers (and the player) can be found in customer dialogues, item descriptions, or notes hidden in the store.
+Day/Night Cycle: A clear cycle that determines the flow of the game. The game start at day, and change at night, to repeat the cycle again.
+3. Customer Design:
+
+Early Customers: Seem human-like at first but with slight oddities:
+A man with unnaturally large hands.
+A woman with eyes that seem to stare in different directions.
+A person who speaks in riddles.
+A very pale man.
+A man with too many teeth.
+A person who only speaks in a guttural tone.
+Mid-Game Customers: Become more bizarre and unsettling:
+A creature with tentacles instead of arms.
+A gelatinous being that leaves a trail of slime.
+A floating orb with a single, judging eye.
+A bipedal insectoid.
+A shadowy figure that seems to flicker.
+A plant-like humanoid.
+A creature that has many limbs.
+Late-Game Customers: Grotesque and monstrous:
+A multi-eyed, hulking behemoth.
+A writhing mass of flesh and tentacles.
+A being of pure shadow and void.
+A skeletal figure that seems to defy physics.
+A grotesque creature that speaks in whispers.
+A creature that seems to be the amalgamation of different animals.
+Final Day Clients: The last day, will be a mixture of all the other customers.
+4. Player Character Design:
+
+Initial Appearance: The player character appears relatively normal, perhaps a bit pale or tired.
+Subtle Hints: As the game progresses, subtle hints of the player's true nature can be introduced:
+Flickering reflections.
+Strange noises that only the player seems to hear.
+A growing sense of unease around mirrors.
+Strange wounds that appear and dissapear.
+He can see some times, his body changes, but he ignores that.
+Twist Reveal: The final day ends with a reflection, or an outside view, showing the player's true, monstrous form.
+5. Environment Design:
+
+Early Store: Clean, organized, and somewhat mundane.
+Mid-Game Store: Starts to reflect the oddity of the customers. Strange decorations, unsettling items on the shelves, and a general sense of unease.
+Late-Game Store: The store becomes bizarre and otherworldly, reflecting the player's true nature. Walls might shift, items might float, and the lighting becomes strange.
+Day/Night Cicle: The store and the town will change a little, depending the time of the day.
+6. Atmosphere:
+
+Sound Design: Unsettling ambient sounds, strange noises from the store, distorted customer voices.
+Visuals: A slightly off, distorted aesthetic, strange color palettes, unsettling character designs.
+Music: A slow, ambient soundtrack that builds tension and mystery.
+Dialogue: The characters dialogue, should be cryptic, and weird.
+7. Story/Narrative:
+
+Mystery: Why are these creatures coming to the store? What is the nature of the player character? What is the town?
+Lore: The player can find hidden notes, about the town and the creatures.
+Limited Dialogue: The story is mainly told through the environment, customer design, and very short customer dialogues.
+Twist Ending: The player is not a normal person running a store; they are one of the strange beings they have been serving.
+Optional Ending: The player can choose to stay in the store, or leave, to find new adventures.
+8. Progression:
+
+Days: The game is structured in days. Each day, new customers appear, new items are added to the store, and the environment changes slightly.
+Upgrades: Players use their earnings to upgrade the store and their own abilities.
+Lore Unlocks: As the game progresses, the player discovers more about the store and the town.
+9. Game Feel:
+
+Tension: The player should feel increasing unease as the customers become stranger and the store changes.
+Mystery: The player should be driven to uncover the truth about the store, the town, and their own nature.
+Satisfaction: Successfully serving customers and upgrading the store should be rewarding.
+Surprise: The twist reveal should be shocking and memorable.
+10. Risk & Reward:
+
+Risk:
+Failing to serve customers quickly or correctly leads to lost money and potentially angry customers.
+Making the wrong choices in store upgrades can hinder progress.
+Reward:
+Earning money allows for store upgrades.
+Uncovering lore pieces deepens the mystery.
+The reveal itself is the ultimate reward.
+11. Clear Objectives:
+
+Daily Objective: Successfully serve all the customers each day.
+Long-Term Objective: Uncover the truth about the player, the store, the customers, and the town.
+Secret Objective: Choose the ending, to stay or leave.
+Further Development:
+
+Item Variety: Create a large number of bizarre and unique items for customers to request.
+Customer Interactions: Design more complex customer interactions and reactions.
+Mini-Games: Add small mini-games related to serving specific customer types.
+Customization: Allow players to customize the store's appearance.
+Simplified Workflow:
+
+Daily Cycle:
+Start Day (new customers, possible changes to store).
+Take Orders.
+Find Items.
+Serve Customers.
+Earn Money.
+Upgrade Store (optional).
+End Day (progress to the next day).
+Repeat.
+Final Day.
+Reveal.
+Ending.
+This detailed design provides a solid foundation for your game. The key will be in crafting memorable customer designs, an unsettling atmosphere, and a satisfying twist reveal. Let me know what you think, and we can dive deeper into any specific aspect!

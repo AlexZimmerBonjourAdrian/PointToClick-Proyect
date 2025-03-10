@@ -1,0 +1,102 @@
+Documento de Diseño de Juego (GDD): WhileClear: Simplified
+
+Versión: 1.0 Fecha: October 26, 2023 Autor(es): [Your Name/Team Names]
+
+Tabla de Contenidos
+
+Resumen Ejecutivo
+Visión General 2.1. Idea Central (High Concept) 2.2. Resumen del Juego 2.3. Género(s) 2.4. Público Objetivo 2.5. Plataformas 2.6. Puntos Únicos de Venta (PUV) 2.7. Competencia
+Mecánicas de Juego 3.1. Mecánicas Principales 3.2. Progresión del Jugador 3.3. Inventario y Gestión de Recursos 3.4. Sistema de Puzzles 3.5. Controles
+Narrativa y Mundo del Juego 4.1. Ambientación y Mundo 4.2. Historia Principal 4.3. Motivación del Jugador
+Diseño de Niveles 5.1. Estructura General 5.2. Diseño de Habitaciones
+Arte y Estilo Visual 6.1. Estilo Artístico 6.2. Interfaz de Usuario (UI)
+Sonido y Música
+Interfaz de Usuario (UI) y Experiencia de Usuario (UX)
+Monetización
+Equipo de Desarrollo (opcional)
+Plan de Producción (opcional)
+Anexos
+1. Resumen Ejecutivo
+
+99 Rooms: Simplified es un juego de escape room casual, enfocado en la resolución rápida y accesible de puzles ingeniosos en una serie de 99 habitaciones interconectadas. Su simplicidad, progresión rápida y diseño de niveles creativos lo diferencian de juegos similares, atrayendo a jugadores casuales que buscan una experiencia gratificante y de fácil acceso. El éxito dependerá de la variedad de puzles, la intuitividad del diseño y una experiencia de usuario pulida.
+
+2. Visión General
+
+2.1. Idea Central (High Concept): Un juego de escape de habitaciones simplificado, con una progresión rápida y niveles con puzles ingeniosos pero accesibles.
+
+2.2. Resumen del Juego: Los jugadores deben escapar de una serie de 99 habitaciones resolviendo puzles de diversa índole. El juego prioriza una experiencia fluida y gratificante, con puzles diseñados para ser desafiantes pero sin ser frustrantes. El loop de juego se centra en: entrar a una habitación, resolver el puzle, y avanzar a la siguiente.
+
+2.3. Género(s): Rompecabezas, Escape Room, Casual, Indie
+
+2.4. Público Objetivo: Jugadores casuales, aficionados a juegos de rompecabezas, jugadores que buscan una experiencia de escape room rápida y accesible, jugadores móviles.
+
+2.5. Plataformas: PC (Steam, Itch.io), móviles (iOS, Android)
+
+2.6. Puntos Únicos de Venta (PUV):
+
+Simplicidad y accesibilidad.
+Progresión rápida y satisfactoria.
+Diseño de niveles ingenioso y variado.
+Sistema de pistas opcional.
+Temporizador para rejugabilidad competitiva.
+2.7. Competencia: The Room, Escape Game, otros juegos de escape room casuales para móviles (ej: Room Escape Game, etc.).
+
+3. Mecánicas de Juego
+
+3.1. Mecánicas Principales:
+
+Exploración de habitaciones limitadas.
+Interacción con objetos mediante clicks.
+Resolución de puzles (lógicos, de inventario, etc.).
+Sistema de pistas (opcional, posiblemente con coste en la versión Freemium).
+Cronómetro (para medir el tiempo de finalización).
+Avance lineal a través de las habitaciones.
+3.2. Progresión del Jugador: La progresión es lineal, avanzando de una habitación a la siguiente al resolver el puzle de cada una. No hay mejoras de personaje ni sistema de niveles.
+
+3.3. Inventario y Gestión de Recursos: Inventario limitado, gestionado de forma intuitiva, con pocos objetos simultáneos.
+
+3.4. Sistema de Puzzles: Puzles de diversa índole, pero siempre accesibles y con una dificultad progresiva. Se priorizará la claridad y la lógica en el diseño. Ejemplos: Puzzles de inventario, puzzles basados en secuencias, puzzles de lógica simple.
+
+3.5. Controles: Simples controles de ratón o touch (según la plataforma). Click para interactuar con objetos.
+
+4. Narrativa y Mundo del Juego
+
+4.1. Ambientación y Mundo: El juego no requiere una historia compleja. El entorno puede ser abstracto o tener un tema unificador sutil, pero el foco está en la resolución de puzles.
+
+4.2. Historia Principal: No hay una historia principal narrativa. La única historia es la progresión a través de las habitaciones.
+
+4.3. Motivación del Jugador: Escapar de cada habitación, completar las 99 habitaciones en el menor tiempo posible, y experimentar la satisfacción de resolver los puzles.
+
+5. Diseño de Niveles
+
+5.1. Estructura General: 99 habitaciones interconectadas linealmente. El juego puede tener una estructura de "ramas", donde completar ciertas habitaciones desbloquee otras, o ser completamente lineal.
+
+5.2. Diseño de Habitaciones: Cada habitación contendrá un puzle único. El diseño de las habitaciones debe ser claro e intuitivo, evitando distracciones innecesarias. El arte y la atmósfera de cada habitación pueden variar, pero deben ser congruentes con el estilo general.
+
+6. Arte y Estilo Visual
+
+6.1. Estilo Artístico: Minimalista y limpio, con un estilo visual atractivo pero sin distracciones innecesarias. Se prioriza la claridad y la legibilidad de los puzles.
+
+6.2. Interfaz de Usuario (UI): Interfaz limpia e intuitiva, con pocos elementos para evitar sobrecargar al jugador.
+
+7. Sonido y Música
+
+Música ambiental suave y discreta para crear atmósfera sin distraer de la resolución de puzles. Efectos de sonido simples pero efectivos para las interacciones del jugador con el entorno.
+
+8. Interfaz de Usuario (UI) y Experiencia de Usuario (UX)
+
+Interfaz simple e intuitiva, con una experiencia de usuario fluida y libre de frustraciones. Feedback claro del juego al jugador.
+
+9. Monetización:
+
+Freemium (con compras dentro de la aplicación para pistas o para desbloquear habitaciones adicionales, o un pack que desbloquea todas). Alternativamente, un precio único de compra.
+
+10. Equipo de Desarrollo (opcional): [Información del equipo si aplica]
+
+11. Plan de Producción (opcional): [Cronograma si aplica]
+
+12. Anexos:
+
+Mockups de varias habitaciones con puzzles.
+Lista detallada de los puzles planeados, incluyendo sus soluciones.
+This GDD provides a solid foundation. Remember to replace bracketed information and expand on sections as needed with specifics for your game. Consider adding more detailed examples of puzzles and visual mockups to make it even more comprehensive.

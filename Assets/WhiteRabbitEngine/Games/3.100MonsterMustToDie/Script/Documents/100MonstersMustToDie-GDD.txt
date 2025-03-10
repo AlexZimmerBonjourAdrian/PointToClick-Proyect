@@ -1,0 +1,88 @@
+Documento de Diseño de Juego (GDD): 100 Monstruos Deben Morir - Negociación y Traición
+Versión: 1.0 Fecha: 2023-10-27 Autor: Bard
+
+Tabla de Contenidos
+
+Resumen Ejecutivo
+Visión General 2.1 Idea Central (High Concept) 2.2 Resumen del Juego 2.3 Géneros 2.4 Público Objetivo 2.5 Plataformas 2.6 Puntos Únicos de Venta (PUV) 2.7 Competencia
+Mecánicas de Juego 3.1 Mecánicas Principales 3.2 Progresión del Jugador 3.3 Sistema de Diálogo y Negociación 3.4 Diseño de Monstruos 3.5 Sistema de Consecuencias 3.6 Controles
+Narrativa y Mundo del Juego 4.1 Ambientación y Mundo 4.2 Historia Principal (opcional) 4.3 Personajes (Monstruos)
+Diseño de Niveles (opcional)
+Arte y Estilo Visual
+Sonido y Música
+Interfaz de Usuario (UI) y Experiencia de Usuario (UX)
+Inteligencia Artificial (IA)
+Monetización
+Equipo de Desarrollo (opcional)
+Plan de Producción (opcional)
+Anexos
+1. Resumen Ejecutivo
+
+100 Monstruos Deben Morir es un juego de puzles estratégico por turnos donde la habilidad para persuadir, manipular y traicionar a 100 monstruos únicos es la clave para sobrevivir. En lugar del combate directo, los jugadores utilizan el diálogo para superar cada encuentro, enfrentándose a retos impredecibles y consecuencias significativas con cada decisión. La rejugabilidad es alta debido a la variedad de monstruos, las múltiples opciones de diálogo y las reacciones dinámicas de los oponentes.
+
+2. Visión General
+
+2.1 Idea Central (High Concept): Sobrevive a 100 encuentros únicos con monstruos utilizando tu ingenio, no tu fuerza bruta.
+
+2.2 Resumen del Juego: Los jugadores avanzan a través de una serie de encuentros con monstruos, cada uno con una personalidad y motivaciones distintas. Utilizando opciones de diálogo, los jugadores intentan persuadir, manipular o traicionar a los monstruos para evitar el combate o obtener ventajas. Las decisiones del jugador tienen consecuencias directas en el desarrollo del juego, desbloqueando nuevos caminos o creando desafíos imprevistos.
+
+2.3 Géneros: Puzles, Aventura, Narrativa, Estrategia por Turnos
+
+2.4 Público Objetivo: Jugadores que disfrutan de juegos con narrativa profunda, elecciones significativas y una alta rejugabilidad. Aquellos que aprecian los juegos de estrategia y resolución de problemas.
+
+2.5 Plataformas: PC (Steam, Itch.io), Posiblemente Consolas y Móvil
+
+2.6 Puntos Únicos de Venta (PUV):
+
+Sistema de diálogo complejo y reactivo.
+100 encuentros únicos con monstruos con personalidades distintas.
+Múltiples soluciones para cada encuentro.
+Consecuencias significativas para las elecciones del jugador.
+Alta rejugabilidad.
+2.7 Competencia: Undertale, Disco Elysium, The Stanley Parable
+
+3. Mecánicas de Juego
+
+3.1 Mecánicas Principales:
+
+Navegación: Avanzar a través de los encuentros con monstruos.
+Diálogo: Seleccionar opciones de diálogo que influyen en las reacciones de los monstruos.
+Gestión de Información: Recordar información obtenida de conversaciones previas para afrontar mejor los retos futuros.
+Observación: Analizar las pistas visuales y el comportamiento de los monstruos para comprender sus motivaciones.
+3.2 Progresión del Jugador: La progresión se basa en la acumulación de información y la habilidad para anticipar las reacciones de los monstruos. No hay un sistema de niveles o estadísticas tradicional. La dificultad aumenta gradualmente a medida que el jugador avanza.
+
+3.3 Sistema de Diálogo y Negociación: Cada encuentro con un monstruo presenta un árbol de diálogo ramificado con múltiples opciones. Las elecciones del jugador afectan directamente la respuesta del monstruo, pudiendo llevar a la resolución pacífica del encuentro, una confrontación, o una situación de ventaja/desventaja.
+
+3.4 Diseño de Monstruos: Cada monstruo tiene una personalidad, motivaciones y debilidades únicas. Su comportamiento y diálogo son dinámicos y reactivos a las elecciones del jugador.
+
+3.5 Sistema de Consecuencias: Las decisiones del jugador tienen consecuencias duraderas. Una elección equivocada puede bloquear un camino o crear un obstáculo inesperado más adelante.
+
+3.6 Controles: Interfaz de usuario intuitiva basada en clics de ratón o toques en pantalla.
+
+4. Narrativa y Mundo del Juego
+
+4.1 Ambientación y Mundo: Un entorno misterioso y oscuro que refleja el estado mental del jugador y las motivaciones de los monstruos. (No necesariamente una historia lineal).
+
+4.2 Historia Principal (opcional): (Se puede optar por una historia principal débil o eliminarla completamente, enfocándose en la experiencia individual de cada encuentro).
+
+4.3 Personajes (Monstruos): Cada monstruo tiene una personalidad bien definida, motivaciones, trasfondo y diálogo único que se adapta a las acciones del jugador.
+
+5. Diseño de Niveles (opcional): (Se puede optar por un diseño lineal o no lineal. Cada "nivel" podría consistir en un único encuentro con un monstruo).
+
+6. Arte y Estilo Visual: Estilo 2D con énfasis en el diseño de personajes expresivos que reflejen la personalidad de los monstruos.
+
+7. Sonido y Música: Música ambiental e inquietante que crea una atmósfera intensa. Efectos de sonido que refuerzan las reacciones de los monstruos y la tensión del juego.
+
+8. Interfaz de Usuario (UI) y Experiencia de Usuario (UX): Interfaz limpia y minimalista que facilita la navegación a través de los árboles de diálogo. Feedback claro de las consecuencias de las acciones del jugador.
+
+9. Inteligencia Artificial (IA): La IA de los monstruos se basa en un sistema de estados y reacciones al diálogo del jugador. Cada monstruo tiene su propio sistema de decisión dinámico.
+
+10. Monetización: (Se puede explorar diferentes modelos como precio único o free-to-play con contenido adicional).
+
+11. Equipo de Desarrollo (opcional):
+
+12. Plan de Producción (opcional):
+
+13. Anexos: (Ejemplos de diálogos, diseños de personajes, etc.)
+
+Este GDD proporciona una base sólida para el desarrollo de "100 Monstruos Deben Morir," destacando el sistema de negociación y traición como la principal mecánica de juego y priorizando la narrativa emergente y la rejugabilidad. Se recomienda expandir cada sección con más detalles específicos a medida que el desarrollo progresa.
