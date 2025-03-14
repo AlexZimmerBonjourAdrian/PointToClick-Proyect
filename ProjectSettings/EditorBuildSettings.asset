@@ -22,7 +22,7 @@ EditorBuildSettings:
       Android.unity
     guid: 075977f08eacfac4e83364f036aa3f88
   - enabled: 0
-    path: Assets/WhiteRabbitEngine/0.FirstPrototype/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-2-Original.unity
+    path: Assets/0.FirstPrototype/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-2-Original.unity
     guid: 071aec83b52f74947ad8addd4cbb8974
   - enabled: 1
     path: Assets/WhiteRabbitEngine/Games/0.FirstPrototype-Complete/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-3.unity
@@ -34,7 +34,7 @@ EditorBuildSettings:
     path: Assets/WhiteRabbitEngine/Games/0.FirstPrototype-Complete/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-4B.unity
     guid: 05b146f7e8e06db4984e6d566e4ab99a
   - enabled: 0
-    path: Assets/WhiteRabbitEngine/0.FirstPrototype/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-5.unity
+    path: Assets/0.FirstPrototype/Scenes/PlayHolder/Testing-FullGame/Games/Level/Prototype_Level-5.unity
     guid: fe5a4f37c5d8f884ca992d06f94745d7
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 93eb7ba1d624ca74894c0b95b95ae1ed,
