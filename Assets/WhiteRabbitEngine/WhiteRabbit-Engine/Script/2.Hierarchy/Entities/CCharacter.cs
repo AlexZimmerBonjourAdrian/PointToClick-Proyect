@@ -38,9 +38,10 @@ public class CCharacter : MonoBehaviour, Iinteract
       
       if(!CManagerDialogue.Inst.GetIsDialogueRunning())
       {
+       // (Dictionary<string, float> floatVariables, Dictionary<string, string> stringVariables, Dictionary<string, bool> boolVariables) = CManagerDialogue.Inst.GetVariableStorage().GetAllVariables();
 
           CManagerDialogue.Inst.SetListYarn(id);
-          CManagerDialogue.Inst.StartDialogueRunner(0);
+          CManagerDialogue.Inst.StartDialogueRunner();
       }
     }
 
