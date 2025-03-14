@@ -10,8 +10,6 @@ Engine Solutions for Point-and-Click Games:
 
 * Multi-Platform Support: The engine is designed to be compatible with multiple platforms, including PC, and can also be run on other consoles like PlayStation 4, Xbox One, and Switch.
 
-* Advanced Graphics Engine: White Rabbit Engine utilizes Unity's rendering engine to create games with detailed and realistic graphics.
-
 * Ease of Development: The engine provides built-in tools for creating objects, interactions, animations, and audio, facilitating the rapid development of Point-and-Click games.
 
 * Multi-Language Support: White Rabbit Engine supports C#, a multi-purpose language used in the creation of video games and software.
