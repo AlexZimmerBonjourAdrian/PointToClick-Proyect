@@ -60,13 +60,45 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Users\AlexZimmer\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Github\PointToClick-Proyect\Assets\WhiteRabbitEngine\YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
+    <Analyzer Include="C:\Github\PointToClick-Proyect\Assets\WhereAreTheAlices\02.YarnSpinner-Unity\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Unity\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\WhiteRabbitEngine\Games\7.Dosen&apos;tStore\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\ShowEditor.cs" />
+    <Compile Include="Assets\Wonderland\Shaders\Samples\Shader Graph\14.0.11\Feature Examples\SRPCommon\Scripts\Editor\SamplesShowcaseEditorWindow.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\MusicEditor.cs" />
+    <Compile Include="Assets\Wonderland\Shaders\Samples\Shader Graph\14.0.11\Feature Examples\SRPCommon\Scripts\Editor\SamplesShowcaseEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\StartEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\DialogueEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\MenuEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\ReturnEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\NodeParserEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\QueueMusicEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\CallEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\CommentEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\CharacterEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\LabelEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\NarrateEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\TransitionEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\RenpyMakerEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\StopMusicEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\SoundEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\SceneEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\JumpEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\HideEditor.cs" />
+    <Compile Include="Assets\Wonderland\5.RenPy\RenPy Maker\Editor\PauseEditor.cs" />
+    <Compile Include="Assets\WhereAreTheAlices\Shaders\Samples\Shader Graph\14.0.11\Feature Examples\SRPCommon\Scripts\Editor\SamplesShowcaseEditor.cs" />
+    <Compile Include="Assets\WhereAreTheAlices\Shaders\Samples\Shader Graph\14.0.11\Feature Examples\SRPCommon\Scripts\Editor\SamplesShowcaseEditorWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.IOSResolver.dll" />
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.PackageManagerResolver.dll" />
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.183_manifest.txt" />
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.JarResolver.dll" />
+    <None Include="Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.VersionHandlerImpl.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -566,11 +598,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Text.Encodings.Web">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -578,7 +610,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="YarnSpinner.Compiler">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -586,7 +618,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Metadata">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Reflection.Metadata.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Editor\Analysis\DLLs\System.Reflection.Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.IOSResolver.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -594,7 +630,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Collections.Immutable">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Collections.Immutable.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Editor\Analysis\DLLs\System.Collections.Immutable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -602,11 +638,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="YarnSpinner">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\YarnSpinner.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.PackageManagerResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
@@ -614,43 +658,55 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Win32.SystemEvents">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Win32.SystemEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Drawing.Common">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Drawing.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.IO.Packaging">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.System.IO.Packaging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.JarResolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Yarn.System.Threading.Tasks.Extensions">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\WhereAreTheAlices\ExternalDependencyManager\Editor\1.2.183\Google.VersionHandlerImpl.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.Microsoft.Extensions.FileSystemGlobbing">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Yarn.System.Text.Json">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp">
-      <HintPath>Assets\WhiteRabbitEngine\YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>Assets\WhereAreTheAlices\02.YarnSpinner-Unity\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1193,10 +1249,6 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1207,6 +1259,10 @@
     </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
@@ -1231,6 +1287,10 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
@@ -1265,12 +1325,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
@@ -1279,6 +1343,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
@@ -1315,6 +1383,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1401,10 +1473,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1412,15 +1480,24 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="HowlDog.csproj" />
+    <ProjectReference Include="Core.csproj" />
+    <ProjectReference Include="Engine.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.csproj" />
     <ProjectReference Include="YarnSpinner.Unity.Editor.csproj" />
-    <ProjectReference Include="Core.csproj" />
+    <ProjectReference Include="CanItAteMeat.csproj" />
+    <ProjectReference Include="XNodeEditor.csproj" />
     <ProjectReference Include="100MonsterMustToDie.csproj" />
     <ProjectReference Include="WhileClear.csproj" />
-    <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
-    <ProjectReference Include="FirstPrototype.csproj" />
     <ProjectReference Include="YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj" />
+    <ProjectReference Include="asset-store-tools-editor.csproj" />
+    <ProjectReference Include="Kindom.csproj" />
+    <ProjectReference Include="FirstPrototype.csproj" />
+    <ProjectReference Include="YarnSpinner.Unity.Example.csproj" />
     <ProjectReference Include="FnafGame.csproj" />
+    <ProjectReference Include="XNode.csproj" />
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
+    <ProjectReference Include="CoreWhereAreTheAlice.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

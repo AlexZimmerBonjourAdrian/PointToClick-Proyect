@@ -18,7 +18,7 @@ public class CRevolver : CInventoryItemData
      public void Oninteract() // Implementa el método Oninteract
     {
         // Agrega este revolver al inventario
-        Cinventory.Instance.AddItem(this);
+       // Cinventory.Instance.AddItem(this);
        
         // Destroy(gameObject); 
     }

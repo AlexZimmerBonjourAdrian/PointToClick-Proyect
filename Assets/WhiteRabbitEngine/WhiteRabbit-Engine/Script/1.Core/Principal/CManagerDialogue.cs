@@ -9,6 +9,7 @@ using Yarn.Unity.Example;
 using UnityEngine.TextCore.Text;
 
 using System.Linq;
+using System;
 
 namespace WhiteRabbit.Core
 
@@ -150,7 +151,7 @@ namespace WhiteRabbit.Core
         /// <summary>
         /// Starts the dialogue runner using the first node of the currently set Yarn project.
         /// </summary>
-        public void StartDialogueRunner()
+        public void StartDialogueRunner(int v)
         {
             //Check if the yarn project have any node.
             if(ActualYarn.NodeNames.Count() > 0)
@@ -174,10 +175,7 @@ namespace WhiteRabbit.Core
             return dialogueRunner.IsDialogueRunning;
         }
 
-        private void GetVariableStorage()
-        {
-
-        }
+     
     }
 
 }
