@@ -122,25 +122,25 @@ namespace WhiteRabbit.Core
         /// </summary>
         /// <param name="item">The item to transfer.</param>
         /// <param name="player">The player to transfer the item to.</param>
-        public void TakeItem(CItem item, CPlayer player)
-        {
-            //Check if the player is not null.
-            if(player == null)
-            {
-                Debug.LogError("Player is null.");
-                return;
-            }
-            //Check if the item is in the container
-            if (containedItems.Contains(item))
-            {
-                player.PickUp(item);
-                RemoveItem(item);
-            }
-             else
-            {
-                 if(showDebugLogs) Debug.LogWarning(item.name + " not found in " + objectName);
-            }
-        }
+        // public void TakeItem(CItem item, CPlayer player)
+        // {
+        //     //Check if the player is not null.
+        //     if(player == null)
+        //     {
+        //         Debug.LogError("Player is null.");
+        //         return;
+        //     }
+        //     //Check if the item is in the container
+        //     if (containedItems.Contains(item))
+        //     {
+        //         player.PickUp(item);
+        //         RemoveItem(item);
+        //     }
+        //      else
+        //     {
+        //          if(showDebugLogs) Debug.LogWarning(item.name + " not found in " + objectName);
+        //     }
+        // }
 
          /// <summary>
         /// Show the contents of the container in the UI

@@ -1,53 +1,36 @@
 WhiteRabbit Point To Click Engine Documentation
-Introduction
-Welcome to the WhiteRabbit Point To Click Engine! This engine is designed to help you create point-and-click adventure games with ease. This document will guide you through the core components, specialized mechanics, and experimental features of the engine.
 
-Core Components
-The core components of the WhiteRabbit Engine provide the essential functionality needed to build your game. These include:
+The WhiteRabbit Engine is your all-in-one solution for building immersive point-and-click adventure games. From the ground up, it's designed to streamline your development process. The Core provides a solid foundation with:
 
-Managers
-Basic Inheritable Managers: These managers handle fundamental game logic and can be extended to suit your specific needs.
-Controllers
-Generic System Controllers: These controllers manage various game systems, ensuring smooth operation and interaction between different parts of your game.
-Essential Logic
-Indispensable Logic for the Engine: Core logic that is crucial for the functioning of the engine.
-Inheritance
-The engine supports a robust inheritance system, allowing you to create complex and reusable game components.
+Generic Game Manager: A flexible manager to control your game's flow.
+Intuitive Point-and-Click Motor: Effortless navigation and interaction.
+Room Navigation: Seamless transitions between environments.
+Puzzle System: Create engaging and challenging puzzles.
+Music & Control Manager: Fine-tune your game's audio and overall control.
+Scene Level Management: Organize and manage your game's levels with ease.
+But WhiteRabbit goes beyond the basics. Its Specialization features empower you to create truly unique experiences:
+GameEvent: Observer patern, can lisening function to execute in other part of script
 
-Generic Inheritable Classes: Base classes that can be extended to create specific game elements.
-Polymorphic Classes: Classes that can take on multiple forms, providing flexibility in your game design.
-Modifiable Data Structures: Data structures that can be customized to fit the needs of your game.
-Specialized Mechanics
-The engine includes specialized logic for various game mechanics, making it easy to implement common features in point-and-click games.
+Dialogue System: Craft branching narratives and engaging conversations.
+Quick Time Events (QTEs) (In Development): Add dynamic, interactive moments.
+Generic Inheritable Classes: Build upon a library of pre-built classes.
+Inventory System (In Development): Manage items and player progression.
+Flashback System (In Development): Weave compelling narratives with flashback sequences.
+Animatic System (In Development): Enhance your storytelling with animated cutscenes.
+Customizable and personalized Engine: Adapt the engine to your needs.
+The WhiteRabbit Engine is built on solid design principles, utilizing the Singleton and Observer patterns, with plans to incorporate the Strategy and Decorator patterns for even greater flexibility. With WhiteRabbit, you're not just building a game; you're crafting an unforgettable adventure.
 
-Quick Time Events (QTE): Logic for creating interactive sequences that require timely player input.
-Inventory System: A system for managing and using items within the game.
-Role-Playing Elements: Logic for incorporating RPG elements into your game.
-Flashback Sequences: Tools for creating flashback scenes that enhance your game's narrative.
-Experimental Features
-The engine also includes experimental mechanics that are outside the core scope but can be used to add unique features to your game. Use these with caution and modify them as needed.
+Unlock Limitless Creativity with the WhiteRabbit Engine's Adaptive Framework.
 
-Experimental Mechanics: Features that are still in testing and may require adjustments based on your game's requirements.
-Once these features are integrated adequately, they will be moved to the specialization section.
+The WhiteRabbit Engine revolutionizes point-and-click game development with its unique, hierarchical structure (Core -> Inheritance -> Specialization -> Experimental). This innovative design ensures a rock-solid foundation while providing a clear path for customization and experimentation. Build upon inheritable generic classes to accelerate your workflow, and leverage Assembly Dependencies to create a truly modular project. With WhiteRabbit, you're not locked into a rigid system. You have the power to customize and personalize every aspect of the engine. GameEvent allows you to listen to events and execute functions. The prototype included will show you how to use the engine.
 
-Dialog System
-The engine uses Yarn as the primary dialog system. All rights to Yarn belong to its creators. Yarn allows you to create complex dialog trees and manage conversations within your game.
+Key USPs:
 
-Example Games
-Several example games have been created using this engine. The prototype is the most important and complete example. Here is a list of example games:
+Hierarchical Structure: Organized, stable, and flexible.
+Inheritable Classes: Accelerated development.
+Modular Design: Assembly Dependencies for project control.
+Customizable and Personalized: Tailor the engine to your vision.
+GameEvent: Listen to events and execute functions.
+Prototype: See the engine in action.
 
-The Prototype
-[Add more examples as needed]
-Getting Started
-To get started with the WhiteRabbit Point To Click Engine:
-
-Set Up Your Project: Create a new project using the provided templates.
-Explore Core Components: Familiarize yourself with the core components and how they interact.
-Implement Specialized Mechanics: Add specialized mechanics to your game as needed.
-Experiment with Experimental Features: Try out experimental features and modify them to fit your game.
-Create Dialogs with Yarn: Use Yarn to create and manage dialogs in your game.
-Learn from Examples: Study the example games to see how different features are implemented.
-We hope this documentation helps you get started with the WhiteRabbit Point To Click Engine. Happy game development!
-
-For more detailed information, please refer to the specific sections in the documentation or contact the development team.
-
+More Games:(Coming soon)
